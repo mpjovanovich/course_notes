@@ -1,13 +1,9 @@
+
 <!-- 
-We don't want this here, or else jekyl will add it to the page title.
-I'm assuming it grabs the first h1 it seems and does that.
-
-# IvyTech (h1)
-
-Some text.
+    Use img HTML tag instead of markdown. Markdown isn't flexible enough - need to be able to resize images quickly.
+    Not sure why the transform is leaving original size bounding box, but can probably fix with CSS. 
 -->
-
-![pangolin logo](https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg?w=200)
+<img src="https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg" style="transform: scale(0.5)">
 
 ## (h2)
 
