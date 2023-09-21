@@ -4,10 +4,17 @@
     Not sure why the transform is leaving original size bounding box, but can probably fix with CSS. 
 -->
 <style>
+    body {
+        margin: 60px 120px;
+    }
     .center {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .container-lg {
+        max-width: 100%;
+        margin: 0;
     }
 </style>
 
