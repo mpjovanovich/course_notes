@@ -15,6 +15,10 @@
         max-width: 1400px;
         margin: 0 auto;
     }
+    .my-5 {
+        margin-top: 4rem !important;
+        margin-bottom: 4rem !important;
+    }
 </style>
 
 <span style="display: inline-block;">
