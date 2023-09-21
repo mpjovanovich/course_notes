@@ -1,6 +1,6 @@
-* [This is an h1](#this-is-an-h1)
-   * [This is an h2](#this-is-an-h2)
-      * [This is an h3](#this-is-an-h3)
+- [This is an h1](#this-is-an-h1)
+    - [This is an h2](#this-is-an-h2)
+        - [This is an h3](#this-is-an-h3)
 
 
 # This is an h1
@@ -14,6 +14,8 @@
 <span style="display: inline-block;">
     <img src="https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg" class="center" style="width: 40%">
 </span>
+
+Link to VS code extension: [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown)
 
 We can manually add line breaks with a backslash, as in the below:
 
@@ -33,8 +35,7 @@ Some text.
 
 Some more text
 
-* First level list
-    * sodfadsf 
+* First level list Item A
     * Second level list Item A
         * Third level list Item A
         * Third level list Item B
