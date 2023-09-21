@@ -5,7 +5,6 @@
 -->
 <style>
     body {
-        margin: 60px 120px;
     }
     .center {
         display: block;
@@ -13,12 +12,14 @@
         margin-right: auto;
     }
     .container-lg {
-        max-width: 100%;
-        margin: 0;
+        max-width: 1400px;
+        margin: 0 auto;
     }
 </style>
 
-<img src="https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg" class="center" style="width: 40%">
+<span style="display: inline-block;">
+    <img src="https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg" class="center" style="width: 40%">
+</style>
 
 > This is a block quote.
 > This is line two of the same block quote.
