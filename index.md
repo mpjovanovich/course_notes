@@ -19,7 +19,7 @@
 
 <span style="display: inline-block;">
     <img src="https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg" class="center" style="width: 40%">
-</style>
+</span>
 
 > This is a block quote.
 > This is line two of the same block quote.
