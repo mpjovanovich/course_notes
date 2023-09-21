@@ -1,6 +1,6 @@
-1. [This is an h1](#this-is-an-h1)
-   1. [This is an h2](#this-is-an-h2)
-      1. [This is an h3](#this-is-an-h3)
+* [This is an h1](#this-is-an-h1)
+   * [This is an h2](#this-is-an-h2)
+      * [This is an h3](#this-is-an-h3)
 
 
 # This is an h1
@@ -34,11 +34,16 @@ Some text.
 Some more text
 
 * First level list
+    * sodfadsf 
     * Second level list Item A
         * Third level list Item A
         * Third level list Item B
         * Third level list Item C
     * Second level list Item B
+
+1. This is a numbered list.
+1. This is a numbered list.
+1. This is a numbered list.
 
 
 **This is bold text.**
