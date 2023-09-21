@@ -28,9 +28,13 @@ Some text.
 
 Some more text
 
-* George Washington
-    * John Adams
-        * Thomas Jefferson
+* First level list
+    * Second level list Item A
+        * Third level list Item A
+        * Third level list Item B
+        * Third level list Item C
+    * Second level list Item B
+
 
 **This is bold text.**
 

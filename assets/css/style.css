@@ -104,7 +104,7 @@ h6, .modest-h6 {
     font-size: .88rem;
 }
 small, .modest-small {
-    font-size: .707em;
+    font-size: .707rem;
 }
 img, canvas, iframe, video, svg, select, textarea {
     max-width: 100%;
@@ -117,7 +117,7 @@ body {
     color: #444;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
-    margin: 0 auto;
+    margin: 1rem auto;
     max-width: 48rem;
     line-height: 1.45;
     padding: .25rem;
@@ -135,12 +135,14 @@ h1, h2 {
 blockquote {
     border-left: 8px solid #fafafa;
     padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 pre, code {
     background-color: #fafafa;
 }
-img {
-    text-align: center;
+ul {
+    margin-top: .5rem;
 }
 
 .center {
