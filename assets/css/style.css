@@ -1,57 +1,20 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
-@import url(http://fonts.googleapis.com/css?family=Arimo:700,700italic);
+/* @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700); */
+/* @import url(http://fonts.googleapis.com/css?family=Arimo:700,700italic); */
 
-@media screen and (min-width: 32rem) and (max-width: 60rem) {
-    html {
-        font-size: 15px;
-   }
+html {
+    font-size: 16px;
+    max-width: 100%;
 }
-@media screen and (min-width: 60rem) {
-    html {
-        font-size: 16px;
-   }
+body {
+    background-color: white;
+    color: #444;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin: 1rem auto;
+    max-width: 60rem;
+    line-height: 1.45;
+    padding: .25rem;
 }
-@media print {
-    *, *:before, *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-   }
-    a, a:visited {
-        text-decoration: underline;
-   }
-    a[href]:after {
-        content: " (" attr(href) ")";
-   }
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-   }
-    a[href^="#"]:after, a[href^="javascript:"]:after {
-        content: "";
-   }
-    pre, blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-   }
-    thead {
-        display: table-header-group;
-   }
-    tr, img {
-        page-break-inside: avoid;
-   }
-    img {
-        max-width: 100% !important;
-   }
-    p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-   }
-    h2, h3 {
-        page-break-after: avoid;
-   }
-}
-
 pre, code {
     font-family: Menlo, Monaco, "Courier New", monospace;
 }
@@ -68,12 +31,6 @@ a:hover, a:focus, a:active {
 }
 .modest-no-decoration {
     text-decoration: none;
-}
-html {
-    font-size: 12px;
-}
-body {
-    line-height: 1.85;
 }
 p, .modest-p {
     font-size: 1rem;
@@ -109,19 +66,6 @@ small, .modest-small {
 img, canvas, iframe, video, svg, select, textarea {
     max-width: 100%;
 }
-html {
-    font-size: 18px;
-    max-width: 100%;
-}
-body {
-    color: #444;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 300;
-    margin: 1rem auto;
-    max-width: 60rem;
-    line-height: 1.45;
-    padding: .25rem;
-}
 h1, h2, h3, h4, h5, h6 {
     font-family: Arimo, Helvetica, sans-serif;
 }
@@ -141,7 +85,8 @@ blockquote {
 pre, code {
     background-color: #fafafa;
 }
-ul {
+ol, ul {
+    font-size: 1rem;
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
