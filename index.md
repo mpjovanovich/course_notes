@@ -3,7 +3,7 @@
     Use img HTML tag instead of markdown. Markdown isn't flexible enough - need to be able to resize images quickly.
     Not sure why the transform is leaving original size bounding box, but can probably fix with CSS. 
 -->
-<img src="https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg" style="transform: scale(0.5)">
+<img src="https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg" style="width: 40%">
 
 > This is a block quote.
 > This is line two of the same block quote.
