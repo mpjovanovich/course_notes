@@ -302,8 +302,8 @@ blockquote {
 ul,
 ol {
     padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    /* margin-top: 0;
+    margin-bottom: 0; */
 }
 ol ol,
 ul ol {
@@ -1902,8 +1902,8 @@ pre {
     margin-left: 32px !important;
 }
 .my-5 {
-    margin-top: 32px !important;
-    margin-bottom: 32px !important;
+    margin-top: 44px !important;
+    margin-bottom: 44px !important;
 }
 .m-6 {
     margin: 40px !important;
@@ -4174,7 +4174,7 @@ pre {
     margin-left: auto;
 }
 .container-lg {
-    max-width: 1012px;
+    max-width: 1400px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -4761,9 +4761,13 @@ pre {
 .markdown-body dl,
 .markdown-body table,
 .markdown-body pre {
-    margin-top: 0;
+    margin-top: 8px;
     margin-bottom: 16px;
 }
+/* .markdown-body ul
+{
+    margin-top: 1em;
+} */
 .markdown-body hr {
     height: 0.25em;
     padding: 0;
@@ -4877,13 +4881,6 @@ pre {
 .markdown-body ol.no-list {
     padding: 0;
     list-style-type: none;
-}
-.markdown-body ul ul,
-.markdown-body ul ol,
-.markdown-body ol ol,
-.markdown-body ol ul {
-    margin-top: 0;
-    margin-bottom: 0;
 }
 .markdown-body li {
     word-wrap: break-all;

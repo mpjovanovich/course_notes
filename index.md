@@ -21,8 +21,6 @@
     }
 </style> -->
 
-% Document Title
-
 <!-- The wrapper span is needed to allow the image to be resized... who knows why. -->
 <span style="display: inline-block;">
     <img src="https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg" class="center" style="width: 40%">
