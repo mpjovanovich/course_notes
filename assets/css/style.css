@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
 @import url(http://fonts.googleapis.com/css?family=Arimo:700,700italic);
 
-@media screen and (min-width: 32rem) and (max-width: 48rem) {
+@media screen and (min-width: 32rem) and (max-width: 60rem) {
     html {
         font-size: 15px;
    }
 }
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 60rem) {
     html {
         font-size: 16px;
    }
@@ -118,7 +118,7 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
     margin: 1rem auto;
-    max-width: 48rem;
+    max-width: 60rem;
     line-height: 1.45;
     padding: .25rem;
 }
