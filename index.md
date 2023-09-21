@@ -1,5 +1,5 @@
 
-# This is the document title
+# This is an h1
 
 <!-- 
     Use img HTML tag instead of markdown. Markdown isn't flexible enough - need to be able to resize images quickly.
