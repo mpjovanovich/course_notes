@@ -71,12 +71,10 @@ pre, code {
     font-size: 2.2rem;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
-.img_container {
-    display: flex;
-    width: 100%;
-}
-.img_container img {
+figure {
     margin: 0 auto;
+    text-align: center;
+    width: 100%;
 }
 .wrapper h1 {
     margin: 1rem auto;
