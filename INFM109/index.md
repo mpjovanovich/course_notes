@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Course Notes - SDEV 120
+title: Course Notes - INFM 109 
 ---
 
-- [Module 05](m05.md)
+- [Module 06](m06.md)
