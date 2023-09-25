@@ -81,7 +81,7 @@ table {
     text-align: left;
     box-sizing: border-box;
     border-collapse: collapse;
-    margin-bottom: 1rem;
+    margin: auto 1rem;;
     background-color: transparent;
 }
 table thead th {
