@@ -52,7 +52,6 @@ img, canvas, iframe, video, svg, select, textarea {
     max-width: 100%;
 }
 ol, ul {
-    font-size: 1rem;
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
@@ -73,7 +72,7 @@ pre, code {
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 figure {
-    border: 2px solid #eee;
+    /* border: 2px solid #eee; */
     margin: 2rem auto;
     padding: 8px;
     text-align: center;
