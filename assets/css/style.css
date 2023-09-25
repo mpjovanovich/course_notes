@@ -44,12 +44,10 @@ h1:first-of-type {
 h1 {
     border-bottom: 1px solid #ddd;
 }
-h1, h2, h3 {
-    margin-bottom: 1.15rem;
-    padding: 1.5rem 0;
-}
 h1, h2, h3, h4, h5, h6 {
     font-family: Arimo, Helvetica, sans-serif;
+    padding: 1.2rem 0;
+    margin-bottom: .2rem;
 }
 hr {
     background-color: #eee;
