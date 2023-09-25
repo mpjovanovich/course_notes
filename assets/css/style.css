@@ -34,9 +34,6 @@ h1:first-of-type {
 h1 {
     border-bottom: 1px solid #ddd;
 }
-h2 {
-    border-bottom: 1px solid #ddd;
-}
 h1, h2, h3 {
     margin-bottom: 1.15rem;
     padding-bottom: .5rem;
@@ -76,9 +73,10 @@ pre, code {
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 figure {
+    border: 2px solid #eee;
     margin: 2rem auto;
+    padding: 8px;
     text-align: center;
-    width: 100%;
 }
 figcaption {
     font-style: italic;
