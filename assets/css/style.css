@@ -76,7 +76,8 @@ pre, code {
 }
 
 .demo {
-    background-color: #3498db;
+    color: #408080;
+    font-weight: 700;
 }
 .header {
     color: #333333;
