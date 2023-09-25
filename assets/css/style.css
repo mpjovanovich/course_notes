@@ -81,8 +81,8 @@ table {
     text-align: left;
     box-sizing: border-box;
     border-collapse: collapse;
-    margin: auto 1rem;;
-    background-color: transparent;
+    margin: 1rem auto;
+    background-color: #f7f7f7;
 }
 table thead th {
     font-size: 1rem;
@@ -95,6 +95,7 @@ table thead th {
     border-top: 1px solid #dee2e6;
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
+    background-color: #f1f1f1;
 }
 table td {
     font-size: 1rem;
