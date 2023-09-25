@@ -2,6 +2,7 @@
 layout: base
 title: Example Markdown
 ---
+<!-- This is called the "yaml frontmatter". Nothing can go before it. -->
 
 # This is an h1
 
