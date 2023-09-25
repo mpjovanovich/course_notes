@@ -3,10 +3,6 @@ layout: base
 title: Example Markdown
 ---
 
-<!-- 
-    closest to what I'm trying to do:
-    https://stackoverflow.com/questions/58365140/can-a-github-page-made-using-default-templates-also-render-a-custom-html-file-as
--->
 # This is an h1
 
 - [This is an h1](#this-is-an-h1)
