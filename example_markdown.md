@@ -18,8 +18,8 @@ ___
 -->
 
 <!-- The wrapper span is needed to allow the image to be resized... who knows why. -->
-<span style="display: inline-block;">
-    <img src="https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg" class="center" style="width: 40%">
+<span class="img_container">
+    <img src="https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg" style="width: 40%">
 </span>
 
 Link to VS code extension: [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown)
