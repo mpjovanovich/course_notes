@@ -1,5 +1,4 @@
 ---
-layout: base 
 title: Example Markdown
 output: 
     html_document:
