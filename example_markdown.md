@@ -5,7 +5,6 @@ title: Example Markdown
 <!-- This is called the "yaml frontmatter". Nothing can go before it. -->
 
 <!-- base.html will add title from above as an h1 here.> -->
-___
 
 <!-- 
     Use img HTML tag instead of markdown. Markdown isn't flexible enough - need to be able to resize images quickly.
@@ -21,6 +20,8 @@ ___
         <a href="">Some Link to Something</a>
     </figcaption>
 </figure>
+
+___
 
 Link to VS code extension: [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown)
 
