@@ -41,13 +41,14 @@ h1:first-of-type {
     text-align: center;
     border-bottom: 2px solid #ddd;
 }
-h1 {
-    border-bottom: 1px solid #ddd;
-}
 h1, h2, h3, h4, h5, h6 {
     font-family: Arimo, Helvetica, sans-serif;
     padding: 1.2rem 0;
-    margin-bottom: .2rem;
+    margin: 0;
+}
+h1 {
+    border-bottom: 1px solid #ddd;
+    margin-top: 2rem;
 }
 hr {
     background-color: #eee;
