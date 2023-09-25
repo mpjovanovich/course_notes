@@ -27,7 +27,10 @@ blockquote {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-h1, h2 {
+h1:first-of-type {
+    text-align: center;
+}
+h1 {
     border-bottom: 2px solid #ddd;
 }
 h2 {

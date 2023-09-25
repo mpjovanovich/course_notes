@@ -4,12 +4,7 @@ title: Example Markdown
 ---
 <!-- This is called the "yaml frontmatter". Nothing can go before it. -->
 
-<!-- base.html will add title from above as an h1 here.>
-
-- [This is an h1](#this-is-an-h1)
-  - [This is an h2](#this-is-an-h2)
-    - [This is an h3](#this-is-an-h3)
-
+<!-- base.html will add title from above as an h1 here.> -->
 ___
 
 <!-- 
