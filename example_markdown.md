@@ -1,12 +1,12 @@
 ---
+layout: base
 title: Example Markdown
-output: 
-    html_document:
-        toc: true
-        toc_float: true
-        number_sections: true
 ---
 
+<!-- 
+    closest to what I'm trying to do:
+    https://stackoverflow.com/questions/58365140/can-a-github-page-made-using-default-templates-also-render-a-custom-html-file-as
+-->
 # This is an h1
 
 - [This is an h1](#this-is-an-h1)
