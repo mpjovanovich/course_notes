@@ -27,6 +27,16 @@ blockquote {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+figure {
+    /* border: 2px solid #eee; */
+    margin: 2rem auto;
+    padding: 8px;
+    text-align: center;
+}
+figcaption {
+    font-style: italic;
+    font-size: 1rem;
+}
 h1:first-of-type {
     text-align: center;
     border-bottom: 2px solid #ddd;
@@ -36,7 +46,7 @@ h1 {
 }
 h1, h2, h3 {
     margin-bottom: 1.15rem;
-    padding-bottom: .5rem;
+    padding: 1.5rem 0;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: Arimo, Helvetica, sans-serif;
@@ -65,21 +75,14 @@ pre, code {
     font-family: Menlo, Monaco, 'Courier New', monospace;
 }
 
+.demo {
+    background-color: #3498db;
+}
 .header {
     color: #333333;
     background-color: #E2E2E2;
     font-size: 2.2rem;
     font-family: Georgia, "Times New Roman", Times, serif;
-}
-figure {
-    /* border: 2px solid #eee; */
-    margin: 2rem auto;
-    padding: 8px;
-    text-align: center;
-}
-figcaption {
-    font-style: italic;
-    font-size: 1rem;
 }
 .wrapper h1 {
     margin: 1rem auto;
