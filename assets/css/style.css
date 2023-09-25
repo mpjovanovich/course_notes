@@ -23,7 +23,7 @@ a:hover, a:focus, a:active {
 }
 blockquote {
     border-left: 8px solid #fafafa;
-    padding: 1rem;
+    padding: .1rem 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -75,6 +75,10 @@ figure {
     margin: 2rem auto;
     text-align: center;
     width: 100%;
+}
+figcaption {
+    font-style: italic;
+    font-size: 1rem;
 }
 .wrapper h1 {
     margin: 1rem auto;

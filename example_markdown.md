@@ -22,7 +22,9 @@ ___
     <span>
         <img src="https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg" style="width: 35%">
     </span>
-    <figcaption>asdfsf</figcaption>
+    <figcaption>
+        <a href="">Some Link to Something</a>
+    </figcaption>
 </figure>
 
 Link to VS code extension: [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown)
