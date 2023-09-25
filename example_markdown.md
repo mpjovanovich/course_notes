@@ -1,4 +1,12 @@
-
+---
+layout: base 
+title: Example Markdown
+output: 
+    html_document:
+        toc: true
+        toc_float: true
+        number_sections: true
+---
 
 # This is an h1
 
