@@ -11,6 +11,16 @@ title: Example Markdown
     Not sure why the transform is leaving original size bounding box, but can probably fix with CSS. 
 -->
 
+<!-- Template -->
+<figure>
+    <span>
+        <img src="" style="width: 100%">
+    </span>
+    <figcaption>
+        <a href="">Some Link to Something, remove anchor if not needed</a>
+    </figcaption>
+</figure>
+
 <!-- The wrapper span is needed to allow the image to be resized... who knows why. -->
 <figure>
     <span>
