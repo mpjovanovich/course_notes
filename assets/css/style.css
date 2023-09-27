@@ -120,6 +120,17 @@ table td {
     font-size: 2.2rem;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
+.spoiler {
+    background: #333333;
+    border-radius: 0.2em;
+    color: transparent;
+    cursor: pointer;
+}
+.spoiler:focus {
+/* .spoiler:target { */
+    background: transparent;
+    color: inherit;
+}
 .wrapper h1 {
     margin: 1rem auto;
 }
