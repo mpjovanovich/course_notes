@@ -75,3 +75,9 @@ Some more text
 _This is italicized text._
 
 ~~This is strikethrough text.~~
+
+>! This is spoiler text?
+
+| Table Head 1 | Table Head 2 |
+| :---- | :---- |
+| Content 1 | Content 2 |
