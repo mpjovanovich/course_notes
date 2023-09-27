@@ -17,7 +17,7 @@ title: Example Markdown
         <img src="" style="width: 100%">
     </span>
     <figcaption>
-        <a href="">Some Link to Something, remove anchor if not needed</a>
+        <a href=""></a>
     </figcaption>
 </figure>
 
