@@ -120,16 +120,26 @@ table td {
     font-size: 2.2rem;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
-.spoiler {
-    background: #333333;
-    border-radius: 0.2em;
-    color: transparent;
+.spoiler_outer {
     cursor: pointer;
 }
-.spoiler:focus {
-/* .spoiler:target { */
-    background: transparent;
-    color: inherit;
+.spoiler_inner {
+    display: none;
+}
+.spoiler_outer:focus-within .spoiler_inner {
+    display: inherit;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0.2em;
+}
+.spoiler_placeholder {
+    height: 1.4em;
+    display: inherit;
+    background: #333333;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+.spoiler_outer:focus-within .spoiler_placeholder {
+    display: none;
 }
 .wrapper h1 {
     margin: 1rem auto;

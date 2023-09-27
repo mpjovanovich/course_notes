@@ -76,8 +76,16 @@ _This is italicized text._
 
 ~~This is strikethrough text.~~
 
->! This is spoiler text?
+<!-- *Must have tabindex set for css focus to work -->
+<div class="spoiler_outer" tabindex="999">
+  <p>What's a spoiler question?</p>
+  <p class="spoiler_placeholder"></p>
+  <div class="spoiler_inner">
+    <p>One that has a spoiler answer.</p>
+  </div>
+<div>
 
 | Table Head 1 | Table Head 2 |
 | :---- | :---- |
 | Content 1 | Content 2 |
+
