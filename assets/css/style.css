@@ -168,6 +168,7 @@ table {
 }
 
 table thead th {
+    font-family: Arimo, Helvetica, sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
     line-height: 1.5;
@@ -178,10 +179,10 @@ table thead th {
     text-align: inherit;
     padding: .75rem;
     vertical-align: bottom;
-    letter-spacing: 0.06em;
 }
 
 table td {
+    font-family: Arimo, Helvetica, sans-serif;
     font-size: 1.2rem;
     line-height: 1.5;
     color: white;
