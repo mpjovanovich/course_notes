@@ -42,8 +42,9 @@ blockquote {
 details {
     margin: 20px 0;
     color: white;
-    background-color: #555;
+    font-size: 0.875em;
     margin-bottom: .5rem;
+    background-color: #555;
     box-shadow: 0 .1rem 1rem -.5rem rgba(0, 0, 0, .4);
     border-radius: 5px;
     overflow: hidden;
@@ -60,7 +61,8 @@ details summary::-webkit-details-marker {
 
 details>div {
     padding: 1em 1em 0;
-    font-size: 0.875em;
+    /* color: #202124; */
+    /* font-size: 0.875em; */
 }
 
 summary {
