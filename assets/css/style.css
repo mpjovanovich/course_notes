@@ -208,7 +208,8 @@ details[open]>p {
 details {
     width: 80%;
     margin: 0 auto;
-    background: #282828;
+    color: white;
+    background-color: #282828;
     margin-bottom: .5rem;
     box-shadow: 0 .1rem 1rem -.5rem rgba(0, 0, 0, .4);
     border-radius: 5px;
@@ -218,7 +219,8 @@ details {
 summary {
     padding: 1rem;
     display: block;
-    background: #333;
+    color: white;
+    background-color: #333;
     padding-left: 2.2rem;
     position: relative;
     cursor: pointer;
@@ -230,7 +232,7 @@ summary:before {
     border-style: solid;
     border-color: transparent transparent transparent #fff;
     position: absolute;
-    top: 1.3rem;
+    top: 1.4rem;
     left: 1rem;
     transform: rotate(0);
     transform-origin: .2rem 50%;
