@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,700&display=swap');
 
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
 body {
     background-color: white;
     color: #202124;
@@ -248,7 +254,7 @@ details summary::-webkit-details-marker {
     display: none;
 }
 
-details>ul {
-    padding-bottom: 1rem;
-    margin-bottom: 0;
+details>div {
+    padding: 1em 1em 0;
+    font-size: 0.875em;
 }
