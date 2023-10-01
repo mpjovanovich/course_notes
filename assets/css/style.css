@@ -212,8 +212,7 @@ details[open]>p {
 } */
 
 details {
-    width: 80%;
-    margin: 0 auto;
+    margin: 20px 0;
     color: white;
     background-color: #282828;
     margin-bottom: .5rem;
