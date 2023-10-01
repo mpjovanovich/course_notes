@@ -159,7 +159,6 @@ code {
 
 table {
     font-size: 1rem;
-    font-weight: 400;
     line-height: 1.5;
     color: white;
     text-align: left;
@@ -170,7 +169,8 @@ table {
 }
 
 table thead th {
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    font-weight: 700;
     line-height: 1.5;
     color: white;
     background-color: #555;
@@ -184,8 +184,7 @@ table thead th {
 }
 
 table td {
-    font-size: 1rem;
-    font-weight: 400;
+    /* font-size: 1rem; */
     line-height: 1.5;
     color: white;
     text-align: left;
