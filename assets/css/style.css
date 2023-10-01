@@ -165,33 +165,35 @@ table {
     box-sizing: border-box;
     border-collapse: collapse;
     margin: 2rem auto;
-    background-color: #3f3f3f;
 }
 
 table thead th {
-    /* font-size: 1rem; */
+    font-size: 1.1rem;
     font-weight: 700;
     line-height: 1.5;
     color: white;
-    background-color: #555;
+    background-color: #3f3f3f;
     border-collapse: collapse;
     box-sizing: border-box;
     text-align: inherit;
     padding: .75rem;
-    border-top: 1px solid #dee2e6;
     vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6;
+    letter-spacing: 0.06em;
 }
 
 table td {
-    /* font-size: 1rem; */
+    font-size: 1.2rem;
     line-height: 1.5;
     color: white;
+    background-color: #555;
     text-align: left;
     border-collapse: collapse;
     box-sizing: border-box;
     padding: .75rem;
     vertical-align: top;
+}
+
+tbody tr {
     border-top: 2px solid #dee2e6;
 }
 
