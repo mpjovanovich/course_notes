@@ -161,18 +161,19 @@ table {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: white;
     text-align: left;
     box-sizing: border-box;
     border-collapse: collapse;
     margin: 2rem auto;
-    background-color: #f7f7f7;
+    background-color: #3f3f3f;
 }
 
 table thead th {
     font-size: 1rem;
     line-height: 1.5;
-    color: #212529;
+    color: white;
+    background-color: #555;
     border-collapse: collapse;
     box-sizing: border-box;
     text-align: inherit;
@@ -180,20 +181,19 @@ table thead th {
     border-top: 1px solid #dee2e6;
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
-    background-color: #f1f1f1;
 }
 
 table td {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: white;
     text-align: left;
     border-collapse: collapse;
     box-sizing: border-box;
     padding: .75rem;
     vertical-align: top;
-    border-top: 1px solid #dee2e6;
+    border-top: 2px solid #dee2e6;
 }
 
 .demo {
