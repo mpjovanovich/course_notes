@@ -39,6 +39,53 @@ blockquote {
     margin-bottom: 1rem;
 }
 
+details {
+    margin: 20px 0;
+    color: white;
+    background-color: #555;
+    margin-bottom: .5rem;
+    box-shadow: 0 .1rem 1rem -.5rem rgba(0, 0, 0, .4);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+details[open]>summary:before {
+    transform: rotate(90deg);
+}
+
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details>div {
+    padding: 1em 1em 0;
+    font-size: 0.875em;
+}
+
+summary {
+    padding: 1rem;
+    display: block;
+    color: white;
+    background-color: #3f3f3f;
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 1.4rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+}
+
 figure {
     /* border: 2px solid #eee; */
     margin: 2rem auto;
@@ -159,101 +206,6 @@ table td {
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* .spoiler_outer {
-    cursor: pointer;
-}
-
-.spoiler_inner {
-    display: none;
-}
-
-.spoiler_outer:focus-within .spoiler_inner {
-    display: inherit;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 0.2em;
-}
-
-.spoiler_placeholder {
-    height: 1.4em;
-    display: inherit;
-    background: #333333;
-    border-radius: 0.2em;
-    cursor: pointer;
-}
-
-.spoiler_outer:focus-within .spoiler_placeholder {
-    display: none;
-} */
-
 .wrapper h1 {
     margin: 1rem auto;
-}
-
-/* details {
-    display: block;
-    border: 1px solid black;
-    padding: 10px;
-}
-
-details summary {
-    cursor: pointer;
-}
-
-details summary:hover {
-    background-color: lightgray;
-}
-
-details>p {
-    display: none;
-}
-
-details[open]>p {
-    display: block;
-} */
-
-details {
-    margin: 20px 0;
-    color: white;
-    background-color: #282828;
-    margin-bottom: .5rem;
-    box-shadow: 0 .1rem 1rem -.5rem rgba(0, 0, 0, .4);
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-summary {
-    padding: 1rem;
-    display: block;
-    color: white;
-    background-color: #333;
-    padding-left: 2.2rem;
-    position: relative;
-    cursor: pointer;
-}
-
-summary:before {
-    content: '';
-    border-width: .4rem;
-    border-style: solid;
-    border-color: transparent transparent transparent #fff;
-    position: absolute;
-    top: 1.4rem;
-    left: 1rem;
-    transform: rotate(0);
-    transform-origin: .2rem 50%;
-    transition: .25s transform ease;
-}
-
-details[open]>summary:before {
-    transform: rotate(90deg);
-}
-
-
-details summary::-webkit-details-marker {
-    display: none;
-}
-
-details>div {
-    padding: 1em 1em 0;
-    font-size: 0.875em;
 }
