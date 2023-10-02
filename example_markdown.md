@@ -11,17 +11,8 @@ title: Example Markdown
     Not sure why the transform is leaving original size bounding box, but can probably fix with CSS. 
 -->
 
-<!-- Template -->
-<figure>
-    <span>
-        <img src="" style="width: 100%">
-    </span>
-    <figcaption>
-        <a href=""></a>
-    </figcaption>
-</figure>
-
 <!-- The wrapper span is needed to allow the image to be resized... who knows why. -->
+<!-- use "fig" snippet -->
 <figure>
     <span>
         <img src="https://img.freepik.com/premium-vector/vector-illustration-hand-drawn-realistic-sketch-pangolin-isolated-white-background_231873-577.jpg" style="width: 35%">
@@ -34,6 +25,7 @@ title: Example Markdown
 <!-- hr -->
 ___
 
+<!-- use "href" snippet -->
 Link to VS code extension: [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown)
 
 We can manually add line breaks with a backslash, as in the below:
