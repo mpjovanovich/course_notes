@@ -16,8 +16,8 @@ body {
     min-width: 950px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    max-width: 60rem;
-    line-height: 1.75rem;
+    max-width: 1200px;
+    line-height: 1.75em;
     padding: 2rem;
 }
 
@@ -113,7 +113,7 @@ h5,
 h6 {
     font-family: Arimo, Helvetica, sans-serif;
     padding: 1.2rem 0;
-    margin: 0;
+    margin: 1rem 0 0 0;
 }
 
 h1 {
@@ -138,6 +138,10 @@ svg,
 select,
 textarea {
     max-width: 100%;
+}
+
+li {
+    margin: .8em 0;
 }
 
 ol,

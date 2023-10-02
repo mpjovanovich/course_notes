@@ -31,6 +31,7 @@ title: Example Markdown
     </figcaption>
 </figure>
 
+<!-- hr -->
 ___
 
 Link to VS code extension: [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown)
@@ -40,6 +41,8 @@ We can manually add line breaks with a backslash, as in the below:
 > This is a block quote. \
 This is line two of the same block quote. \
 --Some Author
+
+# This is an h1
 
 We can do code snippets with the following syntax:
 
