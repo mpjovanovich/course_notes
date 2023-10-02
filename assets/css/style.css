@@ -117,8 +117,9 @@ h6 {
 }
 
 h1 {
-    border-bottom: 1px solid #ddd;
-    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+    margin-top: 4rem;
+    padding: 40px 0;
 }
 
 hr {
