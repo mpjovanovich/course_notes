@@ -137,7 +137,6 @@ hr {
     margin-top: 1rem;
 }
 
-img,
 canvas,
 iframe,
 video,
@@ -148,7 +147,7 @@ textarea {
 }
 
 img {
-    width: 100%;
+    max-width: 85%;
     height: auto;
     /* aspect-ratio: attr(width) / attr(height); */
 }
