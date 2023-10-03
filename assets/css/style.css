@@ -97,7 +97,6 @@ summary:before {
 }
 
 figure {
-    /* border: 2px solid #eee; */
     margin: 2rem auto;
     padding: 8px;
     text-align: center;
@@ -146,6 +145,12 @@ svg,
 select,
 textarea {
     max-width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    /* aspect-ratio: attr(width) / attr(height); */
 }
 
 li {
