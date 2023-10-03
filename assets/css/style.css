@@ -1,6 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,700&display=swap');
+/* 
+TODO:
+Better spacing rules for headings specific rules for more top margin, but only when not preceded
+by another heading. E.g. If h2 is preceded by h1, no top margin;
+else top margin. 
 
+For relative selector rules, see:
+https://www.w3schools.com/cssref/css_selectors.php
+Lots of cool new selector rules to try.
+
+*/
 *,
 *:after,
 *:before {
@@ -211,6 +219,7 @@ tbody tr {
 
 .center {
     text-align: center;
+    margin: auto 0;
 }
 
 .demo {
