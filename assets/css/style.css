@@ -203,6 +203,16 @@ tbody tr {
     border-top: 2px solid #dee2e6;
 }
 
+.attr {
+    font-size: 0.875em;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
 .demo {
     color: #408080;
     font-weight: 700;
