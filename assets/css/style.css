@@ -207,6 +207,7 @@ table td {
     box-sizing: border-box;
     padding: .75rem;
     vertical-align: top;
+    min-width: 5rem;
 }
 
 tbody tr {
