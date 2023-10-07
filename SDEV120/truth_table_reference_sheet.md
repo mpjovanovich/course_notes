@@ -1,3 +1,8 @@
+---
+layout: base
+title: SDEV 120 - Truth Tables
+---
+
 # Truth Tables
 
 ## Logical Conjunctive Reference Sheet
