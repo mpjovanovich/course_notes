@@ -10,6 +10,7 @@ title: SDEV 120 - Truth Tables
 ### NOT (Negation)
 
 Symbol: ¬
+
 Python: NOT
 
 | A     |    ¬A |
@@ -20,6 +21,7 @@ Python: NOT
 ### AND (Conjunction)
 
 Symbol: ∧
+
 Python: AND
 
 | A     | B     | A ∧ B |
@@ -32,6 +34,7 @@ Python: AND
 ### OR (Disjunction)
 
 Symbol: ∨
+
 Python: OR
 
 | A     | B     | A ∨ B |
@@ -44,6 +47,7 @@ Python: OR
 ### XOR (Exclusive OR)
 
 Symbol: ⊕
+
 Python: doesn't exist
 
 | A     | B     | A ⊕ B |
@@ -56,7 +60,7 @@ Python: doesn't exist
 
 ## Using Truth Tables to Solve Logical Expressions
 
-1. Determine the number of rows needed.
+**_Determine the number of rows needed._**
 
 Number of rows = 2<sup>n</sup> where n is the number of variables
 - 1 variable = 2<sup>1</sup> = 2 rows
@@ -65,13 +69,13 @@ Number of rows = 2<sup>n</sup> where n is the number of variables
 - 4 variables = 2<sup>4</sup> = 16 rows
 - ...
 
-2. Follow the algorithm below until you hit the last T/F alternating column.
+**_Follow the algorithm below until you hit the last T/F alternating column._**
 
 - Fill first column with top half T and bottom half F. Move to the next column.
 - For each block of consecutive T or F in the previous column fill the next column with half T and half F
 - Repeat until you hit the last T / F alternating column
 
-**_Example_**
+_Example_
 
 Here is an example table with highlighting
 
@@ -86,9 +90,9 @@ Here is an example table with highlighting
 | F    | F    | T    |
 | F    | F    | F    |
 
-3. Fill in the last column with the logical expression that you are trying to solve for. Leave placeholder columns in between.
+**_Fill in the last column with the logical expression that you are trying to solve for. Leave placeholder columns in between._**
 
-**_Example_**
+_Example_
 
 If trying to find the truth table for A ∧ B ∧ C:
 
@@ -103,9 +107,9 @@ If trying to find the truth table for A ∧ B ∧ C:
  | F    | F    | T    |      |            |
  | F    | F    | F    |      |            |
 
- _Be sure each row starts with T and not F._
+Be sure each row starts with T and not F.
 
- 4. Fill in the placeholder columns with the intermediate results of the logical expression. Do this in the order that the expression is evaluated, one binary operation at a time (or unary operation in the case of "not").
+**_Fill in the placeholder columns with the intermediate results of the logical expression. Do this in the order that the expression is evaluated, one binary operation at a time (or unary operation in the case of "not")._**
 
  | A    | B    | C    | ¬A   | ¬A ∧ B | ¬A ∧ B ∨ C |
  | :--- | :--- | :--- | :--- | :----- | ---------: |
@@ -118,7 +122,7 @@ If trying to find the truth table for A ∧ B ∧ C:
  | F    | F    | T    |      |        |            |
  | F    | F    | F    |      |        |            |
 
- 5. Fill in the rows one at a time with the results of the logical expressions. Done this way you are always comparing one row in the table to another row in the table. The final row will be the result of the full logical expression.
+**_Fill in the rows one at a time with the results of the logical expressions. Done this way you are always comparing one row in the table to another row in the table. The final row will be the result of the full logical expression._**
 
 |   A   |   B   |   C   |  ¬A   | ¬A ∧ B | ¬A ∧ B ∨ C |
 | :---: | :---: | :---: | :---: | :----: | :--------: |
