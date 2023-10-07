@@ -12,3 +12,5 @@ title: Course Notes - SDEV 120
 ### Study Material
 
 [Truth Table Reference Sheet](truth_table_reference_sheet.md)
+
+[Final Exam Study Guide](final_exam_study_guide.md)
