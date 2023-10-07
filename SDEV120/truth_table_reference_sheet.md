@@ -77,8 +77,6 @@ Number of rows = 2<sup>n</sup> where n is the number of variables
 
 _Example_
 
-Here is an example table with highlighting
-
 | A    | B    | C    |
 | :--- | :--- | :--- |
 | T    | T    | T    |
