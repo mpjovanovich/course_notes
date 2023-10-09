@@ -9,6 +9,8 @@ title: Course Notes - SDEV 120
 
 [M06: SDLC; UML; Set Theory; Propositional and Predicate Logic](m06.md)
 
+[M08: What is a Computer Program?](m08.md)
+
 ### Study Material
 
 [Truth Table Reference Sheet](truth_table_reference_sheet.md)
