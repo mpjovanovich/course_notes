@@ -41,14 +41,47 @@ a:active {
 }
 
 blockquote {
-    /* border-left: 8px solid #fafafa;
-    padding: .1rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem; */
-    background: #f9f9f9;
-    border-left: 10px solid #ccc;
-    margin: 1.5em 10px;
+    text-align: left;
     padding: 0.5em 10px;
+    margin: 1.5em 10px;
+}
+
+blockquote:before {
+    content: open-quote;
+    font-size: 24pt;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+    background: #ddd;
+    float: left;
+    position: relative;
+    border-radius: 25px;
+    margin-right: 0.5em;
+    vertical-align: -0.4em;
+
+    /** define it as a block element **/
+    display: block;
+    height: 25px;
+    width: 25px;
+}
+
+blockquote:after {
+    content: close-quote;
+    font-size: 24pt;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+    background: #ddd;
+    float: right;
+    position: relative;
+    border-radius: 25px;
+    margin-right: 1em;
+    vertical-align: -0.5em;
+
+    /** define it as a block element **/
+    display: block;
+    height: 25px;
+    width: 25px;
 }
 
 details {
