@@ -1,0 +1,249 @@
+---
+layout: base
+title: Course Notes - SDEV 140
+---
+
+> I met a traveller from an antique land, \
+> Who said—“Two vast and trunkless legs of stone \
+> Stand in the desert. . . . Near them, on the sand, \
+> Half sunk a shattered visage lies, whose frown, \
+> And wrinkled lip, and sneer of cold command, \
+> Tell that its sculptor well those passions read \
+> Which yet survive, stamped on these lifeless things, \
+> The hand that mocked them, and the heart that fed; \
+> And on the pedestal, these words appear: \
+> My name is Ozymandias, King of Kings; \
+> Look on my Works, ye Mighty, and despair! \
+> Nothing beside remains. Round the decay \
+> Of that colossal Wreck, boundless and bare \
+> The lone and level sands stretch far away. \
+> <span class="attr">--Percy Bysshe Shelley</span>
+
+## Announcements
+
+- ...
+
+## Agenda
+
+- fstrings?
+- Lecture
+
+# Comparison and Boolean Expressions
+
+Lecture outline:
+
+- Best practices for variable naming (positive vs negative naming)
+- Comparison operators in Python
+- Indentation and code blocks
+- `if` statements
+
+- `if-else` statements
+  - when to use each?
+- `if-else if-else` statements
+
+## Comparison Operators
+
+A comparison operation compares two expressions and evaluates to a boolean value.
+
+| Operator | Meaning                  | Example  |
+| -------- | ------------------------ | -------- |
+| `==`     | Equal to                 | `a == b` |
+| `!=`     | Not equal to             | `a != b` |
+| `>`      | Greater than             | `a > b`  |
+| `<`      | Less than                | `a < b`  |
+| `>=`     | Greater than or equal to | `a >= b` |
+| `<=`     | Less than or equal to    | `a <= b` |
+
+## Boolean and Propositional Expressions
+
+Boolean expressions may be unary or binary. Unary expressions have one operand, binary expressions have two operands. Of the ones below, only `not` is unary.
+
+| Connective  | Propositional Logic Symbol | Python Operator | Precendence |
+| ----------- | -------------------------- | --------------- | ----------- |
+| Grouping    | `()`                       | ()              | 1           |
+| Negation    | `¬`                        | `not`           | 2           |
+| Conjunction | `^`                        | `and`           | 3           |
+| Disjunction | `v`                        | `or`            | 4           |
+| Implication | `->`                       | `if...`         | 5           |
+
+Boolean variables in Python take on the keyword values `True` and `False`.
+
+```python
+## Simple comparisons of two boolean variables
+a = True
+b = False
+print( f'{a} and {b} = {a and b}' )
+print( f'{a} or {b} = {a or b}' )
+```
+
+Review: double negation
+
+## Truth Tables
+
+### Conjunction
+
+| A     | B     | A and B |
+| ----- | ----- | ------- |
+| True  | True  | True    |
+| True  | False | False   |
+| False | True  | False   |
+| False | False | False   |
+
+### Disjunction
+
+| A     | B     | A or B |
+| ----- | ----- | ------ |
+| True  | True  | True   |
+| True  | False | True   |
+| False | True  | True   |
+| False | False | False  |
+
+<p class="demo">Demo:</p>
+Review quiz from last time.
+
+### Syntax and Parse Trees
+
+![Parse Tree](images/parse_tree.png)
+
+<p class="demo">Demo:</p>
+
+What does this parse tree represent?
+
+Do some more examples with boolean logic:W
+
+# Decision Structures
+
+GOALS:
+
+- Understand how decisions can be used to change the flow of a program based on a boolean expression.
+- Understand when to use single vs dual selection structures.
+- Understand flow of execution in the case of single, dual, or multiple decision outcomes (if; if/else; if/elif/else)
+- Understand how execution flows through nested decisions.
+- Understand how compound boolean expressions can be used to make a single decision.
+- Be able to convert nested decision into an equivalent compound boolean expression.
+
+## Single Alternative - the `if` Statement
+
+A **single alternative decision structure** yields control to a process only if some boolean expression is true.
+
+![Single Alternative Decision](images/single_alternative.png)
+
+Single alternative example: Charge customer for shirt.
+“Customer is a rewards member”?
+If true - apply discount. Since no action is needed in the case of a false condition, we don’t need any action.
+
+Statements that are evaluated based upon the truthfulness of some condition are nested under an if statement.
+
+Anything inside the code block (indented at the if’s level) will be evaluated only if the “if” expression evaluates to true.
+
+The expression for the if statement can be arbitrarily complex - the only constraint is that it must evaluate to True or False.
+
+Examples:
+
+```python
+if x:
+if x == True:
+if has_account == False:
+if a > b:
+if is_admin and current_page == 'User Management':
+if is_admin == False or user_logged_in == False:
+```
+
+<p class="demo">Demo:</p>
+
+Algorithm - flowchart and Python:
+Number is even (single dec. st.)
+
+## Dual Alternative - the `if, else` Statement
+
+A **dual alternative decision structure** yields control to one of two processes based on the truthfulness of a given boolean condition.
+
+![Dual Alternative Decision](images/dual_alternative.png)
+
+Dual alternative example: Open communication channel with landing aircraft.
+
+- “Runway is clear?”
+  - True - Direct aircraft to land.
+  - False - Send aircraft to hold pattern.
+
+<p class="demo">Demo:</p>
+Algorithm - flowchart and Python:
+Number is even/odd (dual dec. st.)
+
+## Fallthrough decisions - the `if, else if, else` Statement
+
+We can chain together arbitrary amounts of decisions to represent “fallback logic” - if, else if, else if, … else.
+
+We do not always need a final “else”.
+
+![Fallthrough Decision](images/grading_program.png)
+
+What happens if we don't use else if here?
+
+<p class="demo">Demo:</p>
+
+m03_if_elif_else.py
+
+## Nested Decision Structures
+
+We can put decision structures into the flow of execution from another decision. These are called nested decisions.
+
+_Note:_ We don’t want to duplicate decision logic if possible. Often times we can extract a decision that would otherwise be nested.
+
+<p class="demo">Demo:</p>
+
+Program: What to wear based on temperature.
+
+- possible outcomes:
+  - snowing, not snowing - temp <= 32
+  - raining, not raining - temp > 32
+  - cold, coat - temp < 45
+  - mild, jacket - temp < 70
+- e.g. outcome statements
+  - It is rainy and warm. You need a jacket and umbrella.
+  - It is clear and mild. You need a jacket.
+  - It is snowy and cold. You need a coat.
+- Which variables are inputs?
+  - temperature
+  - precipitation
+
+<p class="demo">Demo:</p>
+
+Write program to figure out if letter is capital
+
+- Hint: look at ASCII / Unicode - https://www.ascii-code.com/
+- Hint: Python uses ord() and int() functions
+- m02_letter_is_capital_v1.py
+
+### Boolean Variable Naming Best Practices
+
+It’s good practice to name boolean variables in the positive rather than the negative. Otherwise statements get confusing.
+
+```python
+## Not great...
+if not not_logged_in:
+## Better
+if logged_in:
+```
+
+The “== True” portion of a boolean expression is implied. Whether you choose to put it in is a style choice.
+
+```python
+## These two are the same
+if x:
+    print( 'True' )
+if x == True:
+    print( 'True' )
+
+## These are also the same
+if not x:
+    print( 'False' )
+if x == False:
+    print( 'False' )
+```
+
+# Functions
+
+m04_create_truth_table.py
+
+Bonus points: recursion - Tower of Hanoi puzzle. Need to provide starter code.
