@@ -5,4 +5,4 @@ title: Course Notes - SDEV 153
 
 ### Lecture Notes
 
-[M02: ...](m02.md)
+[M02: Project Planning; Intro to CSS](m02.md)
