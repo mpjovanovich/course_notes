@@ -12,147 +12,146 @@ Lots of cool new selector rules to try.
 *,
 *:after,
 *:before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: white;
-    color: #202124;
-    font-size: 18px;
-    margin: 20px auto;
-    max-width: 100%;
-    min-width: 950px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    max-width: 1200px;
-    line-height: 1.75em;
-    padding: 2rem;
+  background-color: white;
+  color: #202124;
+  font-size: 18px;
+  margin: 20px auto;
+  max-width: 100%;
+  min-width: 950px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  max-width: 1200px;
+  line-height: 1.75em;
+  padding: 2rem;
 }
 
 a,
 a:visited {
-    color: #3498db;
+  color: #3498db;
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #2980b9;
+  color: #2980b9;
 }
 
 blockquote {
-    text-align: left;
-    padding: 0.5em 10px;
-    margin: 1.5em 10px;
+  text-align: left;
+  padding: 0.5em 10px;
+  margin: 1.5em 10px;
 }
 
 blockquote:before {
-    content: open-quote;
-    font-size: 24pt;
-    text-align: center;
-    line-height: 42px;
-    color: #fff;
-    background: #ddd;
-    float: left;
-    position: relative;
-    border-radius: 25px;
-    margin-right: 0.5em;
-    vertical-align: -0.4em;
+  content: open-quote;
+  font-size: 24pt;
+  text-align: center;
+  line-height: 42px;
+  color: #fff;
+  background: #ddd;
+  float: left;
+  position: relative;
+  border-radius: 25px;
+  margin-right: 0.5em;
+  vertical-align: -0.4em;
 
-    /** define it as a block element **/
-    display: block;
-    height: 25px;
-    width: 25px;
+  /** define it as a block element **/
+  display: block;
+  height: 25px;
+  width: 25px;
 }
 
 blockquote:after {
-    content: close-quote;
-    font-size: 24pt;
-    text-align: center;
-    line-height: 42px;
-    color: #fff;
-    background: #ddd;
-    float: right;
-    position: relative;
-    border-radius: 25px;
-    margin-right: 1em;
-    vertical-align: -0.5em;
+  content: close-quote;
+  font-size: 24pt;
+  text-align: center;
+  line-height: 42px;
+  color: #fff;
+  background: #ddd;
+  float: right;
+  position: relative;
+  border-radius: 25px;
+  margin-right: 1em;
+  vertical-align: -0.5em;
 
-    /** define it as a block element **/
-    display: block;
-    height: 25px;
-    width: 25px;
+  /** define it as a block element **/
+  display: block;
+  height: 25px;
+  width: 25px;
 }
 
 details {
-    margin: 20px 0;
-    color: white;
-    font-size: 0.9rem;
-    margin-bottom: .5rem;
-    background-color: #555;
-    box-shadow: 0 .1rem 1rem -.5rem rgba(0, 0, 0, .4);
-    border-radius: 5px;
-    overflow: hidden;
+  margin: 20px 0;
+  color: white;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  background-color: #555;
+  box-shadow: 0 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  overflow: hidden;
 }
 
-details[open]>summary:before {
-    transform: rotate(90deg);
+details[open] > summary:before {
+  transform: rotate(90deg);
 }
-
 
 details summary::-webkit-details-marker {
-    display: none;
+  display: none;
 }
 
-details>div {
-    padding: 1rem 1rem 0;
+details > div {
+  padding: 1rem 1rem 0;
 }
 
 summary {
-    font-size: 1rem;
-    padding: 1rem;
-    display: block;
-    color: white;
-    background-color: #3f3f3f;
-    padding-left: 2.2rem;
-    position: relative;
-    cursor: pointer;
+  font-size: 1rem;
+  padding: 1rem;
+  display: block;
+  color: white;
+  background-color: #3f3f3f;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
 }
 
 summary:before {
-    content: '';
-    border-width: .4rem;
-    border-style: solid;
-    border-color: transparent transparent transparent #fff;
-    position: absolute;
-    top: 1.4rem;
-    left: 1rem;
-    transform: rotate(0);
-    transform-origin: .2rem 50%;
-    transition: .25s transform ease;
+  content: "";
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.4rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: 0.2rem 50%;
+  transition: 0.25s transform ease;
 }
 
 figure {
-    margin: 2rem auto;
-    padding: 8px;
-    height: fit-content;
-    width: fit-content;
+  margin: 2rem auto;
+  padding: 8px;
+  height: fit-content;
+  width: fit-content;
 }
 
 figcaption {
-    font-style: italic;
-    font-size: 1.2rem;
+  font-style: italic;
+  font-size: 1.2rem;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 h1:first-of-type {
-    text-align: center;
-    border-bottom: 2px solid #ddd;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
 }
 
 h1,
@@ -161,23 +160,23 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Arimo, Helvetica, sans-serif;
-    padding: 1.2rem 0;
-    margin: 1rem 0 0 0;
+  font-family: Arimo, Helvetica, sans-serif;
+  padding: 1.2rem 0;
+  margin: 1rem 0 0 0;
 }
 
 h1 {
-    border-top: 1px solid #ddd;
-    margin-top: 4rem;
-    padding: 40px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 4rem;
+  padding: 40px 0;
 }
 
 hr {
-    background-color: #eee;
-    border: 0;
-    height: 1px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+  background-color: #eee;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 canvas,
@@ -186,90 +185,95 @@ video,
 svg,
 select,
 textarea {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 li {
-    margin: .8rem 0;
+  margin: 0.8rem 0;
 }
 
 ol,
 ul {
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 pre {
-    padding: .5rem;
-    line-height: 1.25;
-    overflow-x: scroll;
+  padding: 0.5rem;
+  line-height: 1.25;
+  overflow-x: scroll;
 }
 
 pre,
 code {
-    background-color: #fafafa;
-    font-family: Menlo, Monaco, 'Courier New', monospace;
+  background-color: #fafafa;
+  font-family: Menlo, Monaco, "Courier New", monospace;
 }
 
 table {
-    font-size: 1rem;
-    line-height: 1.5;
-    text-align: left;
-    box-sizing: border-box;
-    border-collapse: collapse;
-    margin: 40px 5%;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  margin: 40px 5%;
 }
 
 table thead th {
-    font-family: Arimo, Helvetica, sans-serif;
-    font-size: 1.1rem;
-    font-weight: 700;
-    line-height: 1.5;
-    background-color: #e0e0e0;
-    border-collapse: collapse;
-    box-sizing: border-box;
-    text-align: inherit;
-    padding: .75rem;
-    vertical-align: bottom;
+  font-family: Arimo, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  background-color: #e0e0e0;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  text-align: inherit;
+  padding: 0.75rem;
+  vertical-align: bottom;
 }
 
 table td {
-    font-family: Arimo, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    background-color: #f6f6f6;
-    text-align: left;
-    border-collapse: collapse;
-    box-sizing: border-box;
-    padding: .75rem;
-    vertical-align: top;
-    min-width: 5rem;
+  font-family: Arimo, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  background-color: #f6f6f6;
+  text-align: left;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  vertical-align: top;
+  min-width: 5rem;
 }
 
 tbody tr {
-    border-top: 2px solid #dee2e6;
+  border-top: 2px solid #dee2e6;
 }
 
 .attr {
-    font-size: 0.875rem;
-    margin-top: 1rem;
-    padding: 1rem;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  padding: 1rem;
 }
 
 .center {
-    text-align: center;
-    margin: auto 0;
+  text-align: center;
+  margin: auto 0;
+}
+
+.left {
+  text-align: left;
+  margin: auto 20px;
 }
 
 .demo {
-    color: #408080;
-    font-weight: 700;
-    margin-top: 2rem;
+  color: #408080;
+  font-weight: 700;
+  margin-top: 2rem;
 }
 
 .header {
-    color: #333333;
-    background-color: #E2E2E2;
-    font-size: 2.2rem;
-    font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+  background-color: #e2e2e2;
+  font-size: 2.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
