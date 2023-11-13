@@ -1,0 +1,7 @@
+There's perfectly good material in the case studies folder in my Ivy repo:
+
+ch9 = Forms
+ch11 = CSS hover menu?
+ch12 = CSS tabbed page/menu 
+
+Image demos has great images for that lesson
