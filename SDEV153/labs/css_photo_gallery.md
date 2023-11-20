@@ -19,6 +19,7 @@ We will create the following layout:
 - Create a new HTML file (index.html) and a CSS file (styles.css).
 - Give your HTML file the title “My Pretty Doggies”
 - Link the CSS file to the HTML file.
+- Create a subdirectory called images and place the provided images in the directory with the exception of the svg.
 
 ## HTML
 
