@@ -1,6 +1,6 @@
 ---
 layout: base
-title: SDEV 153 - Lab\: CSS Static Photo Gallery
+title: SDEV 153 Lab - CSS Static Photo Gallery
 ---
 
 # Lab: Creating a Static Photo Gallery
