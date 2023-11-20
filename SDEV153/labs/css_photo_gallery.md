@@ -9,7 +9,9 @@ title: SDEV 153 Lab - CSS Static Photo Gallery
 
 Create a photo gallery using CSS Grid, apply rounded corners to images, style the gallery using the HTML figure element, and use effective image placement.
 
-TODO: Example result image here...
+We will create the following layout:
+
+<img src="../images/my_pretty_doggies.png" >
 
 ## Setup
 
