@@ -8,3 +8,5 @@ title: Course Notes - SDEV 153
 [M02: Project Planning; Intro to CSS](m02.md)
 
 [M03: CSS Part II; Containers; The Box Model](m03.md)
+
+[M04: Images; Media Elements; Favicon; Reserved Characters; CSS Rounded Corners](m04.md)
