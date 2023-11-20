@@ -39,7 +39,8 @@ We will create the following layout:
 
 ### Figure Elements
 
-- In each figure element, include an img element with alt text, width, and height attributes.
+- In each figure element, include an img element with alt text attribute.
+  - We would normally include width and height attributes, but your professor did not do that in his solution so leave those out.
 - In each figure element, include a figcaption element with a caption for each image.
 
 ### SVG Element
