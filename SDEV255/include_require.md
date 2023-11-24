@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Course Notes - SDEV 255 - Include and Require
+title: "PHP - Include and Require"
 course: SDEV255
 ---
 
