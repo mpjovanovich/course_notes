@@ -1,18 +1,36 @@
----
-layout: base
+---layout: base
 title: Course Notes - SDEV 255 - Include and Require
 ---
 
-- [What do Include and Require do?](#what-do-include-and-require-do)
-- [Why Include and Require?](#why-include-and-require)
-- [Include](#include)
-- [Require](#require)
-- [Include_once](#include_once)
-- [Require_once](#require_once)
+- [Include and Require Statements](#include-and-require-statements)
+  - [Include](#include)
+    - [Example](#example)
+  - [Require](#require)
+  - [Include vs Require - Which to Use?](#include-vs-require---which-to-use)
+- [Include_once and Require_once Statements](#include_once-and-require_once-statements)
+  - [Example](#example-1)
+  - [Regular vs Once - Which to Use?](#regular-vs-once---which-to-use)
+- [Typical Uses](#typical-uses)
+  - [Repeated Front End HTML Components](#repeated-front-end-html-components)
+  - [Repeated Back End Components](#repeated-back-end-components)
+    - [Configuration Constants](#configuration-constants)
+    - [Functions](#functions)
+    - [Classes](#classes)
 
-# What do Include and Require do?
+# Include and Require Statements
 
-Drop in the contents of another file exactly where the include/require statement is:
+Used to drop in the contents of another file exactly where the include/require statement is.
+
+## Include
+
+- Drops in the included file and continues execution.
+- If the file is not found, a warning is issued and execution continues.
+
+```php
+include 'header.php';
+```
+
+### Example
 
 _header.php_
 
@@ -38,26 +56,119 @@ _output_
 <p>I'm some content</p>
 ```
 
-# Why Include and Require?
+## Require
 
-- Repeated components on multiple pages.
-  - Header
-  - Footer
-  - Navigation
-  - etc.
-- Repeated functionality on multiple pages.
-  - Form validation
+- Drops in the included file and continues execution.
+- If the file is not found, a fatal error is issued and execution stops.
+
+```php
+require 'header.php';
+```
+
+## Include vs Require - Which to Use?
+
+- Use include only if you have a reason to continue execution if the file is not found.
+- Otherwise, use require.
+
+# Include_once and Require_once Statements
+
+- Only includes the file once if is included multiple times.
+
+```php
+include_once 'header.php';
+```
+
+```php
+require_once 'header.php';
+```
+
+## Example
+
+_header.php_
+
+```php
+<?php
+<h1>I am the header</h1>
+?>
+```
+
+_index.php_
+
+```php
+<?php
+include_once 'header.php';
+include_once 'header.php';
+include_once 'header.php';
+?>
+<p>I'm some content</p>
+```
+
+_output_
+
+```html
+<h1>I am the header</h1>
+<p>I'm some content</p>
+```
+
+## Regular vs Once - Which to Use?
+
+- Slower than include and require, but only on a scale of milliseconds.
+- Prefer these versions unless you have a reason not to.
+
+# Typical Uses
+
+## Repeated Front End HTML Components
+
+- Header
+- Footer
+- Navigation
+- etc.
+
+## Repeated Back End Components
+
+### Configuration Constants
+
+- File paths
+
+```php
+define('BASE_PATH', '/path/to/project/');
+define('INCLUDES_PATH', BASE_PATH . 'includes/');
+```
+
+- Database connection information
+
+```php
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', 'password');
+define('DB_NAME', 'database');
+```
+
+- Debugging information
+
+```php
+define('DEBUG', true);
+```
+
+- Application settings
+
+```php
+define('APP_NAME', 'My Application');
+```
+
+### Functions
+
+- Utility functions
+  - Date formatting
+  - String manipulation
+  - Sanatization
+
+### Classes
+
+- Business logic classes
+  - User
+  - Product
+- Utility classes
   - Database connection
-  - etc.
-- Repeated code on multiple pages.
-  - Functions
-  - Classes
-  - etc.
-
-# Include
-
-# Require
-
-# Include_once
-
-# Require_once
+  - File upload
+  - Email
