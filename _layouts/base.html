@@ -34,11 +34,10 @@
     site.github.build_revision | relative_url }}"> <link rel="stylesheet"
     href="{{ "/assets/css/highlight.css?v=" | append: site.github.build_revision
     | relative_url }}">
-    <!-- You can set your favicon here -->
-    <!-- link rel="shortcut icon" type="image/x-icon" href="/course_notes/favicon.ico" -->
   </head>
   <body>
     <main>
+      <a href="{{ site.baseurl }}/course_notes/{{page.course}}">Course Home</a>
       <h1>{{ page.title }}</h1>
       {{ content }}
     </main>
