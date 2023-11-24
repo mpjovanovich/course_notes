@@ -4,6 +4,7 @@ title: Course Notes - SDEV 255 - HTTP Status Codes
 ---
 
 - [HTTP Status Codes](#http-status-codes)
+  - [Common Status Codes for PHP:](#common-status-codes-for-php)
   - [Viewing in Developer Tools](#viewing-in-developer-tools)
 - [How the PHP Interpreter Handles HTTP Status Codes](#how-the-php-interpreter-handles-http-status-codes)
   - [PHP http_response_code() Function](#php-http_response_code-function)
@@ -14,14 +15,9 @@ title: Course Notes - SDEV 255 - HTTP Status Codes
 - Sent by the server to the client in the response header.
 - Used to indicate the status of a request.
 - Default status code is 200 (OK).
+- See [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
-- 1xx: Informational
-- 2xx: Success
-- 3xx: Redirection
-- 4xx: Client Error
-- 5xx: Server Error
-
-Common codes for PHP:
+## Common Status Codes for PHP:
 
 | Code | Description           |
 | ---- | --------------------- |
@@ -33,8 +29,6 @@ Common codes for PHP:
 | 403  | Forbidden             |
 | 404  | Not Found             |
 | 500  | Internal Server Error |
-
-See [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
 ## Viewing in Developer Tools
 

@@ -13,7 +13,9 @@ title: Course Notes - SDEV 255
 
 [PHP: Include and Require](include_require.md)
 
-[PHP: HTTP Headers and Status Codes](http_headers.md)
+[PHP: HTTP Headers](http_headers.md)
+
+[PHP: HTTP Status Codes](http_status_codes.md)
 
 [PHP: Error Handling](error_handling.md)
 
