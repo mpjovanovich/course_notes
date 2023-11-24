@@ -26,3 +26,5 @@ title: Course Notes - SDEV 255
 [HTTP Status Codes](http_headers.md)
 
 [Include and Require](include_require.md)
+
+Ternary If
