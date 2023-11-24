@@ -3,6 +3,13 @@ layout: base
 title: Course Notes - SDEV 255 - Include and Require
 ---
 
+- [What do Include and Require do?](#what-do-include-and-require-do)
+- [Why Include and Require?](#why-include-and-require)
+- [Include](#include)
+- [Require](#require)
+- [Include_once](#include_once)
+- [Require_once](#require_once)
+
 # What do Include and Require do?
 
 Drop in the contents of another file exactly where the include/require statement is:
