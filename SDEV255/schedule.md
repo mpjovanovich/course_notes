@@ -6,8 +6,6 @@ course: SDEV255
 
 # Lecture Schedule
 
-...
-
 ## Module 04
 
 ### Day 1
@@ -23,3 +21,7 @@ course: SDEV255
 [PHP: Ternary If and Null Coalescing Operators](ternary_if_null_coalescing_operators.md)
 
 ### Day 2
+
+PHP: Super Globals
+
+PHP: Using GET
