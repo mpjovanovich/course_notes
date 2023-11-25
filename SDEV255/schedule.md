@@ -20,4 +20,6 @@ course: SDEV255
 
 [PHP: Exceptions](exceptions.md)
 
+[PHP: Ternary If and Null Coalescing Operators](ternary_if_null_coalescing_operators.md)
+
 ### Day 2
