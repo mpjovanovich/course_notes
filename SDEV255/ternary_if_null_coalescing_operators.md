@@ -43,6 +43,7 @@ echo $even; // false
 ```
 
 ```php
+// Skip the variable assignment and just echo the result
 $x = 5;
 echo (x % 2 == 0) ? 'true' : 'false'; // false
 ```
