@@ -18,6 +18,7 @@ course: SDEV255
     - [Configuration Constants](#configuration-constants)
     - [Functions](#functions)
     - [Classes](#classes)
+- [PHP Project Structure](#php-project-structure)
 
 # Include and Require Statements
 
@@ -134,6 +135,7 @@ _output_
 
 ```php
 define('BASE_PATH', '/path/to/project/');
+define('APPLICATION_PATH', BASE_PATH . 'public/');
 define('INCLUDES_PATH', BASE_PATH . 'includes/');
 ```
 
@@ -174,3 +176,25 @@ define('APP_NAME', 'My Application');
   - Database connection
   - File upload
   - Email
+
+# PHP Project Structure
+
+Project structure is a matter of preference, but here is a common structure. This is a simplified version of the structure used in the [PHP Project Template](
+
+- root
+  - includes
+    - config.php
+    - functions.php
+    - classes.php
+  - public
+    - index.php
+    - about.php
+    - contact.php
+  - templates
+    - header.php
+    - footer.php
+    - nav.php
+  - assets
+    - css
+    - js
+    - images
