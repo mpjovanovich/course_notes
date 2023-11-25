@@ -28,4 +28,4 @@ course: SDEV255
 
 [Include and Require](include_require.md)
 
-Ternary If
+Ternary If and Null Coalescing Operators
