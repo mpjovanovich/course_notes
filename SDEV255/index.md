@@ -24,7 +24,7 @@ course: SDEV255
 
 [HTTP Headers](http_headers.md)
 
-[HTTP Status Codes](http_headers.md)
+[HTTP Status Codes](http_status_codes.md)
 
 [Include and Require](include_require.md)
 

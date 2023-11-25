@@ -153,12 +153,6 @@ img {
   object-fit: contain;
 }
 
-/* Hack to make Jekyll title look like a heading */
-h1:first-of-type {
-  text-align: center;
-  border-bottom: 2px solid #ddd;
-}
-
 h1,
 h2,
 h3,
@@ -174,6 +168,11 @@ h1 {
   border-top: 1px solid #ddd;
   margin-top: 4rem;
   padding: 40px 0;
+}
+
+h1.page-title {
+  text-align: center;
+  border-bottom: 2px solid #ddd;
 }
 
 hr {
@@ -201,11 +200,6 @@ ol,
 ul {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-ul:first-of-type {
-  line-height: 1;
-  font-weight: bold;
 }
 
 pre {
@@ -286,4 +280,9 @@ tbody tr {
   background-color: #e2e2e2;
   font-size: 2.2rem;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.page-title + ul {
+  line-height: 1;
+  font-weight: bold;
 }

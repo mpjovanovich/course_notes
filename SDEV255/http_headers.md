@@ -1,6 +1,7 @@
 ---
 layout: base
-title: Course Notes - SDEV 255 - HTTP Headers
+title: PHP - HTTP Headers
+course: SDEV255
 ---
 
 - [HTTP Headers](#http-headers)

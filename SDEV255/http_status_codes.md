@@ -1,6 +1,7 @@
 ---
 layout: base
-title: Course Notes - SDEV 255 - HTTP Status Codes
+title: PHP - HTTP Status Codes
+course: SDEV255
 ---
 
 - [HTTP Status Codes](#http-status-codes)

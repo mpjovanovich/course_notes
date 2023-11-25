@@ -18,6 +18,6 @@ course: SDEV255
 
 [PHP: HTTP Status Codes](http_status_codes.md)
 
-[PHP: Error Handling](error_handling.md)
+[PHP: Exceptions](exceptions.md)
 
 ### Day 2
