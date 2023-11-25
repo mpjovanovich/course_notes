@@ -205,7 +205,7 @@ ul {
 
 pre {
   padding: 0.5rem;
-  line-height: 1.25;
+  line-height: 1.5;
   overflow-x: scroll;
 }
 
@@ -213,6 +213,8 @@ pre,
 code {
   background-color: #fafafa;
   font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 table {
