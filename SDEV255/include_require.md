@@ -38,9 +38,7 @@ include 'header.php';
 _header.php_
 
 ```php
-<?php
 <h1>I am the header</h1>
-?>
 ```
 
 _index.php_
