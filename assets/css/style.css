@@ -30,6 +30,7 @@ body {
 }
 
 a {
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -284,5 +285,4 @@ tbody tr {
 
 .page-title + ul {
   line-height: 1;
-  font-weight: bold;
 }
