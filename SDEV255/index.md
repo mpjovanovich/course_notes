@@ -20,7 +20,7 @@ course: SDEV255
 
 ## PHP
 
-[Error Handling](error_handling.md)
+[Exception Handling](exception_handling.md)
 
 [HTTP Headers](http_headers.md)
 
