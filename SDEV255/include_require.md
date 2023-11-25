@@ -15,7 +15,7 @@ course: SDEV255
 - [Typical Uses](#typical-uses)
   - [Repeated Front End HTML Components](#repeated-front-end-html-components)
   - [Repeated Back End Components](#repeated-back-end-components)
-    - [Configuration Constants](#configuration-constants)
+    - [Configuring Global Constants](#configuring-global-constants)
     - [Functions](#functions)
     - [Classes](#classes)
 - [PHP Project Structure](#php-project-structure)
@@ -129,12 +129,12 @@ _output_
 
 ## Repeated Back End Components
 
-### Configuration Constants
+### Configuring Global Constants
 
 - File paths
 
 ```php
-define('BASE_PATH', '/path/to/project/');
+define('BASE_PATH', $_SERVER['DOCUMENT_ROOT'] . '/path/to/application/')
 define('APPLICATION_PATH', BASE_PATH . 'public/');
 define('INCLUDES_PATH', BASE_PATH . 'includes/');
 ```
@@ -182,8 +182,8 @@ define('APP_NAME', 'My Application');
 Project structure is a matter of preference, but here is a common structure. This is a simplified version of the structure used in the [PHP Project Template](
 
 - root
+  - config.php
   - includes
-    - config.php
     - functions.php
     - classes.php
   - public
