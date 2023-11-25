@@ -1,6 +1,7 @@
 ---
 layout: base
-title: Course Notes - SDEV 255
+title: Schedule
+course: SDEV255
 ---
 
 # Lecture Schedule
