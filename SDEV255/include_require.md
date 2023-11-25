@@ -134,9 +134,8 @@ _output_
 - File paths
 
 ```php
-define('BASE_PATH', $_SERVER['DOCUMENT_ROOT'] . '/path/to/application/')
-define('APPLICATION_PATH', BASE_PATH . 'public/');
-define('INCLUDES_PATH', BASE_PATH . 'includes/');
+define('SITE_ROOT', __DIR__);
+define('INCLUDES_PATH', SITE_ROOT . 'includes/');
 ```
 
 - Database connection information
@@ -144,8 +143,6 @@ define('INCLUDES_PATH', BASE_PATH . 'includes/');
 ```php
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
-define('DB_PASS', 'password');
-define('DB_NAME', 'database');
 ```
 
 - Debugging information
