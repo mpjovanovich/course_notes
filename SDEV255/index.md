@@ -10,6 +10,14 @@ course: SDEV255
 
 # TOC
 
+- [Announcements](#announcements)
+- [TOC](#toc)
+- [Old Lecture Schedule](#old-lecture-schedule)
+- [New Lecture Schedule](#new-lecture-schedule)
+  - [Module 04](#module-04)
+    - [Day 1](#day-1)
+    - [Day 2](#day-2)
+
 # Old Lecture Schedule
 
 [M02: JS Part II: form validation; event listeners; objects, properties, and methods; JSON; AJAX](m02.md)
