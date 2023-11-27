@@ -20,4 +20,6 @@ course: SDEV153
 
 [CSS: Functions and Properties](css_functions.md)
 
+[CSS: Print Media](css_print_media.md)
+
 [CSS: Using Multiple Stylesheets](css_multiple_stylesheets.md)

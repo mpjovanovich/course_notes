@@ -4,57 +4,60 @@ title: CSS Size Units
 course: SDEV153
 ---
 
+- [CSS Size Units](#css-size-units)
+  - [Screen Units Summary](#screen-units-summary)
+  - [Absolute Units](#absolute-units)
+    - [Screen Media](#screen-media)
+  - [Relative Units](#relative-units)
+    - [Fonts and Typography](#fonts-and-typography)
+    - [Containers](#containers)
+
 # CSS Size Units
 
-## Summary
+## Screen Units Summary
 
-| Unit | Abs/Rel  | Description                                    | Example            |
-| ---- | -------- | ---------------------------------------------- | ------------------ |
-| px   | Absolute | Pixels                                         | `font-size: 16px;` |
-| em   | Relative | Relative to the font size of the element       | `font-size: 2em;`  |
-| rem  | Relative | Relative to the font size of the root element  | `font-size: 2rem;` |
-| %    | Relative | Relative to the parent element                 | `width: 50%;`      |
-| vw   | Relative | Relative to 1% of the width of the viewport    | `width: 50vw;`     |
-| vh   | Relative | Relative to 1% of the height of the viewport   | `height: 50vh;`    |
-| vmin | Relative | Relative to 1% of viewport's smaller dimension | `width: 50vmin;`   |
-| vmax | Relative | Relative to 1% of viewport's larger dimension  | `width: 50vmax;`   |
+| `Unit` | Description                                            | Use Case                               | Example                           |
+| ------ | ------------------------------------------------------ | -------------------------------------- | --------------------------------- |
+| `px`   | Absolute pixels on screen.                             | Fixed-sized elements.                  | `font-size: 16px;`                |
+| `%`    | 1% of parent element size.                             | Size relative to parent.               | `width: 50%;`                     |
+| `em`   | Font size of element or parent.                        | Size relative to parent.               | `font-size: 2em;`                 |
+| `rem`  | Font size of root element.                             | Size relative to root.                 | `font-size: 2rem;`                |
+| `ch`   | Width of the "0" character in the element's font.      | Size to line length / character count. | `width: 50ch;`                    |
+| `vw`   | 1% of viewport width.                                  | Size relative to container.            | `width: 50vw;`                    |
+| `vh`   | 1% of viewport height.                                 | Size relative to container.            | `height: 50vh;`                   |
+| `vmin` | 1% of smaller dimension (height or width) of viewport. | Size relative to container.            | `width: 50vmin;`                  |
+| `vmax` | 1% of larger dimension (height or width) of viewport.  | Size relative to container.            | `width: 50vmax;`                  |
+| `fr`   | Fraction of available space in a grid container.       | Size CSS grid rows/columns.            | `grid-template-columns: 1fr 1fr;` |
 
 ## Absolute Units
 
+### Screen Media
+
+- **1pt** = 1/72in.
+  - Used in print media.
+- **1px** = 1/96in.
+  - Used in screen media.
+
 ## Relative Units
 
-## Print and Non-screen Media
+- Sized as a proportion of something else.
+- Useful for responsive design.
 
-### Print Media
+### Fonts and Typography
 
-- CSS can be used to style the printed version of a web page.
-- This is done by using the `@media print` rule.
-- Might be used to:
-  - Change layout (make it simple).
-  - Change the font size.
-  - Change colors.
-  - Add page breaks.
-  - Add page numbers.
-  - Add date, URL, access information.
-- Units may be specified in:
-  - points (`pt`),
-  - picas (`pc`)
-  - inches (`in`)
-  - centimeters (`cm`)
-  - millimeters (`mm`)
+- **1em** = 1x font size of parent element.
+- **1rem** = 1x font size of root element.
+  - Default is 16px in browsers.
+- **line-height** = space between lines of text.
+  - Optimal line height is 1.2–1.5em.
+  - Leave at unitless value to scale with font size; e.g. `line-height: 1.5;` = 1.5x font size.
 
-```css
-@media print {
-  body {
-    font-size: 12pt;
-  }
-}
-```
+### Containers
 
-A separate stylesheet may be used for print media:
+- **Viewport** units = refer to visible area of browser window.
+- **ch** = character advance; width of "0" character in element's font.
+  - Optimal line length for body text is 50–75ch.
 
-```html
-<link rel="stylesheet" href="print.css" media="print" />
-```
+<p class="demo">Demos:</p>
 
-### Other Non-screen Media
+[Responsive Typography](https://codepen.io/Mike-Jovanovich/pen/wvNxarX)
