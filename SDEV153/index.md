@@ -1,9 +1,14 @@
 ---
 layout: base
-title: Course Notes - SDEV 153
+title: Home
+course: SDEV255
 ---
 
-### Lecture Notes
+# Lecture Schedule
+
+[Lecture Topics by Schedule](schedule.md)
+
+# Old Module Schedule
 
 [M02: Project Planning; Intro to CSS](m02.md)
 
@@ -11,4 +16,12 @@ title: Course Notes - SDEV 153
 
 [M04: Images; Media Elements; Favicon; Reserved Characters; CSS Rounded Corners](m04.md)
 
-[M05: ...](m05.md)
+# Topic Pages
+
+## CSS
+
+[CSS: Functions and Properties](css_functions.md)
+
+[CSS: Size Units](css_size_units.md)
+
+[CSS: Using Multiple Stylesheets](css_multiple_stylesheets.md)
