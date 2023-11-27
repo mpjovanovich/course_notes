@@ -27,6 +27,7 @@ course: SDEV153
 | `vh`   | 1% of viewport height.                                 | Size relative to container.            | `height: 50vh;`                   |
 | `vmin` | 1% of smaller dimension (height or width) of viewport. | Size relative to container.            | `width: 50vmin;`                  |
 | `vmax` | 1% of larger dimension (height or width) of viewport.  | Size relative to container.            | `width: 50vmax;`                  |
+| `flex` | Growth shrink factor for item in a flex container.     | Size flex items.                       | `flex: 2;`                        |
 | `fr`   | Fraction of available space in a grid container.       | Size CSS grid rows/columns.            | `grid-template-columns: 1fr 1fr;` |
 
 ## Absolute Units
