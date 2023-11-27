@@ -20,7 +20,9 @@ course: SDEV255
 
 ## CSS
 
-[CSS: Functions and Properties](css_functions.md)
+[CSS: Functions and Properties](css_functions_properties.md)
+
+[CSS: Print Media](css_print_media.md)
 
 [CSS: Size Units](css_size_units.md)
 

@@ -11,6 +11,7 @@ course: SDEV153
   - [Relative Units](#relative-units)
     - [Fonts and Typography](#fonts-and-typography)
     - [Containers](#containers)
+  - [Demos](#demos)
 
 # CSS Size Units
 
@@ -59,6 +60,6 @@ course: SDEV153
 - **ch** = character advance; width of "0" character in element's font.
   - Optimal line length for body text is 50–75ch.
 
-<p class="demo">Demos:</p>
+## Demos
 
 [Responsive Typography](https://codepen.io/Mike-Jovanovich/pen/wvNxarX)

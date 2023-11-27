@@ -18,8 +18,8 @@ course: SDEV153
 
 [CSS: Size Units](css_size_units.md)
 
-[CSS: Functions and Properties](css_functions.md)
-
 [CSS: Print Media](css_print_media.md)
 
 [CSS: Using Multiple Stylesheets](css_multiple_stylesheets.md)
+
+[CSS: Functions and Properties](css_functions_properties.md)
