@@ -45,6 +45,8 @@ course: SDEV255
 
 HTML Forms
 
+[HTML Forms](html_forms.md)
+
 [PHP: Super Global Arrays](php_superglobal_arrays.md)
 
 [PHP: Using GET](php_GET.md)
