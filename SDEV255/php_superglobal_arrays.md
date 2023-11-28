@@ -119,12 +119,17 @@ function pretty_dump(mixed $var, string $name = ''): void
     echo '<pre style="
         background-color:#f5f5f5;
         color:#333;
+		line-height:1.2;
+        font-size:14px;
         padding:10px;
         margin:10px;
         border-radius:5px;
         border:1px solid #ddd;
-        line-height:1.2;
-        font-size:14px;
+        min-width:600px;
+		max-width:960px;
+		width:fit-content;
+		overflow:auto;
+		box-sizing:border-box;
     ">';
     if ($name) {
         echo "Name: <strong>$name</strong><br >";
