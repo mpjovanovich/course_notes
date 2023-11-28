@@ -43,8 +43,6 @@ course: SDEV255
 
 ### Day 2
 
-HTML Forms
-
 [HTML Forms](html_forms.md)
 
 [PHP: Super Global Arrays](php_superglobal_arrays.md)
