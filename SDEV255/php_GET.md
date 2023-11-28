@@ -15,7 +15,7 @@ course: SDEV255
   - [GET Examples](#get-examples)
     - [Self-linking Page](#self-linking-page)
     - [Maintaining State](#maintaining-state)
-    - [Calculator:](#calculator)
+    - [Calculator Program](#calculator-program)
   - [Passing an Array via GET](#passing-an-array-via-get)
 
 # GET
@@ -155,7 +155,7 @@ $remembered = $_GET['remembered'] ?? '';
 </form>
 ```
 
-### Calculator:
+### Calculator Program
 
 ```php
 <?php
