@@ -119,17 +119,25 @@ function pretty_dump(mixed $var, string $name = ''): void
     echo '<pre style="
         background-color:#f5f5f5;
         color:#333;
-        padding:20px;
+        padding:10px;
         margin:10px;
         border-radius:5px;
         border:1px solid #ddd;
-        line-height:1.4;
+        line-height:1.2;
         font-size:14px;
     ">';
     if ($name) {
-        echo "<strong>$name</strong><br >";
+        echo "Name: <strong>$name</strong><br >";
     }
-    print_r($var, false);
+    echo "Type: <strong>" . gettype($var) . "</strong><br >";
+    echo ".................................<br >";
+    if (is_array($var)) {
+        foreach ($var as $k => $v) {
+            echo str_pad($k, 30) . ' => ' . $v . "\n";
+        }
+    } else {
+        print_r($var);
+    }
     echo '</pre>';
     echo '<br >';
 }

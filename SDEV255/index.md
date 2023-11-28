@@ -49,7 +49,7 @@ PHP: Super Globals
 
 PHP: Using GET
 
-PHP: Escaping Output
+PHP: Form Validation
 
 ## Random TBD
 
