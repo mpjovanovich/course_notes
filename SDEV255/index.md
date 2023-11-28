@@ -6,7 +6,7 @@ course: SDEV255
 
 # Announcements
 
-...
+![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
 # TOC
 
@@ -45,13 +45,13 @@ course: SDEV255
 
 HTML Forms
 
-PHP: Super Globals
+[PHP: Super Global Arrays](php_superglobal_arrays.md)
 
-PHP: Using GET
+[PHP: Using GET](php_GET.md)
 
-PHP: Input Validation
+[PHP: Input Validation](php_input_validation.md)
 
-PHP: Input Sanitization
+[PHP: Input Sanitization](php_input_sanitization.md)
 
 ## Random TBD
 
