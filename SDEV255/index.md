@@ -17,6 +17,8 @@ course: SDEV255
   - [Module 04](#module-04)
     - [Day 1](#day-1)
     - [Day 2](#day-2)
+  - [Module 05](#module-05)
+    - [Day 1](#day-1-1)
   - [Random TBD](#random-tbd)
 
 # Old Lecture Schedule
@@ -50,6 +52,10 @@ course: SDEV255
 [PHP: Using GET](php_GET.md)
 
 [PHP: Input Validation](php_input_validation.md)
+
+## Module 05
+
+### Day 1
 
 [PHP: Input Sanitization](php_input_sanitization.md)
 

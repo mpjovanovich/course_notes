@@ -16,6 +16,7 @@ course: SDEV255
     - [Self-linking Page](#self-linking-page)
     - [Maintaining State](#maintaining-state)
     - [Calculator:](#calculator)
+  - [Passing an Array via GET](#passing-an-array-via-get)
 
 # GET
 
@@ -224,5 +225,29 @@ if ($errorMessage) {
     <label for="second">Second Number:</label>
     <input type="text" name="second" id="second" value="<?= $second ?>" /><br />
     <input type="submit" name="calculate" value="Calculate" />
+</form>
+```
+
+## Passing an Array via GET
+
+- Arrays can be passed via GET by using the `[]` notation in the name attribute.
+- In the example below, the `$_GET['stuff']` array will contain the values of any checked boxes.
+
+```php
+<?php
+$stuff = $_GET['stuff'] ?? [];
+print_r($stuff);
+?>
+```
+
+```html
+<form action="" method="GET">
+  <label><input type="checkbox" name="stuff[]" value="item1" />Item 1</label
+  ><br />
+  <label><input type="checkbox" name="stuff[]" value="item2" />Item 2</label
+  ><br />
+  <label><input type="checkbox" name="stuff[]" value="item3" />Item 3</label
+  ><br />
+  <input type="submit" value="Submit" />
 </form>
 ```
