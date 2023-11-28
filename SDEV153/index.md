@@ -16,6 +16,7 @@ course: SDEV255
 - [New Lecture Schedule](#new-lecture-schedule)
   - [Module 05](#module-05)
     - [Day 1](#day-1)
+    - [Day 2](#day-2)
 
 # Old Lecture Schedule
 
@@ -38,3 +39,9 @@ course: SDEV255
 [CSS: Using Multiple Stylesheets](css_multiple_stylesheets.md)
 
 [CSS: Functions and Properties](css_functions_properties.md)
+
+### Day 2
+
+[CSS Responsive Design](css_responsive_design.md)
+
+[Mobile First Design](mobile_first_design.md)

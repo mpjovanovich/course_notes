@@ -7,9 +7,11 @@ course: SDEV153
 - [Responsive Design](#responsive-design)
   - [Key Concepts of Responsive Design](#key-concepts-of-responsive-design)
     - [Fluid Grids](#fluid-grids)
+      - [A Responsive Grid Demo](#a-responsive-grid-demo)
     - [Fluid Media](#fluid-media)
       - [max-width](#max-width)
       - [srcset](#srcset)
+      - [A Responsive Media Demo](#a-responsive-media-demo)
     - [Media Queries](#media-queries)
   - [Media Queries](#media-queries-1)
     - [The Viewport](#the-viewport)
@@ -18,6 +20,7 @@ course: SDEV153
       - [Breakpoints](#breakpoints)
     - [Orientation](#orientation)
     - [Combining Media Queries](#combining-media-queries)
+    - [A Media-Query Based Responsive Layout Demo](#a-media-query-based-responsive-layout-demo)
   - [Testing Responsive Design](#testing-responsive-design)
 
 # Responsive Design
@@ -32,7 +35,9 @@ course: SDEV153
 - 12-column grid is a common layout.
   - "960 Grid System" is a popular grid system that uses 960px as the total width of the grid.
 
-... TODO: demo ...
+#### A Responsive Grid Demo
+
+TODO: responsivegrid demo
 
 ### Fluid Media
 
@@ -54,8 +59,6 @@ img {
 }
 ```
 
-... TODO: demo ...
-
 #### srcset
 
 - The `srcset` attribute is used to provide multiple image sources for different screen sizes.
@@ -70,7 +73,9 @@ img {
 />
 ```
 
-... TODO: demo ...
+#### A Responsive Media Demo
+
+TODO: responsive media demo
 
 ### Media Queries
 
@@ -192,6 +197,10 @@ Feature:
    */
 }
 ```
+
+### A Media-Query Based Responsive Layout Demo
+
+TODO: DEMO
 
 ## Testing Responsive Design
 
