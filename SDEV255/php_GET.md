@@ -13,6 +13,7 @@ course: SDEV255
     - [Missing Parameters](#missing-parameters)
     - [Patterns for Checking Parameter Set](#patterns-for-checking-parameter-set)
   - [GET Examples](#get-examples)
+    - [Self-linking Page](#self-linking-page)
     - [Maintaining State](#maintaining-state)
     - [Calculator:](#calculator)
 
@@ -109,6 +110,34 @@ $age = $_GET['age'] ?? '';
 ## GET Examples
 
 In these examples we use `$_SERVER['PHP_SELF']` to set the form action to the current page.
+
+### Self-linking Page
+
+We can include anchor tags in the page that link to the page itself.
+
+```php
+<?php
+// Check if the color parameter is set in the query string
+if (isset($_GET['color'])) {
+    $color = $_GET['color'];
+    echo '<style>body { background-color: ' . $color . '; }</style>';
+}
+?>
+<!-- Some basic styles -->
+<style>
+    a {
+        padding: 10px 20px;
+        margin: 10px;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+</style>
+<!-- The links -->
+<a href="?color=red" style="background-color: red;">Red</a>
+<a href="?color=green" style="background-color: green;">Green</a>
+<a href="?color=blue" style="background-color: blue;">Blue</a>
+```
 
 ### Maintaining State
 
