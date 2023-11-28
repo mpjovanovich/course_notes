@@ -49,7 +49,9 @@ PHP: Super Globals
 
 PHP: Using GET
 
-PHP: Form Validation
+PHP: Input Validation
+
+PHP: Input Sanitization
 
 ## Random TBD
 
