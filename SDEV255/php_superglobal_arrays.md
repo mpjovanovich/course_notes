@@ -12,10 +12,19 @@ course: SDEV255
   - [Avoid](#avoid)
     - [REQUEST](#request)
     - [GLOBALS](#globals)
+  - [Friendly Output for Debugging](#friendly-output-for-debugging)
 
 # PHP: Super Global Arrays
 
 PHP provides a number of **superglobal arrays** that are available in all scopes throughout a script.
+
+They are used just like any other associative array.
+
+```php
+<?php
+echo $_SERVER['HTTP_HOST'];
+?>
+```
 
 We will address many of these as their own topics. This topic will summarize the rest.
 
@@ -95,3 +104,36 @@ _Unless you have a good reason to use them._
 
 - Contains a reference to every variable which is currently available within the global scope of the script.
 - Avoid using `$GLOBALS`; we should know where our data is coming from.
+
+## Friendly Output for Debugging
+
+- Functions like `print_r()`, `var_export()` and `var_dump()` are great for debugging.
+- It can be helpful to wrap them in a function cleans up the output:
+- You can put this in a `functions.php` file and include it in your scripts.
+
+```php
+<?php
+function pretty_dump(mixed $var, string $name = ''): void
+{
+    // Style CSS to your liking
+    echo '<pre style="
+        background-color:#f5f5f5;
+        color:#333;
+        padding:20px;
+        margin:10px;
+        border-radius:5px;
+        border:1px solid #ddd;
+        line-height:1.4;
+        font-size:14px;
+    ">';
+    if ($name) {
+        echo "<strong>$name</strong><br >";
+    }
+    print_r($var, false);
+    echo '</pre>';
+    echo '<br >';
+}
+
+// Usage:
+pretty_dump($_SERVER, '$_SERVER');
+```
