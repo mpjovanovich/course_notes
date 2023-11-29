@@ -6,10 +6,24 @@ course: SDEV 140
 
 # Announcements
 
-- Intro Course Notebook / Portfolio assignment
+<figure>
+    <span>
+        <img src="https://medievalists.gumlet.io/wp-content/uploads/2010/12/holy-grail.jpg" style="width: 80%;">
+    </span>
+</figure>
+
+- Course notebook / portfolio assignment
 - Final practical format:
-  - Write program outside of class.
+  - Assignment will open by 12/8 midnight
+  - Write program based on description
+    - You must work individually.
+    - You may use any resources, but not plagiarize.
+      - No code from the internet.
+      - No code from other students.
+      - No code from an AI.
   - One on one's during final class session.
+    - Explain your code.
+    - Explain some code that I provide.
 
 # TOC
 
