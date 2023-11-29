@@ -6,7 +6,13 @@ course: SDEV255
 
 # Announcements
 
-...
+<figure>
+    <span>
+        <img src="https://i.kym-cdn.com/entries/icons/original/000/000/554/picard-facepalm.jpg" style="width: 50%">
+    </span>
+</figure>
+
+- Prof needs to review proposals this weekend... but assume they're approved
 
 # TOC
 
