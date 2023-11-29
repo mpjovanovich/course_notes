@@ -44,4 +44,6 @@ course: SDEV255
 
 [CSS Responsive Design](css_responsive_design.md)
 
-[Mobile First Design](mobile_first_design.md)
+Mobile First Design
+
+<!-- [Mobile First Design](mobile_first_design.md) -->
