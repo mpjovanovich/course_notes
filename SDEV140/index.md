@@ -14,3 +14,5 @@ title: Course Notes - SDEV 140
 [Module 05: M05 - GUI Development; Event Driven Programming; Exception Handling; Input Validation](m05.md)
 
 [Dictionaries](dictionary.md)
+
+[Multidimensional Arrays](multidimensional_arrays.md)
