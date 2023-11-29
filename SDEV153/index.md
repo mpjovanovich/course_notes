@@ -12,7 +12,11 @@ course: SDEV255
     </span>
 </figure>
 
-- Prof needs to review proposals this weekend... but assume they're approved
+- November 29:
+  - Prof needs to review proposals this weekend... but assume they're approved
+- December 4:
+  - Review prototype assignment
+  - How to host GitHub Pages site.
 
 # TOC
 
