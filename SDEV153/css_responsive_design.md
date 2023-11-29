@@ -33,11 +33,21 @@ course: SDEV153
 
 - A **fluid grid** is a grid system that uses relative units to define column widths.
 - 12-column grid is a common layout.
-  - "960 Grid System" is a popular grid system that uses 960px as the total width of the grid.
+  - [The 960 Grid System Made Easy](https://www.webfx.com/blog/web-design/the-960-grid-system-made-easy/)
+  - We don't have to use their framework since we're pro devs now 😎
 
 #### A Responsive Grid Demo
 
-TODO: responsivegrid demo
+<p class="demo">Exercise:</p>
+
+Pick apart the rules here...
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="abXaBrd" data-user="Mike-Jovanovich" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/Mike-Jovanovich/pen/abXaBrd">
+  Responsive Grid - News Page</a> by Mike Jovanovich (<a href="https://codepen.io/Mike-Jovanovich">@Mike-Jovanovich</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Fluid Media
 
@@ -143,20 +153,6 @@ body {
   - 768px - tablets
   - 1024px - laptops
   - 1200px - desktops
-- Can be specified using media queries, and optionally CSS properties.
-
-```css
-:root {
-  --breakpoint-sm: 320px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 1024px;
-  --breakpoint-xl: 1200px;
-}
-
-@media screen and (max-width: var(--breakpoint-sm)) {
-  /* Styles for viewports smaller than 320 pixels. */
-}
-```
 
 ### Orientation
 
