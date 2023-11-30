@@ -7,6 +7,8 @@ course: SDEV255
 - [Input Validation](#input-validation)
   - [Checking Values](#checking-values)
     - [Presence Checks](#presence-checks)
+      - [Truthy and Falsy](#truthy-and-falsy)
+      - [Built in Functions](#built-in-functions)
       - [Comparison of Functions](#comparison-of-functions)
     - [Data Type Checks](#data-type-checks)
     - [Value Checks](#value-checks)
@@ -17,6 +19,23 @@ course: SDEV255
 ## Checking Values
 
 ### Presence Checks
+
+#### Truthy and Falsy
+
+- When put into an if statement, variables are cast to boolean.
+- This concept is called "truthy" and "falsy".
+
+```php
+<?php
+$var = '';
+if ($var) {
+    echo 'true';
+} else {
+    echo 'false';
+}
+```
+
+#### Built in Functions
 
 | Function             | Returns true if                   |
 | -------------------- | --------------------------------- |
@@ -33,20 +52,28 @@ if (isset($_GET['name'])) {
 
 #### Comparison of Functions
 
+<!--
+don't put this in here... too advanced for this class, it will just add confusion.
 ```php
 <?php
 // Check each of these variables...
 $vars = [
-    "''" =>         '',
-    'null' =>       null,
-    '[]' =>         [],
-    'FALSE' =>      FALSE,
-    "'0'" =>        '0',
-    '0' =>          0,
+    'false' =      false,
+	'true' =>      true,
+	'null' =>      null,
+    "''" =>        '',
+	"'abc'" =>     'abc',
+	"'0'" =>       '0',
+	"'1'" =>       '0',
+    '0' =>         0,
+	'1' =>         1,
+    '[]' =>        [],
+	'[1,2,3]' =>   [],
 ];
 
 // Against each of these functions...
 $testCases = [
+	'truthy' => fn ($var) => (bool)$var,
     'isset' => fn ($var) => isset($var),
     'empty' => fn ($var) => empty($var),
     'is_null' => fn ($var) => is_null($var),
@@ -63,18 +90,24 @@ foreach ($vars as $k => $v) {
 }
 echo '</pre>';
 ?>
-```
 
 Result:
+```
+-->
 
-| Value   | `isset()` | `empty()` | `is_null()` |
-| ------- | --------- | --------- | ----------- |
-| `''`    | true      | true      | false       |
-| `null`  | false     | true      | true        |
-| `[]`    | true      | true      | false       |
-| `FALSE` | true      | true      | false       |
-| `'0'`   | true      | true      | false       |
-| `0`     | true      | true      | false       |
+| Value     | `truthy` | `isset()` | `empty()` | `is_null()` |
+| --------- | -------- | --------- | --------- | ----------- |
+| `false`   | false    | true      | true      | false       |
+| `true`    | true     | true      | false     | false       |
+| `null`    | false    | false     | true      | true        |
+| `''`      | false    | true      | true      | false       |
+| `'abc'`   | true     | true      | false     | false       |
+| `'0'`     | false    | true      | true      | false       |
+| `'1'`     | true     | true      | false     | false       |
+| `0`       | false    | true      | true      | false       |
+| `1`       | true     | true      | false     | false       |
+| `[]`      | false    | true      | true      | false       |
+| `[1,2,3]` | true     | true      | false     | false       |
 
 ### Data Type Checks
 

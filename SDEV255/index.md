@@ -63,7 +63,7 @@ course: SDEV255
 
 ## Random TBD
 
-PHP: Truthy and Falsy
+PHP: Truthy and Falsy (Boolean Casting)
 
 - https://www.thisprogrammingthing.com/2021/Truthy-and-Falsy/
 - https://www.php.net/manual/en/language.types.boolean.php#language.types.boolean.casting
