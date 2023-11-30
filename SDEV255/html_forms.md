@@ -4,6 +4,23 @@ title: HTML Forms
 course: SDEV255
 ---
 
+- [HTML Forms](#html-forms)
+  - [Objectives](#objectives)
+  - [Purpose](#purpose)
+  - [Form Attributes](#form-attributes)
+    - [Action](#action)
+    - [Method](#method)
+    - [Name and ID](#name-and-id)
+  - [Input Types](#input-types)
+    - [Button Inputs](#button-inputs)
+    - [Multivalued Inputs](#multivalued-inputs)
+      - [Checkbox Selection](#checkbox-selection)
+    - [Text Inputs](#text-inputs)
+    - [Date and Time Inputs](#date-and-time-inputs)
+    - [Numeric Inputs](#numeric-inputs)
+    - [Other Inputs](#other-inputs)
+  - [Disabled and Read-Only Inputs](#disabled-and-read-only-inputs)
+
 # HTML Forms
 
 ## Objectives
@@ -68,6 +85,8 @@ course: SDEV255
 ```
 
 ## Input Types
+
+- Reference [Text: Collecting Form Data](http://localhost/phpbook/section_b/c06/collecting-form-data.php)
 
 - The `type` attribute specifies the type of input element to display.
 

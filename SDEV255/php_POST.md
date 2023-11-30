@@ -5,13 +5,6 @@ course: SDEV255
 ---
 
 <!-- Understanding PHP POST
-A. Purpose of PHP POST
-	1. Sending Data Securely
-	2. Handling Form Submissions
-B. Comparison with PHP GET
-	1. Differences in Data Transmission
-	2. Use Cases for GET and POST
-
 VI. Practical Examples and Use Cases
 A. Building a Simple Form-Handling PHP Script
 	1. Creating a Form
@@ -35,6 +28,8 @@ B. User Authentication and Authorization
 2. Protecting Sensitive Operations -->
 
 # POST
+
+A POST request is used to send data to a server to create or update a resource.
 
 ## POST (vs GET)
 
@@ -89,3 +84,30 @@ _POST_
   - Authentication
   - Session management
   - Logging
+
+## PHP POST Array
+
+PHP automatically creates an associative array called `$_POST` that contains the form data.
+
+```php
+<?php
+// http://localhost:8080/test.php
+echo $_POST['name']; // John
+echo $_POST['age']; // 42
+```
+
+## POST Examples
+
+...
+
+Best practice to verify that request is POST when expecting it:
+
+````php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Handle POST request
+    ```
+````
+
+... Reference ...
+
+[Text: Validate Form Using Filters](http://localhost/phpbook/section_b/c06/validate-form-using-filters.php)
