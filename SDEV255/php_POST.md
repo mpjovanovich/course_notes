@@ -96,17 +96,117 @@ echo $_POST['name']; // John
 echo $_POST['age']; // 42
 ```
 
-## POST Examples
+## Verify POST Request
 
-...
-
-Best practice to verify that request is POST when expecting it:
+- Use `$_SERVER['REQUEST_METHOD']` to verify the request method.
+- This ensures that the form is only processed when the form is submitted.
 
 ````php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Handle POST request
     ```
 ````
+
+## The Redirect After POST (RAP) Pattern
+
+### Pattern
+
+1. User submits form.
+2. Server processes form data.
+3. Server issues redirect response.
+4. User browser makes GET request to redirect URL.
+5. Server responds with result page.
+
+### Benefits:
+
+- Prevents duplicate form submissions if page refreshed.
+- Clean URL in browser address bar.
+- Separates form processing from form presentation.
+
+### Example
+
+```php
+<?php
+// http://localhost:8080/test.php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Handle POST request
+    header('Location: http://localhost:8080/test.php');
+    exit;
+}
+```
+
+### Error Handling
+
+- If there is an error, the server can redirect back to the form page with an error message.
+- The form page can then display the error message.
+
+#### Querystring Method
+
+**index.php**
+
+- Display the form.
+- Display validation errors if any.
+
+```php
+<?php
+    // Display validation errors if any
+    if (isset($_GET['error'])) {
+        echo $_GET['error'];
+    }
+?>
+```
+
+```html
+<form action="result.php" method="POST">
+  <input type="text" name="name" />
+  <input type="submit" value="Submit" />
+</form>
+```
+
+**process.php**
+
+- Process the form data.
+
+```php
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if (empty($_POST['name'])) {
+        $error = 'Name is required';
+    }
+    // Redirect back to form page if there is an error
+    if ($error) {
+        header('Location: test.php?error=1');
+        exit;
+    }
+
+    // ... do something with the form data ...
+
+    // Redirect to the result page
+    header('Location: result.php?name=' . $_POST['name']);
+    exit;
+} else {
+    // Redirect to the form if accessed directly without submission
+    header('Location: index.php');
+    exit();
+}
+```
+
+**result.php**
+
+- Display the name from the querystring.
+
+```html
+<p>
+  Name:
+  <?php echo $_GET['name']; ?>
+</p>
+```
+
+#### Session Method
+
+We will see how to handle errors using the session array later.
+
+...................................................
 
 ... Reference ...
 

@@ -19,7 +19,6 @@ course: SDEV255
     - [Day 2](#day-2)
   - [Module 05](#module-05)
     - [Day 1](#day-1-1)
-  - [Random TBD](#random-tbd)
 
 # Old Lecture Schedule
 
@@ -60,10 +59,3 @@ course: SDEV255
 [PHP: Using POST](php_POST.md)
 
 [PHP: Input Sanitization](php_input_sanitization.md)
-
-## Random TBD
-
-PHP: Truthy and Falsy (Boolean Casting)
-
-- https://www.thisprogrammingthing.com/2021/Truthy-and-Falsy/
-- https://www.php.net/manual/en/language.types.boolean.php#language.types.boolean.casting
