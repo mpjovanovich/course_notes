@@ -4,20 +4,6 @@ title: PHP - Sanitization
 course: SDEV255
 ---
 
-<!-- - Escape output
-  - htmlspecialchars()
-  - htmlentities()
-  - strip_tags()
-- Sanitize input
-  - trim()
-  - https://www.php.net/manual/en/function.filter-var.php
-    - filter_var()
-    - filter_var_array()
-    - filter_input()
-    - filter_input_array()
-    - filter_has_var()
-    - filter_list() -->
-
 - [Sanitization](#sanitization)
   - [Validation vs Sanitization](#validation-vs-sanitization)
   - [Purpose of Sanitization](#purpose-of-sanitization)
@@ -30,7 +16,15 @@ course: SDEV255
     - [trim()](#trim)
     - [strip_tags()](#strip_tags)
   - [Filter Functions](#filter-functions)
-    - [Input vs Var, Single vs Array](#input-vs-var-single-vs-array)
+    - [Validate Filters](#validate-filters)
+    - [Sanitize Filters](#sanitize-filters)
+    - [Filtering a Single Value](#filtering-a-single-value)
+    - [Sanitizing a Single Value](#sanitizing-a-single-value)
+    - [Filter Flags and Options](#filter-flags-and-options)
+    - [Filtering a Single Value with Options](#filtering-a-single-value-with-options)
+    - [Filtering Multiple Values](#filtering-multiple-values)
+    - [Demos - Complete Form Validation with Filters](#demos---complete-form-validation-with-filters)
+  - [Topics for Later](#topics-for-later)
 
 # Sanitization
 
@@ -126,42 +120,85 @@ $cleanedInput = strip_tags($userInput);
 
 PHP has built-in functions for validating and sanitizing input.
 
-Each function takes a value and a filter type as parameters.
+### Validate Filters
 
-Each function returns the filtered value or `false` if the value is not valid.
+Validate filters are used to validate input.
 
-See [PHP: Filter extension](https://www.php.net/manual/en/book.filter.php).
+See [PHP: Validate filters](https://www.php.net/manual/en/filter.filters.validate.php)
 
-| Function               | Description                                                             |
-| ---------------------- | ----------------------------------------------------------------------- |
-| `filter_var()`         | Filters a single variable with a specified filter.                      |
-| `filter_var_array()`   | Filters multiple variables with a specified filter or array of filters. |
-| `filter_input()`       | Gets a specific external variable by name and optionally filters it.    |
-| `filter_input_array()` | Gets multiple external variables and optionally filters them.           |
-| `filter_has_var()`     | Checks if a variable of a specified input type exists.                  |
+### Sanitize Filters
 
-### Input vs Var, Single vs Array
+Sanitize filters are used to remove unwanted characters.
 
-- `filter_input()` and `filter_input_array()` are used to filter **input** from external sources.
-  - `$_GET`
-  - `$_POST`
-- `filter_var()` and `filter_var_array()` are used to filter **variables**.
-  - `$var1`
-  - `$var2`
-- The "array" versions of the functions are used to filter multiple values at once.
+See [PHP: Sanitize filters](https://www.php.net/manual/en/filter.filters.sanitize.php)
 
-..........................................................
+### Filtering a Single Value
 
-<p class="demo">Walkthrough</p>
+```php
+// Will return false if value is not valid
+$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+```
 
-[Text: Validate Form](http://localhost/phpbook/section_b/c06/validate-form.php)
+### Sanitizing a Single Value
+
+```php
+// Same effect as htmlspecialchars() with ENT_QUOTES flag
+$filtered = filter_input(INPUT_POST, 'val', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+```
+
+### Filter Flags and Options
+
+- Filter flags and options are used to specify how the filter should behave.
+- Flags are predefined constants that can be combined using the bitwise OR operator `|`.
+- Options are key/value pairs that are passed in an array.
+- See [PHP: Filter Flags](https://www.php.net/manual/en/filter.filters.flags.php)
+
+### Filtering a Single Value with Options
+
+```php
+// Build options array
+$settings['flags']                = FILTER_FLAG_ALLOW_HEX;       // Allow hex flag
+$settings['options']['default']   = 0;                           // Default value
+$settings['options']['min_range'] = 0;                           // Min number option
+$settings['options']['max_range'] = 255;                         // Max number option
+
+// Will return false if value is not between 0 and 255
+$number = filter_input(INPUT_POST, 'number', FILTER_VALIDATE_INT, $settings);
+```
+
+### Filtering Multiple Values
+
+- We often want to filter multiple values at once, as in the case of a form submission.
+
+```html
+<form action="process.php" method="post">
+  <input type="text" name="email" />
+  <input type="text" name="age" />
+  <input type="checkbox" name="terms" />
+  <input type="submit" />
+</form>
+```
+
+```php
+// Build filters array
+$filters['email']                       = FILTER_VALIDATE_EMAIL;   // Email filter
+$filters['age']['filter']               = FILTER_VALIDATE_INT;     // Integer filter
+$filters['age']['options']['min_range'] = 16;                      // Min age
+$filters['terms']                       = FILTER_VALIDATE_BOOLEAN; // Boolean filter
+
+$form = filter_input_array(INPUT_POST, $filters);                  // Apply filters
+var_dump($form);                                                   // Display results
+```
+
+### Demos - Complete Form Validation with Filters
 
 <p class="demo">Walkthrough</p>
 
 [Text: Validate Form Using Filters](http://localhost/phpbook/section_b/c06/validate-form-using-filters.php)
 
-**To come:**
+## Topics for Later
 
-- DB sanatization
-  - Prepared statements
-  - Parameterized queries
+We have not covered these yet, but santization is also important for:
+
+- Database queries
+- File uploads
