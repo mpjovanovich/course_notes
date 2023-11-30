@@ -8,6 +8,14 @@ course: SDEV255
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
+- 11/30
+  - Impromptu lab...
+  - Pt1: Do the Redirect After POST pattern
+    - Please follow along as this is done in lecture. We will do it together.
+    - Name your directory `redirect_after_post`
+  - Pt2: Add some additional form fields and filter rules to the final full example
+    - Name your directory `filter_functions`
+
 # TOC
 
 - [Announcements](#announcements)
