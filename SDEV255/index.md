@@ -57,6 +57,8 @@ course: SDEV255
 
 ### Day 1
 
+[PHP: Using POST](php_POST.md)
+
 [PHP: Input Sanitization](php_input_sanitization.md)
 
 ## Random TBD
