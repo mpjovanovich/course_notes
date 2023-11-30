@@ -15,6 +15,7 @@ course: SDEV255
     - Name your directory `redirect_after_post`
   - Pt2: Add some additional form fields and filter rules to the final full example
     - Name your directory `filter_functions`
+  - Post to GitHub repo
 
 # TOC
 
