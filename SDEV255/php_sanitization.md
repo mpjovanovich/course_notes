@@ -194,7 +194,7 @@ var_dump($form);                                                   // Display re
 
 <p class="demo">Walkthrough</p>
 
-[Text: Validate Form Using Filters](http://localhost/phpbook/section_b/c06/validate-form-using-filters.php)
+[Complete Form Validation](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV255_Web_Application_Development/form_filters_demo/form_filters_demo.php)
 
 ## Topics for Later
 
