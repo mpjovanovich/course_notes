@@ -4,29 +4,6 @@ title: PHP - POST
 course: SDEV255
 ---
 
-<!-- Understanding PHP POST
-VI. Practical Examples and Use Cases
-A. Building a Simple Form-Handling PHP Script
-	1. Creating a Form
-	2. Processing Form Data with PHP
-B. Handling File Uploads
-	1. HTML File Input Element
-	2. Server-Side Handling of Uploaded Files
-
-VII. Best Practices for PHP POST
-A. Avoiding Direct Output of POST Data
-B. Importance of HTTPS for Secure Data Transmission
-C. Handling Form Submission Errors
-D. Implementing CSRF Protection
-
-VIII. Real-World Application Considerations
-A. Interaction with Databases
-1. Inserting POST Data into a Database
-2. Prepared Statements for Security
-B. User Authentication and Authorization
-1. Handling Login Forms with POST
-2. Protecting Sensitive Operations -->
-
 # POST
 
 A POST request is used to send data to a server to create or update a resource.
@@ -140,8 +117,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 - If there is an error, the server can redirect back to the form page with an error message.
 - The form page can then display the error message.
 
-#### Querystring Method
-
 **index.php**
 
 - Display the form.
@@ -151,7 +126,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <?php
     // Display validation errors if any
     if (isset($_GET['error'])) {
-        echo $_GET['error'];
+        echo '<p style="color: red;">' . $_GET['error'] . '</p>';
     }
 ?>
 ```
@@ -175,7 +150,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     // Redirect back to form page if there is an error
     if ($error) {
-        header('Location: test.php?error=1');
+        header('Location: test.php?error=' . $error);
         exit;
     }
 
@@ -195,19 +170,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 - Display the name from the querystring.
 
-```html
+```php
+<p>SUCCESS!</p>
 <p>
-  Name:
+  Welcome,
   <?php echo $_GET['name']; ?>
 </p>
 ```
-
-#### Session Method
-
-We will see how to handle errors using the session array later.
-
-...................................................
-
-... Reference ...
-
-[Text: Validate Form Using Filters](http://localhost/phpbook/section_b/c06/validate-form-using-filters.php)
