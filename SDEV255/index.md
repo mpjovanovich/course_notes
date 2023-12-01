@@ -52,10 +52,12 @@ course: SDEV255
 
 [PHP: Input Validation](php_input_validation.md)
 
+[PHP: Input Sanitization](php_input_sanitization.md)
+
 ## Module 05
 
 ### Day 1
 
 [PHP: Using POST](php_POST.md)
 
-[PHP: Input Sanitization](php_input_sanitization.md)
+[PHP: Filter Functions](php_input_sanitization.md)

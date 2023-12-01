@@ -5,22 +5,19 @@ course: SDEV255
 ---
 
 - [Input Validation](#input-validation)
-  - [Checking Values](#checking-values)
-    - [Presence Checks](#presence-checks)
-      - [Truthy and Falsy](#truthy-and-falsy)
-      - [Built in Functions](#built-in-functions)
-      - [Comparison of Functions](#comparison-of-functions)
-    - [Data Type Checks](#data-type-checks)
-    - [Value Checks](#value-checks)
-    - [Regular Expression Checks](#regular-expression-checks)
+  - [Presence Checks](#presence-checks)
+    - [Truthy and Falsy](#truthy-and-falsy)
+    - [Built in Functions](#built-in-functions)
+    - [Comparison of Functions](#comparison-of-functions)
+  - [Data Type Checks](#data-type-checks)
+  - [Value Checks](#value-checks)
+  - [Regular Expression Checks](#regular-expression-checks)
 
 # Input Validation
 
-## Checking Values
+## Presence Checks
 
-### Presence Checks
-
-#### Truthy and Falsy
+### Truthy and Falsy
 
 - When put into an if statement, variables are cast to boolean.
 - This concept is called "truthy" and "falsy".
@@ -35,7 +32,7 @@ if ($var) {
 }
 ```
 
-#### Built in Functions
+### Built in Functions
 
 | Function             | Returns true if                   |
 | -------------------- | --------------------------------- |
@@ -50,50 +47,7 @@ if (isset($_GET['name'])) {
 }
 ```
 
-#### Comparison of Functions
-
-<!--
-don't put this in here... too advanced for this class, it will just add confusion.
-```php
-<?php
-// Check each of these variables...
-$vars = [
-    'false' =      false,
-	'true' =>      true,
-	'null' =>      null,
-    "''" =>        '',
-	"'abc'" =>     'abc',
-	"'0'" =>       '0',
-	"'1'" =>       '0',
-    '0' =>         0,
-	'1' =>         1,
-    '[]' =>        [],
-	'[1,2,3]' =>   [],
-];
-
-// Against each of these functions...
-$testCases = [
-	'truthy' => fn ($var) => (bool)$var,
-    'isset' => fn ($var) => isset($var),
-    'empty' => fn ($var) => empty($var),
-    'is_null' => fn ($var) => is_null($var),
-];
-
-// Write the output to the page.
-echo '<pre style="font-size: 1.2em; font-weight: bold;">';
-foreach ($vars as $k => $v) {
-    foreach ($testCases as $k2 => $v2) {
-        $result = $v2($v) ? 'true' : 'false';
-        echo str_pad($k, 10) . ' => ' . str_pad($k2, 10) . ' => ' . $result . "\n";
-    }
-    echo "\n";
-}
-echo '</pre>';
-?>
-
-Result:
-```
--->
+### Comparison of Functions
 
 | Value     | `truthy` | `isset()` | `empty()` | `is_null()` |
 | --------- | -------- | --------- | --------- | ----------- |
@@ -109,7 +63,7 @@ Result:
 | `[]`      | false    | true      | true      | false       |
 | `[1,2,3]` | true     | true      | false     | false       |
 
-### Data Type Checks
+## Data Type Checks
 
 - `is_string()`
 - `is_numeric()`
@@ -126,7 +80,7 @@ if (is_array($_GET['items'])) {
 ?>
 ```
 
-### Value Checks
+## Value Checks
 
 - `==` - check if two values are equal
 - `===` - check if two values are equal and of the same type
@@ -144,7 +98,7 @@ if (in_array($_GET['color'], ['red', 'green', 'blue'])) {
 ?>
 ```
 
-### Regular Expression Checks
+## Regular Expression Checks
 
 - `preg_match()` - check if a string matches a pattern
 - `preg_match_all()` - check if a string matches a pattern multiple times
