@@ -92,6 +92,6 @@ var_dump($form);                                                   // Display re
 
 Replaced with lab...
 
-<!-- <p class="demo">Walkthrough</p>
+<p class="demo">Walkthrough</p>
 
-[Complete Form Validation](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV255_Web_Application_Development/form_filters_demo/form_filters_demo.php) -->
+[Complete Form Validation](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV255_Web_Application_Development/form_filters_demo/form_filters_demo.php)
