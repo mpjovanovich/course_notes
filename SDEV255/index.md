@@ -60,4 +60,4 @@ course: SDEV255
 
 [PHP: Using POST](php_POST.md)
 
-[PHP: Filter Functions](php_input_sanitization.md)
+[PHP: Filter Functions](php_filter_functions.md)
