@@ -12,7 +12,6 @@ course: SDEV255
   - [Avoid](#avoid)
     - [REQUEST](#request)
     - [GLOBALS](#globals)
-  - [Friendly Output for Debugging](#friendly-output-for-debugging)
 
 # PHP: Super Global Arrays
 
@@ -104,49 +103,3 @@ _Unless you have a good reason to use them._
 
 - Contains a reference to every variable which is currently available within the global scope of the script.
 - Avoid using `$GLOBALS`; we should know where our data is coming from.
-
-## Friendly Output for Debugging
-
-- Functions like `print_r()`, `var_export()` and `var_dump()` are great for debugging.
-- It can be helpful to wrap them in a function cleans up the output:
-- You can put this in a `functions.php` file and include it in your scripts.
-
-```php
-<?php
-function pretty_dump(mixed $var, string $name = ''): void
-{
-    // Style CSS to your liking
-    echo '<pre style="
-        background-color:#f5f5f5;
-        color:#333;
-		line-height:1.2;
-        font-size:14px;
-        padding:10px;
-        margin:10px;
-        border-radius:5px;
-        border:1px solid #ddd;
-        min-width:600px;
-		max-width:960px;
-		width:fit-content;
-		overflow:auto;
-		box-sizing:border-box;
-    ">';
-    if ($name) {
-        echo "Name: <strong>$name</strong><br >";
-    }
-    echo "Type: <strong>" . gettype($var) . "</strong><br >";
-    echo ".................................<br >";
-    if (is_array($var)) {
-        foreach ($var as $k => $v) {
-            echo str_pad($k, 30) . ' => ' . $v . "\n";
-        }
-    } else {
-        print_r($var);
-    }
-    echo '</pre>';
-    echo '<br >';
-}
-
-// Usage:
-pretty_dump($_SERVER, '$_SERVER');
-```
