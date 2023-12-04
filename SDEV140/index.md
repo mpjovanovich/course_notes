@@ -12,6 +12,9 @@ course: SDEV 140
     </span>
 </figure>
 
+- Register for Spring classes.
+- Student evals begin Monday, December 4. Your feedback is appreciated.
+
 # TOC
 
 - [Announcements](#announcements)
@@ -46,4 +49,8 @@ course: SDEV 140
 
 String Manipulation and Formatting
 
+Context Managers (`with` Statements)
+
 File IO and Parsing
+
+Debugging with File Paths in VS Code
