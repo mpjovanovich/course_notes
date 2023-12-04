@@ -27,6 +27,9 @@ course: SDEV255
   - [Module 05](#module-05)
     - [Day 1](#day-1)
     - [Day 2](#day-2)
+  - [Module 06](#module-06)
+    - [Day 1](#day-1-1)
+    - [Day 2](#day-2-1)
 
 # Old Lecture Schedule
 
@@ -55,3 +58,13 @@ course: SDEV255
 [CSS Responsive Design](css_responsive_design.md)
 
 [Mobile First Design](mobile_first_design.md)
+
+## Module 06
+
+### Day 1
+
+[HTML Forms](../common/html_forms.md)
+
+### Day 2
+
+HTML Tables
