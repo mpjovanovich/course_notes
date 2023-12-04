@@ -12,27 +12,15 @@ course: SDEV 140
     </span>
 </figure>
 
-- Course notebook / portfolio assignment
-- Final practical format:
-  - Assignment will open by 12/8 midnight
-  - Write program based on description
-    - You must work individually.
-    - You may use any resources, but not plagiarize.
-      - No code from the internet.
-      - No code from other students.
-      - No code from an AI.
-  - One on one's during final class session.
-    - Explain your code.
-    - Explain some code that I provide.
-
 # TOC
 
 - [Announcements](#announcements)
 - [TOC](#toc)
 - [Old Lecture Schedule](#old-lecture-schedule)
 - [New Lecture Schedule](#new-lecture-schedule)
-  - [Module 05](#module-05)
+  - [Module 06](#module-06)
     - [Day 1](#day-1)
+    - [Day 2](#day-2)
 
 # Old Lecture Schedule
 
@@ -46,10 +34,16 @@ course: SDEV 140
 
 # New Lecture Schedule
 
-## Module 05
+## Module 06
 
 ### Day 1
 
 [Dictionaries](dictionary.md)
 
 [Multidimensional Arrays](multidimensional_arrays.md)
+
+### Day 2
+
+String Manipulation and Formatting
+
+File IO and Parsing
