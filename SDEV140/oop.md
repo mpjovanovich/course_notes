@@ -11,9 +11,9 @@ course: SDEV140
 - **Object Oriented Programming (OOP)** is a programming paradigm where we model real-world objects
 - **Classes** are blueprints used to create objects.
 - **Objects** are **instances** of a class.
-- **Properties** are variables inside a class.
 - **Methods** are functions inside a class.
-- **State** is the current value of an object's properties.
+- **Properties** are variables inside a class.
+- **State** is the current collective value of an object's properties.
 
 ### Example Classes
 
@@ -29,6 +29,7 @@ course: SDEV140
 - We use the `class` keyword to create a class.
 
 ```python
+# Define the Person class
 class Person:
     # Properties
     name = 'Bob'
@@ -92,14 +93,23 @@ print(person1.name)
 
 - The `self` keyword refers to the current object.
 - We use it to access properties and methods inside the class.
+- When calling a method, we do not need to pass `self` as an argument.
 
 ```python
+# Define the Person class
 class Person:
     name = 'Bob'
 
     def do_something(self) -> None:
         # Access the name property of the current object
         print(self.name)
+
+# Create an instance of the Person class
+person1 = Person()
+
+# Call the do_something method
+# No need to pass any arguments.
+person1.do_something()
 ```
 
 ## Constructors
@@ -107,7 +117,9 @@ class Person:
 - A **constructor** is a special method that is called when an object is created.
 - The constructor is used to initialize the object.
 - In Python, the constructor is always called `__init__()`.
-- Since it's a function, we can pass parameters to initialize the object.
+- The constructor is optional.
+- The first argument must be `self`.
+- Since it's a function, we can define and pass other parameters to initialize the object.
 
 ```python
 # Class definition
@@ -239,7 +251,7 @@ Private is what only the class itself is meant to see.
 ```python
 class BankAccount:
     def __init__(self, initial_balance: float = 0) -> None:
-        self.balance = initial_balance
+        self._balance = initial_balance
 
     def deposit(self, amount: float) -> None:
         if amount > 0:
@@ -257,11 +269,15 @@ class BankAccount:
             self._balance -= amount
             print(f"Withdrew ${amount}. New balance: ${self._balance}")
 
+    # Getter for non-public property
+    def get_balance(self) -> float:
+        return self._balance
+
 # Example usage:
 account = BankAccount(initial_balance=1000)
 
 # Check initial balance
-print(f"Initial balance: ${account.balance}")
+print(f"Initial balance: ${account.get_balance()}")
 
 # Deposit and withdraw money
 account.deposit(500)
@@ -269,7 +285,7 @@ account.withdraw(200)
 account.withdraw(1000)  # Should fail due to insufficient funds
 
 # Check final balance
-print(f"Final balance: ${account.balance}")
+print(f"Final balance: ${account.get_balance()}")
 ```
 
 ### Example 2: Objects as Properties
