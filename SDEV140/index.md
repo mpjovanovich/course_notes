@@ -12,6 +12,11 @@ course: SDEV 140
     </span>
 </figure>
 
+- Final: To be posted by Friday midnight.
+  - Likely to be "general" in format; then we'll review it.
+  - Open book, open notes, open internet.
+  - No collaboration, no snippets from AI.
+
 # TOC
 
 - [Announcements](#announcements)
