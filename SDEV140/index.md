@@ -12,10 +12,6 @@ course: SDEV 140
     </span>
 </figure>
 
-- Register for Spring classes.
-- Student evals begin Monday, December 4. Your feedback is appreciated.
-- Today we are doing a combined lecture and lab (walkthrough).
-
 # TOC
 
 - [Announcements](#announcements)
