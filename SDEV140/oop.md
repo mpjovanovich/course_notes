@@ -13,6 +13,7 @@ course: SDEV140
 - **Objects** are **instances** of a class.
 - **Properties** are variables inside a class.
 - **Methods** are functions inside a class.
+- **State** is the current value of an object's properties.
 
 ### Example Classes
 
@@ -123,7 +124,24 @@ class Person:
 person1 = Person('Bob')
 ```
 
-## Controlling Access
+## Encapsulation
+
+- One of the "three pillars of OOP" (along with inheritance and polymorphism).
+- **Encapsulation** is the idea of hiding the internal workings of a class from the outside world.
+- Our class should be a "black box" to the outside world.
+
+_Example_:
+
+- Class = `BankAccount`
+- Methods that users of class should see (friendly public interface / API):
+  - `transfer_to_account()`
+- Methods that users of class should not see (internal "banky" implementation details):
+  - `_negotiate_routing_channel()`
+  - `_await_confirmation_code()`
+  - `_log_transaction()`
+  - `_send_confirmation_email()`
+
+### Access Modifiers
 
 **_Note:_ We are discussing general OOP principles here. Python does not have access modifiers. It instead uses naming conventions to indicate access.**
 
@@ -212,65 +230,102 @@ Protected is what subclasses are meant to see.
 
 Private is what only the class itself is meant to see.
 
-## Objects as Properties
+## Basics - Examples
+
+### Example 1: Maintaining State
+
+- We can keep track of the state of an object using properties.
+
+```python
+class BankAccount:
+    def __init__(self, initial_balance: float = 0) -> None:
+        self.balance = initial_balance
+
+    def deposit(self, amount: float) -> None:
+        if amount > 0:
+            self._balance += amount
+            print(f"Deposited ${amount}. New balance: ${self._balance}")
+        else:
+            print("Invalid deposit amount. Please deposit a positive amount.")
+
+    def withdraw(self, amount):
+        if amount <= 0:
+            print("Invalid withdrawal amount. Amount must be greater than 0.")
+        elif amount > self._balance:
+            print("Insufficient funds.")
+        else:
+            self._balance -= amount
+            print(f"Withdrew ${amount}. New balance: ${self._balance}")
+
+# Example usage:
+account = BankAccount(initial_balance=1000)
+
+# Check initial balance
+print(f"Initial balance: ${account.balance}")
+
+# Deposit and withdraw money
+account.deposit(500)
+account.withdraw(200)
+account.withdraw(1000)  # Should fail due to insufficient funds
+
+# Check final balance
+print(f"Final balance: ${account.balance}")
+```
+
+### Example 2: Objects as Properties
 
 - We can use objects as properties of other objects.
 
-```php
-<?php
-class Person
-{
-    // Properties
-    private string $firstName;
-    private string $lastName;
-    private Person $father;
-    private Person $mother;
-    private array $children;
+```python
+from typing import List, Optional
 
-    // Constructor
-    public function __construct(string $firstName, string $lastName, Person $father, Person $mother)
-    {
-        $this->firstName = $firstName;
-        $this->lastName = $lastName;
-        $this->father = $father;
-        $this->mother = $mother;
-        $this->children = $children;
-    }
+class Person:
+    # CONSTRUCTOR
+    def __init__(
+        self,
+        first_name: str,
+        last_name: str,
+        father: Optional['Person'] = None, # Optional['Person] is how we type hint an optional Person object
+        mother: Optional['Person'] = None  # We will default to None if no father or mother is passed
+    ) -> None:
+        # Initialize properties to the values passed to the constructor
+        self.first_name = first_name
+        self.last_name = last_name
+        self.father = father
+        self.mother = mother
 
-    // Public Methods
-    public function addChild(Person $child) : void
-    {
-        // Append the child to the array
-        // *We didn't cover this syntax, but it's the same result as array_push(),
-        // and is more efficient for single value appends.
-        $this->children[] = $child;
-    }
+        # Initialize children property as an empty list
+        self.children = []
 
-    public function getFullName() : string
-    {
-        return $this->firstName . " " . $this->lastName;
-    }
+    ## PUBLIC METHODS
+    def add_child(self, child: 'Person') -> None:
+        self.children.append(child)
 
-    public function printInfo() : void
-    {
-        // Print the name
-        echo $this->getFullName() . "\n";
+    def print_info(self) -> None:
+        # Print the name
+        father = self.father._get_full_name() if self.father else 'N/A'
+        mother = self.mother._get_full_name() if self.mother else 'N/A'
+        print(f"Name: {self._get_full_name()}, Father: {father}, Mother: {mother}")
 
-        // Print children
-        foreach ($this->children as $child) {
-            echo $child->getFullName() . "\n";
-        }
-    }
-}
+        # Print children
+        if len(self.children) > 0:
+            print("Children:")
+            for child in self.children:
+                print("  ", end="")
+                child.print_info()
 
+    ## PROTECTED METHODS
+    def _get_full_name(self) -> str:
+        return self.first_name + " " + self.last_name
 
-$father = new Person("John", "Doe", null, null);
-$mother = new Person("Jane", "Doe", null, null);
-$father->addChild(new Person("Bobby", "Beebop", $father, $mother));
-$father->addChild(new Person("Sally", "Sue", $father, $mother));
-$father->addChild(new Person("Jimmy", "John", $father, $mother));
-$father->printInfo();
-?>
+father = Person("John", "Doe")
+mother = Person("Jane", "Doe")
+father.add_child(Person("Bobby", "Beebop", father, mother))
+father.add_child(Person("Sally", "Sue", father, mother))
+father.add_child(Person("Jimmy", "John", father, mother))
+father.print_info()
 ```
 
 ## Inheritance
+
+TODO
