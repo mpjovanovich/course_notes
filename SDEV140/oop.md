@@ -249,10 +249,15 @@ Private is what only the class itself is meant to see.
 - We can keep track of the state of an object using properties.
 
 ```python
+# Define the class:
 class BankAccount:
+    # CONSTRUCTOR
     def __init__(self, initial_balance: float = 0) -> None:
+        # We don't want the user to directly access the balance property,
+        # so we make it non-public by prefixing it with an underscore.
         self._balance = initial_balance
 
+    ## PUBLIC METHODS
     def deposit(self, amount: float) -> None:
         if amount > 0:
             self._balance += amount
@@ -260,7 +265,7 @@ class BankAccount:
         else:
             print("Invalid deposit amount. Please deposit a positive amount.")
 
-    def withdraw(self, amount):
+    def withdraw(self, amount: float) -> None:
         if amount <= 0:
             print("Invalid withdrawal amount. Amount must be greater than 0.")
         elif amount > self._balance:
@@ -269,22 +274,17 @@ class BankAccount:
             self._balance -= amount
             print(f"Withdrew ${amount}. New balance: ${self._balance}")
 
-    # Getter for non-public property
+    # We still want the user to be able to view the balance - just not change it.
+    # We can accomplish this by creating a getter method that returns the value of the balance property.
     def get_balance(self) -> float:
         return self._balance
 
-# Example usage:
+# Use the class:
 account = BankAccount(initial_balance=1000)
-
-# Check initial balance
 print(f"Initial balance: ${account.get_balance()}")
-
-# Deposit and withdraw money
 account.deposit(500)
 account.withdraw(200)
 account.withdraw(1000)  # Should fail due to insufficient funds
-
-# Check final balance
 print(f"Final balance: ${account.get_balance()}")
 ```
 
@@ -295,6 +295,7 @@ print(f"Final balance: ${account.get_balance()}")
 ```python
 from typing import List, Optional
 
+# Define the class:
 class Person:
     # CONSTRUCTOR
     def __init__(
@@ -334,6 +335,7 @@ class Person:
     def _get_full_name(self) -> str:
         return self.first_name + " " + self.last_name
 
+# Use the class:
 father = Person("John", "Doe")
 mother = Person("Jane", "Doe")
 father.add_child(Person("Bobby", "Beebop", father, mother))
