@@ -14,7 +14,9 @@ course: SDEV255
 
 - December 4:
   - Review prototype assignment
+  - Review final project
   - How to host GitHub Pages site.
+    - Needed for prototype assignment.
 
 # TOC
 
