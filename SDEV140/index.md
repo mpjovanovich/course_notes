@@ -56,3 +56,9 @@ Context Managers (`with` Statements)
 File IO and Parsing
 
 Debugging with File Paths in VS Code
+
+## Module 07
+
+### Day 1
+
+[Object Oriented Programming](oop.md)
