@@ -8,7 +8,8 @@ course: SDEV255
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- Quick walkthrough of XSRF token from last lab...
+- Quick walkthrough of XSRF token
+- Rethrow error in exception handler
 
 # TOC
 
@@ -21,6 +22,8 @@ course: SDEV255
     - [Day 2](#day-2)
   - [Module 05](#module-05)
     - [Day 1](#day-1-1)
+  - [Mystery Zone](#mystery-zone)
+    - [12/7](#127)
 
 # Old Lecture Schedule
 
@@ -63,3 +66,9 @@ course: SDEV255
 [PHP: Using POST](php_POST.md)
 
 [PHP: Filter Functions](php_filter_functions.md)
+
+## Mystery Zone
+
+### 12/7
+
+Database day 1 - Basic SQL
