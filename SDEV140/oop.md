@@ -293,8 +293,6 @@ print(f"Final balance: ${account.get_balance()}")
 - We can use objects as properties of other objects.
 
 ```python
-from typing import List, Optional
-
 # Define the class:
 class Person:
     # CONSTRUCTOR
@@ -302,8 +300,10 @@ class Person:
         self,
         first_name: str,
         last_name: str,
-        father: Optional['Person'] = None, # Optional['Person] is how we type hint an optional Person object
-        mother: Optional['Person'] = None  # We will default to None if no father or mother is passed
+        # Optional['Person] is how we type hint an optional Person object
+        # We will default to None if no father or mother is passed
+        father: Optional['Person'] = None,
+        mother: Optional['Person'] = None
     ) -> None:
         # Initialize properties to the values passed to the constructor
         self.first_name = first_name
@@ -322,7 +322,9 @@ class Person:
         # Print the name
         father = self.father._get_full_name() if self.father else 'N/A'
         mother = self.mother._get_full_name() if self.mother else 'N/A'
-        print(f"Name: {self._get_full_name()}, Father: {father}, Mother: {mother}")
+        print(
+            f"Name: {self._get_full_name()}, Father: {father}, Mother: {mother}"
+        )
 
         # Print children
         if len(self.children) > 0:
@@ -335,12 +337,21 @@ class Person:
     def _get_full_name(self) -> str:
         return self.first_name + " " + self.last_name
 
-# Use the class:
+# Create parents
 father = Person("John", "Doe")
 mother = Person("Jane", "Doe")
-father.add_child(Person("Bobby", "Beebop", father, mother))
-father.add_child(Person("Sally", "Sue", father, mother))
-father.add_child(Person("Jimmy", "John", father, mother))
+
+# Create children
+child1 = Person("Bobby", "Beebop", father, mother)
+child2 = Person("Charles", "Beebop", father, mother)
+child3 = Person("Davey", "Beebop", father, mother)
+
+# Add children to father
+father.add_child(child1)
+father.add_child(child2)
+father.add_child(child3)
+
+# Print father's info
 father.print_info()
 ```
 
