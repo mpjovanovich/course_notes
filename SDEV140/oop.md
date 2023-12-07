@@ -4,6 +4,24 @@ title: Object Oriented Programming
 course: SDEV140
 ---
 
+- [Object Oriented Programming](#object-oriented-programming)
+  - [Basics](#basics)
+    - [Example Classes](#example-classes)
+  - [Creating a Class in Python](#creating-a-class-in-python)
+    - [Pythonic Guidelines - Class Names](#pythonic-guidelines---class-names)
+  - [Instantiating an Object](#instantiating-an-object)
+  - [Accessing Properties and Methods](#accessing-properties-and-methods)
+    - [The `self` Keyword](#the-self-keyword)
+  - [Constructors](#constructors)
+  - [Encapsulation](#encapsulation)
+    - [Access Modifiers](#access-modifiers)
+    - [Pythonic Guidelines - Controlling Access](#pythonic-guidelines---controlling-access)
+    - [Summary](#summary)
+  - [Basics - Examples](#basics---examples)
+    - [Example 1: Maintaining State](#example-1-maintaining-state)
+    - [Example 2: Objects as Properties](#example-2-objects-as-properties)
+  - [Inheritance](#inheritance)
+
 # Object Oriented Programming
 
 ## Basics
