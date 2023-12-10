@@ -53,11 +53,15 @@ body {
 
 #### @import
 
-...
+- Goes in CSS file.
+- Must be at beginning of file.
+- Imported stylesheet; browser fetches with web request after initial stylesheet is loaded.
 
 #### \<link\>
 
-...
+- Goes in \<head\> of HTML.
+- Fetched with web request as part of initial page load.
+- Recommended 
 
 ### Local vs Web Hosted
 
