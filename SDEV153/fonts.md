@@ -74,10 +74,14 @@ body {
 - Font hosting services store saved copies of fonts for download.
 - Fonts may be cached already from other website visits (e.g. Roboto), saving another download.
   - E.g.: [https://fonts.google.com/](https://fonts.google.com/)
-  - ```css
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    ```
-  - First two `preconnect` lines are not necessary, but help optimize delivery from google.
+    - ```css
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+      ```
+    - First two `preconnect` lines are not necessary, but help optimize delivery from google.
+  - Fonts may then be used with `font-family` in CSS.
+    - ```css
+      font-family: 'Nunito', sans-serif;
+      ```
   - User may see fallback font initially; once font is downloaded it will "swap" in b/c of the `display=swap` query on the stylesheet fetch.
