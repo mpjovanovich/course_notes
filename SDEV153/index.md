@@ -12,6 +12,10 @@ course: SDEV255
     </span>
 </figure>
 
+- Review: Final Project Sign Off Assignment
+  - Make sure you're on the schedule.
+  - Do a test call on Zoom to check your audio/video if in doubt.
+
 # TOC
 
 - [Announcements](#announcements)
@@ -59,6 +63,12 @@ course: SDEV255
 
 [HTML Forms](../common/html_forms.md)
 
-### Day 2
+## Remaining Odds and Ends
+
+Web Fonts and Font Embedding
 
 HTML Tables
+
+Licensing, Copyright, and Legal
+
+Search Engine Optimization
