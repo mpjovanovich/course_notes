@@ -85,3 +85,17 @@ body {
       font-family: 'Nunito', sans-serif;
       ```
   - User may see fallback font initially; once font is downloaded it will "swap" in b/c of the `display=swap` query on the stylesheet fetch.
+ 
+Demo: try popping open the URL that google fonts returns:
+
+https://fonts.googleapis.com/css2?family=Nunito&display=swap
+
+##### Font Weight Considerations
+
+- If different font weights are needed in the site, they must all be requested:
+
+```css
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+```
+
+- Variable weight fonts effectively take the place of using multiple font versions, but may not be available.
