@@ -65,7 +65,7 @@ course: SDEV255
 
 ## Remaining Odds and Ends
 
-Web Fonts and Font Embedding
+[Web Fonts and Font Embedding](fonts.md)
 
 HTML Tables
 
