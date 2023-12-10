@@ -4,9 +4,13 @@ title: Fonts
 course: SDEV255
 ---
 
-# Web Fonts
+# Fonts
 
-## Defaults
+## Font Families
+
+CSS `font-family` is used to define the name(s) of fonts to be used on the website. 
+
+### Defaults
 
 - A font must exists on the user's device in order to be used.
 - Browser will use "User Agent Stylesheet" if no CSS rule set.
@@ -17,15 +21,36 @@ course: SDEV255
     font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
     ```
 
-### Serif
+#### Serif
 
 - Serif fonts have small strokes at the edges of letters.
 - "Curly" letters.
 - Font-family value of `serif` signifies that the device should use the system-defined default serif font.
 
-### Sans-Serif
+#### Sans-Serif
 
 - Sans-serif fonts have no strokes at the edges of letters.
 - Sans = "without"
 - "Block" letters.
 - Font-family value of `sans-serif` signifies that the device should use the system-defined default serif font. 
+
+## Web Fonts
+
+- Fonts may be loaded from the web server or an external url using `@font-face`.
+- Specified font file(s) are downloaded:
+
+```css
+@font-face {
+  font-family: Roboto;
+  src: url('/fonts/roboto-regular.woff2');
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+```
+
+### Local Fonts
+
+- url points to file file that developer has uploaded to site.
+
+### Online Font Service
