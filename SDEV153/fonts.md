@@ -49,8 +49,22 @@ body {
 }
 ```
 
-### Local Fonts
+### Import vs Link
+
+#### @import
+
+...
+
+#### <link>
+
+...
+
+### Local vs Web Hosted
+
+#### Local Fonts
 
 - url points to file file that developer has uploaded to site.
 
-### Online Font Service
+#### Online Font Service
+
+...
