@@ -375,4 +375,84 @@ father.print_info()
 
 ## Inheritance
 
-TODO
+- One of the "three pillars of OOP"
+- **Inheritance** is the idea of extending functionality from an existing class.
+
+### Base Class
+
+The class from which other classes inherit is called the:
+
+- **Base class**
+- **Parent class**
+- **Superclass**
+
+Typically more general in terms of functionality.
+
+### Derived Class
+
+The class that inherits from another class is called the:
+
+- **Derived class**
+- **Child class**
+- **Subclass**
+
+Typically more specialized in terms of functionality.
+
+### Why use a Derived Class?
+
+- Override properties/methods from base class.
+- Add new properties/methods specific to derived class.
+
+### Why use Inheritance?
+
+- Override properties/methods from base class.
+- Add new properties/methods specific to derived class.
+
+### Inheritance Example
+
+```python
+class Shape:
+    def __init__(self, color):
+        # Some debug info
+        print("SHAPE: CONSTRUCTOR CALLED")
+
+        # Set the properties
+        self._name = 'Shape'
+        self._color = color
+
+    def print_info(self):
+        print(f"Name: {self._name}")
+        print(f"Color: {self._color}")
+
+class Triangle(Shape):
+    def __init__(self, color, base, height):
+        # Some debug info
+        print("TRIANGLE: CONSTRUCTOR CALLED")
+
+        # Call the constructor on the superclass
+        # This should be done prior to any other initialization
+        # for the derived class.
+        super().__init__(color)
+
+        # Set the properties
+        # Override the name property
+        self._name = 'Triangle'
+        self._base = base
+        self._height = height
+
+    # Will override the print_info method in the superclass
+    def print_info(self):
+        print(f"Name: {self._name}")
+        print(f"Color: {self._color}")
+        print(f"Area: {self.get_area()}")
+
+    # New method that doesn't exist in the superclass
+    def get_area(self):
+        return 0.5 * self._base * self._height
+
+# Examples:
+# shape = Shape("blue")
+# shape.print_info()
+# triangle = Triangle("red", 4, 3)
+# triangle.print_info()
+```
