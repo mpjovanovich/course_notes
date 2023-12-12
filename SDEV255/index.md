@@ -17,6 +17,14 @@ course: SDEV255
 - Quick walkthrough of XSRF token
 - Rethrow error in exception handler
 
+```php
+} catch (PDOException $e) {
+    // Handle connection errors...
+    // Only show message and code, not sensitive information
+    throw new PDOException($e->getMessage(), $e->getCode());
+}
+```
+
 # TOC
 
 - [Announcements](#announcements)
