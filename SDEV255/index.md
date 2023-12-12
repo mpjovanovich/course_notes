@@ -94,17 +94,7 @@ Database day 2 - Advanced SQL
   - DROP TABLE
   - DESCRIBE
   - Constraints
-
-```sql
-CREATE TABLE Items (
-    id int NOT NULL AUTO_INCREMENT,
-    category_id int NOT NULL,
-    name varchar(255) NOT NULL,
-    description varchar(255) NULL,
-    CONSTRAINT PK_Items PRIMARY KEY (id),
-    CONSTRAINT FK_Items_Categories FOREIGN KEY (category_id) REFERENCES Categories(id)
-);
-```
+- Prepared statements
 
 ...
 
