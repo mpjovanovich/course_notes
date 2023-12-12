@@ -8,15 +8,6 @@ course: SDEV255
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- Final Exam
-  - 0 pts
-  - Review session
-  - Attendance based
-  - Grade for course pass/fail contingent on taking final
-- PHP Dev community says: "/" works as well as DIRECTORY_SEPARATOR for modern PHP (sometimes better)
-- Quick walkthrough of XSRF token
-- Rethrow error in exception handler
-
 ```php
 } catch (PDOException $e) {
     // Handle connection errors...
@@ -37,8 +28,6 @@ course: SDEV255
   - [Module 05](#module-05)
     - [Day 1](#day-1-1)
   - [Mystery Zone](#mystery-zone)
-    - [12/7](#127)
-    - [12/12](#1212)
     - [12/14](#1214)
 
 # Old Lecture Schedule
@@ -85,39 +74,10 @@ course: SDEV255
 
 ## Mystery Zone
 
-### 12/7
-
-Database day 1 - Basic SQL
-
-### 12/12
-
-Database day 2 - Advanced SQL
-
-- Relational databases
-- Modeling data
-- Entity Relationship Diagrams
-- Joins
-  - Handling NULLs
-  - COALESCE, p420
-  - Inner vs outer joins
-- Creating tables
-  - CREATE TABLE
-  - DROP TABLE
-  - DESCRIBE
-  - Constraints
-- Prepared statements, p448
-  - Why?
-    - Security; SQL injection
-    - Performance
-  - ch12, pdo-function-with-parameters.php
-
-...
-
-- Organizing a PHP project with database connection
-- Object relational mapping
-- PHP object storage
-
 ### 12/14
 
 - Lab continued
+  - Handling optional parameters in a query
+  - Object relational mapping
+  - PHP object storage
 - Final exam (review of course)
