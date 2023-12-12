@@ -89,12 +89,19 @@ Database day 2 - Advanced SQL
 - Modeling data
 - Entity Relationship Diagrams
 - Joins
+  - Handling NULLs
+  - COALESCE, p420
+  - Inner vs outer joins
 - Creating tables
   - CREATE TABLE
   - DROP TABLE
   - DESCRIBE
   - Constraints
-- Prepared statements
+- Prepared statements, p448
+  - Why?
+    - Security; SQL injection
+    - Performance
+  - ch12, pdo-function-with-parameters.php
 
 ...
 
