@@ -81,5 +81,9 @@ course: SDEV255
 - Lab continued
   - Handling optional parameters in a query
   - Object relational mapping
-  - PHP object storage
+  - Populating a class from a database
+    - PHP object storage
+    - PHP class loading
+    - ...
 - Final exam (review of course)
+  - [Final Review](final_review.md)
