@@ -78,6 +78,7 @@ course: SDEV255
 
 ### 12/14
 
+- Final exam (review of course notes)
 - Lab continued
   - Handling optional parameters in a query
   - Object relational mapping
@@ -85,5 +86,4 @@ course: SDEV255
     - PHP object storage
     - PHP class loading
     - ...
-- Final exam (review of course)
-  - [Final Review](final_review.md)
+    - Fetch API to update part of a page with DB data
