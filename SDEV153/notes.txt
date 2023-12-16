@@ -1,7 +1,44 @@
-There's perfectly good material in the case studies folder in my Ivy repo:
 
-ch9 = Forms
-ch11 = CSS hover menu?
-ch12 = CSS tabbed page/menu 
+READ
 
-Image demos has great images for that lesson
+https://web.dev/learn/css/layout
+
+Use gap instead of margin for flexbox.
+https://web.dev/learn/css/flexbox#the_flex-flow_shorthand
+https://web.dev/learn/css/flexbox#controlling_space_inside_flex_items
+https://developer.chrome.com/docs/devtools/css/grid/
+https://web.dev/learn/css/grid#the_minmax_function
+  See note on equal size tracks
+https://web.dev/learn/css/grid#spanning_tracks
+https://web.dev/learn/css/grid#grid_template_areas
+https://web.dev/learn/css/spacing
+
+
+FOR NEXT SEMESTER:
+
+Break existing notes into topics, not weekly sections. Sometimes we have to "grab and go" with something.
+
+Replace Mozilla docs with https://web.dev/learn  content 
+  - These are much more like learning from a path
+  - They have associated codepens
+
+Use for into to demo decoupling of style from content.
+https://www.csszengarden.com/
+
+https://web.dev/learn/css/specificity
+
+
+Use GitHub org - not a bunch of student accounts:
+https://www.billmongan.com/posts/2020/02/githubclassroom/
+https://education.github.com/
+
+
+TESTING
+
+Selenium Python library. 
+Maybe formatted code diffs for HTML and CSS.
+Unit tests with assert for module concepts.
+Publish "checker" tool via Google app - let students test against against image of solution.
+I can probably just work on my solution during lab hours.
+
+Maybe, but probably selenium can do this in a better way: https://docs.python.org/3.5/library/difflib.html#difflib.HtmlDiff
