@@ -1,7 +1,7 @@
 ---
 layout: base
 title: HTML Forms
-course: SDEV255
+course: common
 ---
 
 - [HTML Forms](#html-forms)
