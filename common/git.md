@@ -20,6 +20,8 @@ title: HTML Forms
       - [Terminals and Shells](#terminals-and-shells)
     - [VS Code Source Control Panel](#vs-code-source-control-panel)
   - [Instructor Feedback for Assignments](#instructor-feedback-for-assignments)
+    - [Grading Results](#grading-results)
+    - [Asking for Help](#asking-for-help)
 
 <!-- # Version Control and Collaboration Tools
 
@@ -33,6 +35,10 @@ Several tools we may use, each with own purpose:
 # Git
 
 ![Git](https://git-scm.com/images/logo@2x.png)
+
+Git is a powerful tool that you'll almost certainly come across in your career.
+
+All of the topics below are tied directly or indirectly to Git.
 
 ## What is Git?
 
@@ -209,6 +215,8 @@ After committing, you can push to GitHub with the Sync button:
 
 ## Instructor Feedback for Assignments
 
+### Grading Results
+
 - After grading, your instructor will leave feedback on your assignment in GitHub.
 - You may access this feedback via the GitHub website.
 - Check the **Pull requests** tab:
@@ -221,3 +229,9 @@ After committing, you can push to GitHub with the Sync button:
 ![GitHub feedback](images/github_feedback_3.png)
 
 ![GitHub feedback](images/github_feedback_2.png)
+
+### Asking for Help
+
+If requesting help via email, it will help your instructor if you leave inline comments. You may do this by opening a Codespace and clicking the message icon to the left of the line number that you'd like to comment on:
+
+![GitHub feedback](images/github_feedback_4.png)
