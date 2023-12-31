@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Multidimensional Arrays
-course: SDEV 140
+course: SDEV140
 ---
 
 - [Multidimensional Arrays](#multidimensional-arrays)
