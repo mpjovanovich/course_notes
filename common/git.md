@@ -103,7 +103,11 @@ Make sure that you have the correct shell selected, _bash_ or _zsh_:
 
 The GUI for Git can be accessed in the VS Code Source Control Panel:
 
-![VS Code Source Control](images/vscode_source_control_explorer_1.png)
+![VS Code Source Control](images/vscode_source_control_1.png)
 
 - The number in the circle indicates the number of files that have been changed.
--
+- A commit message is required before you press the button.
+
+After committing, you can push to GitHub with the Sync button:
+
+![VS Code Source Control](images/vscode_source_control_2.png)
