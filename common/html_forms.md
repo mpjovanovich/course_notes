@@ -1,7 +1,6 @@
 ---
 layout: base
 title: HTML Forms
-course: common
 ---
 
 - [HTML Forms](#html-forms)

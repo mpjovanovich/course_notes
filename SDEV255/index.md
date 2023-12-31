@@ -56,7 +56,7 @@ course: SDEV255
 
 ### Day 2
 
-[HTML Forms](../common/html_forms.md?course=TEST)
+[HTML Forms](../common/html_forms.html?course=SDEV255)
 
 [PHP: Super Global Arrays](php_superglobal_arrays.md)
 
