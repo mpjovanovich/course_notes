@@ -140,6 +140,9 @@ GitHub gives you an allocated amount of minutes to use per month. While active, 
   - Click the "Code" button
   - Click the Codespaces tab
   - Delete any active codespaces
+- To check if you have existing codespaces
+  - Go to: https://github.com/codespaces
+  - Delete any active codespaces
 
 **As long as your code has been pushed to GitHub, it is safe (and encouraged) to close/delete a codespace whenever you're done with a work session.**
 
