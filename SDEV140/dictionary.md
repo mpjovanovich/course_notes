@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Dictionaries
-course: SDEV 140
+course: SDEV140
 ---
 
 - [Dictionaries](#dictionaries)
