@@ -1,7 +1,25 @@
 ---
 layout: base
-title: SDEV 120 - Propositional Logic
+title: SDEV 120 - Propositional Logic Intro and Connectives
 ---
+
+- [Propositional Logic](#propositional-logic)
+  - [Propositions](#propositions)
+  - [Logical Connectives](#logical-connectives)
+    - [Negation (NOT)](#negation-not)
+      - [Example](#example)
+    - [Conjunction (AND)](#conjunction-and)
+      - [Example](#example-1)
+      - [Example](#example-2)
+    - [Disjunction (OR)](#disjunction-or)
+      - [Example](#example-3)
+      - [Example](#example-4)
+    - [Exclusive OR (XOR)](#exclusive-or-xor)
+      - [Example](#example-5)
+    - [Conditional / Implication (IF)](#conditional--implication-if)
+      - [Example](#example-6)
+      - [Example](#example-7)
+    - [Biconditional (IFF)](#biconditional-iff)
 
 # Propositional Logic
 
@@ -220,12 +238,6 @@ Let P = John is alive.
 Let Q = John's heart is beating.
 
 - John is alive if and only if John's heart is beating = P ↔ Q
-
-## Formalating a Logical Argument
-
-**Argument**: A series of statements that lead to a conclusion.
-
-...
 
 <!--
 TODO: Probably break into another file below here

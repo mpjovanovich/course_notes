@@ -7,10 +7,9 @@ course: SDEV120
 - [Announcements](#announcements)
   - [Module 01](#module-01)
     - [Day 1](#day-1)
+    - [Day 2](#day-2)
 
 # Announcements
-
-<!-- ![Cables](images/cable_management.jpg) -->
 
 <figure>
     <span>
@@ -18,7 +17,7 @@ course: SDEV120
     </span>
 </figure>
 
-- ...
+- Set up a GitHub account if you don't already have one.
 
 ## Module 01
 
@@ -26,10 +25,23 @@ course: SDEV120
 
 [Computer Orientation](../common/computer_orientation.md?course=SDEV120)
 
-<!-- [Unix Basic Commands](../common/unix_basic_commands.md?course=SDEV120) -->
+[Propositional Logic - Intro and Connectives](propositional_logic_intro_connectives.md)
 
-[Propositional Logic](propositional_logic.md)
+Propositional Logic - Order of Operations
 
-[Order of Operations]() - TODO
+Solving Problems with Truth Tables
 
-[Truth Table Reference Sheet](truth_table_reference_sheet.md)
+<!-- [Truth Table Reference Sheet](truth_table_reference_sheet.md) -->
+
+### Day 2
+
+Solving Problems with Logical Arguments
+
+<!-- Warmup: Solve logic puzzle - cars -->
+<!-- https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/prop_logic_riddle.txt -->
+
+Propositional Logic - Common Laws
+
+Set Theory
+
+Logic Gates
