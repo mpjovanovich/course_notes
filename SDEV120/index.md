@@ -18,7 +18,7 @@ course: SDEV120
     </span>
 </figure>
 
-- Set up a GitHub account if you don't already have one.
+- Sign up for proctored exams if you're a remote student.
 
 ## Module 01
 
