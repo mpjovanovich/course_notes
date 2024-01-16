@@ -9,6 +9,7 @@ title: SDEV 120 - Truth Tables
     - [AND (Conjunction)](#and-conjunction)
     - [OR (Disjunction)](#or-disjunction)
     - [XOR (Exclusive OR)](#xor-exclusive-or)
+    - [Implication](#implication)
   - [Using Truth Tables to Solve Logical Expressions](#using-truth-tables-to-solve-logical-expressions)
 
 # Truth Tables
@@ -64,6 +65,19 @@ Python: doesn't exist
 | False | True  |  True |
 | True  | False |  True |
 | True  | True  | False |
+
+### Implication
+
+Symbol: → or ⇒
+
+Python: `if` statements
+
+| A     | B     | A → B |
+| :---- | :---- | ----: |
+| False | False |  True |
+| False | True  |  True |
+| True  | False | False |
+| True  | True  |  True |
 
 ## Using Truth Tables to Solve Logical Expressions
 
