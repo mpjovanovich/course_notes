@@ -4,22 +4,30 @@ title: Home
 course: SDEV120
 ---
 
+- [Announcements](#announcements)
+  - [Module 01](#module-01)
+    - [Day 1](#day-1)
+
 # Announcements
 
-![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
+<!-- ![Cables](images/cable_management.jpg) -->
 
-### Lecture Notes
+<figure>
+    <span>
+        <img src="images/cable_management.jpg" style="width: 75%;">
+    </span>
+</figure>
 
-[Computer Orientation](../common/computer_orientation.md)
+- ...
 
-<!-- [M05: Arrays; Variable Scope and Functions](m05.md) -->
+## Module 01
 
-<!-- [M06: SDLC; UML; Set Theory; Propositional and Predicate Logic](m06.md) -->
+### Day 1
 
-<!-- [M08: What is a Computer Program?](m08.md) -->
+[Computer Orientation](../common/computer_orientation.md?course=SDEV120)
 
-### Study Material
+<!-- [Unix Basic Commands](../common/unix_basic_commands.md?course=SDEV120) -->
+
+[Propositional Logic](propositional_logic.md)
 
 [Truth Table Reference Sheet](truth_table_reference_sheet.md)
-
-<!-- [Final Exam Study Guide](final_exam_study_guide.md) -->
