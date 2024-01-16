@@ -30,9 +30,7 @@ course: SDEV120
 
 Propositional Logic - Order of Operations
 
-Solving Problems with Truth Tables
-
-<!-- [Truth Table Reference Sheet](truth_table_reference_sheet.md) -->
+[Solving Problems with Truth Tables](truth_table_reference_sheet.md)
 
 ### Day 2
 
