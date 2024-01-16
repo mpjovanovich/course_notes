@@ -30,4 +30,6 @@ course: SDEV120
 
 [Propositional Logic](propositional_logic.md)
 
+[Order of Operations]() - TODO
+
 [Truth Table Reference Sheet](truth_table_reference_sheet.md)
