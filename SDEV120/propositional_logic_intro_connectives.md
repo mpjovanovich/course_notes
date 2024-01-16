@@ -1,6 +1,7 @@
 ---
 layout: base
-title: SDEV 120 - Propositional Logic Intro and Connectives
+title: Propositional Logic Intro and Connectives
+course: SDEV120
 ---
 
 - [Propositional Logic](#propositional-logic)
@@ -18,7 +19,6 @@ title: SDEV 120 - Propositional Logic Intro and Connectives
       - [Example](#example-5)
     - [Conditional / Implication (IF)](#conditional--implication-if)
       - [Example](#example-6)
-      - [Example](#example-7)
     - [Biconditional (IFF)](#biconditional-iff)
 
 # Propositional Logic
@@ -78,9 +78,15 @@ A **binary operator** is an operator that takes two operands.
 
 #### Example
 
-Let P = It is raining.
-
-- It is not raining = ¬P
+<details>
+<summary>
+Express using propositions: "It is not raining".
+</summary>
+<div>
+<p>Let P = It is raining.</p>
+<p>¬P</p>
+</div>
+</details>
 
 ### Conjunction (AND)
 
@@ -101,19 +107,29 @@ Let P = It is raining.
 
 #### Example
 
-Let P = It is raining.
-Let Q = It is cold.
-
-- It is rainy and cold = P ∧ Q
+<details>
+<summary>
+Express using propositions: "It is raining and cold".
+</summary>
+<div>
+<p>Let P = It is raining.</p>
+<p>Let Q = It is cold.</p>
+<p>P ∧ Q</p>
+</div>
+</details>
 
 #### Example
 
-Spot is P dog.
-
-Let Spot = Is Spot.
-Let Dog = Is a dog.
-
-- Spot is a dog = Spot ∧ Dog
+<details>
+<summary>
+Express using propositions: "Spot is a dog".
+</summary>
+<div>
+<p>Let Spot = Is Spot.</p>
+<p>Let Dog = Is a dog.</p>
+<p>Spot ∧ Dog</p>
+</div>
+</details>
 
 ### Disjunction (OR)
 
@@ -134,30 +150,31 @@ Let Dog = Is a dog.
 
 #### Example
 
-Let P = It is raining.
-Let Q = It is cold.
-
-- It is rainy or cold (possibly both) = P ∨ Q
+<details>
+<summary>
+Express using propositions: "It is raining or cold (possibly both)".
+</summary>
+<div>
+<p>Let P = It is raining.</p>
+<p>Let Q = It is cold.</p>
+<p>P ∨ Q</p>
+</div>
+</details>
 
 #### Example
 
 Karen is an Ivy Tech student or a Purdue student.
 
-_Method 1_
-
-Let KarenIvyStudent = Karen is an Ivy Tech student.
-Let KarenPurdueStudent = Karen is a Purdue student.
-
-- Karen is an Ivy Tech student or Karen is a Purdue student = KarenIvyStudent ∨ KarenPurdueStudent
-
-_Method 2_
-
-Let Karen = Is Karen.
-Let IvyStudent = Is an Ivy Tech student.
-Let PurdueStudent = Is a Purdue student.
-
-- Karen is an Ivy Tech student or Karen is a Purdue student = (Karen ∧ IvyStudent) ∨ (Karen ∧ PurdueStudent)
-- _This shows how the way that we speak doesn't always match up with formal logic._
+<details>
+<summary>
+Express using propositions: "Karen is an Ivy Tech student or a Purdue student.".
+</summary>
+<div>
+<p>Let KarenIvyStudent = Karen is an Ivy Tech student.</p>
+<p>Let KarenPurdueStudent = Karen is a Purdue student.</p>
+<p>KarenIvyStudent ∨ KarenPurdueStudent</p>
+</div>
+</details>
 
 ### Exclusive OR (XOR)
 
@@ -178,10 +195,16 @@ Let PurdueStudent = Is a Purdue student.
 
 #### Example
 
-Let P = Ted went to the store.
-Let Q = Ted went to the gym.
-
-- Ted went to the store or the gym (but not both) = P ⊕ B
+<details>
+<summary>
+Express using propositions: "Ted either went to the store or the gym.".
+</summary>
+<div>
+<p>Let P = Ted went to the store.</p>
+<p>Let Q = Ted went to the gym.</p>
+<p>P ⊕ Q</p>
+</div>
+</details>
 
 ### Conditional / Implication (IF)
 
@@ -198,22 +221,22 @@ Let Q = Ted went to the gym.
 
 **Description**: Evaluates to true if a condition implies the truth of another proposition (if P is true than Q must also be true).
 
+Read as "P implies Q" or "If P, then Q".
+
 **Used When**: You hear the word "if" or "is".
 
 #### Example
 
-Let P = It is raining.
-Let Q = Bill uses an umbrella.
-
-- If it is raining, then Bill uses an umbrella = P → Q
-
-#### Example
-
-Let P = Is a dog.
-Let Q = Is a mammal.
-
-- A dog is a mammal = P → Q
-- Roughly equivalent to "If something is a dog, then it is a mammal."
+<details>
+<summary>
+Express using propositions: "If it is raining, then Bill uses an umbrella."
+</summary>
+<div>
+<p>Let P = It is raining.</p>
+<p>Let Q = Bill uses an umbrella.</p>
+<p>P → Q</p>
+</div>
+</details>
 
 ### Biconditional (IFF)
 

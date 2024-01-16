@@ -1,6 +1,7 @@
 ---
 layout: base
-title: SDEV 120 - Truth Tables
+title: Truth Tables
+course: SDEV120
 ---
 
 - [Truth Tables](#truth-tables)

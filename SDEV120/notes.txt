@@ -3,6 +3,4 @@ Check course planning workbook; not sure if all assignments made it in.
 Get images from the text - 
 https://faculty.cengage.com/
 
-Add as course book. We will only cover selected content from chapter 1, but it lays it out in a consistent way, which we're currently lacking.
-E.g. truth tables, logic gates, prop logic:
-https://open.umn.edu/opentextbooks/textbooks/166
+

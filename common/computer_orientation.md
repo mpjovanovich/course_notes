@@ -7,9 +7,6 @@ title: Computer Orientation
   - [Naming Files and Folders](#naming-files-and-folders)
   - [File Extensions](#file-extensions)
   - [Directory Structure](#directory-structure)
-  - [Absolute vs. Relative Paths](#absolute-vs-relative-paths)
-    - [Absolute Paths](#absolute-paths)
-    - [Relative Paths](#relative-paths)
   - [What Should I Be Able to Do?](#what-should-i-be-able-to-do)
 
 # Computer Orientation
@@ -83,30 +80,6 @@ src
 
 - Use a hierarchicial directory structure where possible.
 - Use a consistent naming convention.
-
-## Absolute vs. Relative Paths
-
-### Absolute Paths
-
-- The top-most directory is called the **root directory**.
-  - On Windows, this is `C:\`.
-  - On Mac and Linux, this is `/`.
-
-Absolute paths start at the root directory.
-
-Examples:
-
-- `C:\Users\John\Documents\test.txt`
-- `/home/john/Documents/test.txt`
-
-### Relative Paths
-
-Relative paths start at the current directory. This can be the working directory from the terminal, or a path relative to the current file if coding.
-
-Examples:
-
-- `Documents\test.txt`
-- `SomeFolder/OtherFolder/test.txt`
 
 ## What Should I Be Able to Do?
 
