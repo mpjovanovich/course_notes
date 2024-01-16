@@ -37,11 +37,12 @@ Solving Problems with Truth Tables
 
 Solving Problems with Logical Arguments
 
-<!-- Warmup: Solve logic puzzle - cars -->
 <!-- https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/prop_logic_riddle.txt -->
 
 Propositional Logic - Common Laws
 
-Set Theory
+<!-- https://www.math.uci.edu/~mathcircle/materials/Propositional_Logic_Nov24_2014.pdf -->
 
 Logic Gates
+
+Set Theory
