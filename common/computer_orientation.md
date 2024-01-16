@@ -7,11 +7,10 @@ title: Computer Orientation
   - [Naming Files and Folders](#naming-files-and-folders)
   - [File Extensions](#file-extensions)
   - [Directory Structure](#directory-structure)
-    - [Directory Separator](#directory-separator)
-    - [Root Directory](#root-directory)
   - [Absolute vs. Relative Paths](#absolute-vs-relative-paths)
     - [Absolute Paths](#absolute-paths)
     - [Relative Paths](#relative-paths)
+  - [What Should I Be Able to Do?](#what-should-i-be-able-to-do)
 
 # Computer Orientation
 
@@ -80,14 +79,6 @@ src
 └── vite-env.d.ts
 ```
 
-### Directory Separator
-
-### Root Directory
-
-- The top-most directory is called the _root_ directory.
-  - On Windows, this is `C:\`.
-  - On Mac and Linux, this is `/`.
-
 **Good Habits:**
 
 - Use a hierarchicial directory structure where possible.
@@ -97,7 +88,11 @@ src
 
 ### Absolute Paths
 
-Path starts at the root directory.
+- The top-most directory is called the **root directory**.
+  - On Windows, this is `C:\`.
+  - On Mac and Linux, this is `/`.
+
+Absolute paths start at the root directory.
 
 Examples:
 
@@ -106,9 +101,18 @@ Examples:
 
 ### Relative Paths
 
-Path starts at the current directory. This can be the working directory from the terminal, or a path relative to the current file if coding.
+Relative paths start at the current directory. This can be the working directory from the terminal, or a path relative to the current file if coding.
 
 Examples:
 
 - `Documents\test.txt`
 - `SomeFolder/OtherFolder/test.txt`
+
+## What Should I Be Able to Do?
+
+- Find files and folders
+- Create new files and folders
+- Move files and folders
+- Delete files and folders
+- Rename files and folders
+- Change the extension of files
