@@ -23,7 +23,7 @@ course: SDEV120
 
 ### Day 1
 
-[Computer Orientation](../common/computer_orientation.md?course=SDEV120)
+[Computer Orientation](../common/computer_orientation.html?course=SDEV120)
 
 [Propositional Logic - Intro and Connectives](propositional_logic_intro_connectives.md)
 
