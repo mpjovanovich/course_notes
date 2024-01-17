@@ -23,6 +23,12 @@ course: SDEV255
 
 [Intro to Full Stack Development](intro_full_stack_development.md)
 
+[JavaScript: Intro](javascript_intro.md)
+
+[JavaScript: Manipulating the DOM](javascript_manipulating_dom.md)
+
+[JavaScript: Events](javascript_events.md)
+
 <!-- [Understanding URLs](urls.md) -->
 
 <!--
