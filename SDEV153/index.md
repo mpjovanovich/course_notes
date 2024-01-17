@@ -1,8 +1,13 @@
 ---
 layout: base
 title: Home
-course: SDEV255
+course: SDEV153
 ---
+
+- [Announcements](#announcements)
+- [Agenda](#agenda)
+- [Module 01](#module-01)
+  - [Day 1](#day-1)
 
 # Announcements
 
@@ -16,20 +21,15 @@ course: SDEV255
   - Make sure you're on the schedule.
   - Do a test call on Zoom to check your audio/video if in doubt.
 
-# TOC
+# Agenda
 
-- [Announcements](#announcements)
-- [TOC](#toc)
-- [Old Lecture Schedule](#old-lecture-schedule)
-- [New Lecture Schedule](#new-lecture-schedule)
-  - [Module 05](#module-05)
-    - [Day 1](#day-1)
-    - [Day 2](#day-2)
-  - [Module 06](#module-06)
-    - [Day 1](#day-1-1)
-    - [Day 2](#day-2-1)
+# Module 01
 
-# Old Lecture Schedule
+## Day 1
+
+...
+
+<!-- # Old Lecture Schedule
 
 [M02: Project Planning; Intro to CSS](m02.md)
 
@@ -71,4 +71,4 @@ HTML Tables
 
 Licensing, Copyright, and Legal
 
-Search Engine Optimization
+Search Engine Optimization -->

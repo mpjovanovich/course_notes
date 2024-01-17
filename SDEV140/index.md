@@ -4,6 +4,10 @@ tital: Home
 course: SDEV 140
 ---
 
+- [Announcements](#announcements)
+- [Module 01](#module-01)
+  - [Day 1](#day-1)
+
 # Announcements
 
 <figure>
@@ -12,22 +16,11 @@ course: SDEV 140
     </span>
 </figure>
 
-- Final: To be posted by Friday midnight.
-  - Likely to be "general" in format; then we'll review it.
-  - Open book, open notes, open internet.
-  - No collaboration, no snippets from AI.
+# Module 01
 
-# TOC
+## Day 1
 
-- [Announcements](#announcements)
-- [TOC](#toc)
-- [Old Lecture Schedule](#old-lecture-schedule)
-- [New Lecture Schedule](#new-lecture-schedule)
-  - [Module 06](#module-06)
-    - [Day 1](#day-1)
-    - [Day 2](#day-2)
-
-# Old Lecture Schedule
+<!-- # Old Lecture Schedule
 
 [Module 02: Selection Structures; Functions; Variable Scope](m02.md)
 
@@ -61,4 +54,4 @@ Debugging with File Paths in VS Code
 
 ### Day 1
 
-[Object Oriented Programming](oop.md)
+[Object Oriented Programming](oop.md) -->

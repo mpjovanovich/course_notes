@@ -4,34 +4,28 @@ title: Home
 course: SDEV255
 ---
 
+- [Announcements](#announcements)
+- [Module 01](#module-01)
+  - [Day 1](#day-1)
+
 # Announcements
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- MySQL null constraint enforcement...
+- Create GitHub account if you don't have one.
+- Sign up for proctored exams if you're a remote student.
 
-```php
-} catch (PDOException $e) {
-    // Handle connection errors...
-    // Only show message and code, not sensitive information
-    throw new PDOException($e->getMessage(), $e->getCode());
-}
-```
+# Module 01
 
-# TOC
+## Day 1
 
-- [Announcements](#announcements)
-- [TOC](#toc)
-- [Old Lecture Schedule](#old-lecture-schedule)
-- [New Lecture Schedule](#new-lecture-schedule)
-  - [Module 04](#module-04)
-    - [Day 1](#day-1)
-    - [Day 2](#day-2)
-  - [Module 05](#module-05)
-    - [Day 1](#day-1-1)
-  - [Mystery Zone](#mystery-zone)
-    - [12/14](#1214)
+[Computer Orientation](../common/computer_orientation.html?course=SDEV255)
 
+[Intro to Full Stack Development](intro_full_stack_development.md)
+
+<!-- [Understanding URLs](urls.md) -->
+
+<!--
 # Old Lecture Schedule
 
 [M02: JS Part II: form validation; event listeners; objects, properties, and methods; JSON; AJAX](m02.md)
@@ -74,16 +68,4 @@ course: SDEV255
 
 [PHP: Filter Functions](php_filter_functions.md)
 
-## Mystery Zone
-
-### 12/14
-
-- Final exam (review of course notes)
-- Lab continued
-  - Handling optional parameters in a query
-  - Object relational mapping
-  - Populating a class from a database
-    - PHP object storage
-    - PHP class loading
-    - ...
-    - Fetch API to update part of a page with DB data
+-->

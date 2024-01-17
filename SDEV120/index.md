@@ -5,10 +5,10 @@ course: SDEV120
 ---
 
 - [Announcements](#announcements)
-  - [Module 01](#module-01)
-    - [Day 1](#day-1)
-    - [Day 2](#day-2)
-  - [Reference](#reference)
+- [Module 01](#module-01)
+  - [Day 1](#day-1)
+  - [Day 2](#day-2)
+- [Reference](#reference)
 
 # Announcements
 
@@ -20,9 +20,9 @@ course: SDEV120
 
 - Sign up for proctored exams if you're a remote student.
 
-## Module 01
+# Module 01
 
-### Day 1
+## Day 1
 
 [Computer Orientation](../common/computer_orientation.html?course=SDEV120)
 
@@ -32,7 +32,7 @@ Propositional Logic - Order of Operations
 
 [Solving Problems with Truth Tables](truth_table_reference_sheet.md)
 
-### Day 2
+## Day 2
 
 Solving Problems with Logical Arguments (Part 1)
 
@@ -54,7 +54,7 @@ Logical Quantifiers
 
 Solving Problems with Logical Arguments (Part 2)
 
-## Reference
+# Reference
 
 [Truth Table Reference Sheet](truth_table_reference_sheet.md)
 
