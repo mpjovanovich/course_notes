@@ -13,14 +13,21 @@ course: SDEV255
   - [Comments](#comments)
   - [Semicolons](#semicolons)
   - [Curly Braces](#curly-braces)
+  - [Conventions](#conventions)
   - [Variables and Constants](#variables-and-constants)
     - [Data Types](#data-types)
     - [Declaration and Scope](#declaration-and-scope)
   - [Strings](#strings)
+    - [Concatenation](#concatenation)
+    - [Template Literals](#template-literals)
   - [Arrays](#arrays)
   - [If Statements](#if-statements)
   - [Loops](#loops)
+    - [While](#while)
+    - [For](#for)
   - [Functions](#functions)
+    - [Anonymous Functions](#anonymous-functions)
+    - [Arrow Functions](#arrow-functions)
 
 <figure>
     <span>
@@ -150,6 +157,22 @@ JavaScript uses curly braces to denote blocks of code.
 print(x); // Error: x is not defined
 ```
 
+## Conventions
+
+See [Google's JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+
+No hard rules, but there are some common conventions. Usually:
+
+- camelCase for variable and function names.
+- All caps for constants.
+- Two spaces for indentation.
+- The `{` goes on the same line as the block that it belongs with.
+- 80 character line limit before wrapping.
+
+A **linter** is a tool that analyzes your code and reports any errors or warnings.
+
+Consider using a linter to help you follow conventions.
+
 ## Variables and Constants
 
 ### Data Types
@@ -207,20 +230,121 @@ console.log(x); // 5
 
 ## Strings
 
-... TODO: concat, interpolation, formatting ...
+### Concatenation
+
+```javascript
+let firstName = "John";
+let lastName = "Doe";
+let fullName = firstName + " " + lastName;
+```
+
+### Template Literals
+
+**Template literals** are string literals that allow embedded expressions via interpolation.
+
+**String interpolation** is where a string literal contains one or more placeholders which can have expressions embedded in them.
+
+Use backticks, dollar sign, and curly braces to interpolate variables into strings.
+
+```javascript
+let firstName = "John";
+let lastName = "Doe";
+let fullName = `${firstName} ${lastName}`;
+```
+
+We can put any valid JavaScript expression inside the curly braces.
+
+```javascript
+let price = 5.99;
+let quantity = 10;
+let total = `The total is $${price * quantity}`;
+```
 
 ## Arrays
 
-... TODO ...
+```javascript
+let myArray = ["John", "Doe", 33];
+```
 
 ## If Statements
 
-... TODO ...
+If, else if, else:
+
+```javascript
+if (condition1) {
+  // code to be executed if condition1 is true
+} else if (condition2) {
+  // code to be executed if condition1 is false and condition2 is true
+} else {
+  // code to be executed if both condition1 and condition2 are false
+}
+```
 
 ## Loops
 
-... TODO ...
+### While
+
+```javascript
+let i = 0;
+while (i < 10) {
+  console.log(i);
+  i++;
+}
+```
+
+### For
+
+```javascript
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+```
 
 ## Functions
 
-... TODO ...
+Basic function syntax:
+
+```javascript
+function myFunction() {
+  // code to be executed
+}
+```
+
+With arguments:
+
+```javascript
+function myFunction(arg1, arg2) {
+  // code to be executed
+}
+```
+
+With return value:
+
+```javascript
+function myFunction(arg1, arg2) {
+  returnValue = arg1 + arg2;
+  return returnValue;
+}
+```
+
+### Anonymous Functions
+
+We will see these more when we talk about callbacks. Storing a function in a variable:
+
+```javascript
+const myFunction = function (arg1, arg2) {
+  returnValue = arg1 + arg2;
+  return returnValue;
+};
+```
+
+### Arrow Functions
+
+We will see these more when we talk about callbacks. Storing a function in a variable:
+
+```javascript
+const myFunction = (arg1, arg2) => {
+  returnValue = arg1 + arg2;
+  return returnValue;
+};
+```
