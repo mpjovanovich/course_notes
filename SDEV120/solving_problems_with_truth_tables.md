@@ -1,86 +1,12 @@
 ---
 layout: base
-title: Truth Tables
+title: Solving Problems with Truth Tables
 course: SDEV120
 ---
 
-- [Truth Tables](#truth-tables)
-  - [Logical Conjunctive Reference Sheet](#logical-conjunctive-reference-sheet)
-    - [NOT (Negation)](#not-negation)
-    - [AND (Conjunction)](#and-conjunction)
-    - [OR (Disjunction)](#or-disjunction)
-    - [XOR (Exclusive OR)](#xor-exclusive-or)
-    - [Implication](#implication)
-  - [Using Truth Tables to Solve Logical Expressions](#using-truth-tables-to-solve-logical-expressions)
+- [Solving Problems with Truth Tables](#solving-problems-with-truth-tables)
 
-# Truth Tables
-
-## Logical Conjunctive Reference Sheet
-
-### NOT (Negation)
-
-Symbol: ¬
-
-Python: NOT
-
-| A     |    ¬A |
-| :---- | ----: |
-| False |  True |
-| True  | False |
-
-### AND (Conjunction)
-
-Symbol: ∧
-
-Python: AND
-
-| A     | B     | A ∧ B |
-| :---- | :---- | ----: |
-| False | False | False |
-| False | True  | False |
-| True  | False | False |
-| True  | True  |  True |
-
-### OR (Disjunction)
-
-Symbol: ∨
-
-Python: OR
-
-| A     | B     | A ∨ B |
-| :---- | :---- | ----: |
-| False | False | False |
-| False | True  |  True |
-| True  | False |  True |
-| True  | True  |  True |
-
-### XOR (Exclusive OR)
-
-Symbol: ⊕
-
-Python: doesn't exist
-
-| A     | B     | A ⊕ B |
-| :---- | :---- | ----: |
-| False | False | False |
-| False | True  |  True |
-| True  | False |  True |
-| True  | True  | False |
-
-### Implication
-
-Symbol: → or ⇒
-
-Python: `if` statements
-
-| A     | B     | A → B |
-| :---- | :---- | ----: |
-| False | False |  True |
-| False | True  |  True |
-| True  | False | False |
-| True  | True  |  True |
-
-## Using Truth Tables to Solve Logical Expressions
+# Solving Problems with Truth Tables
 
 **_Determine the number of rows needed._**
 
@@ -115,7 +41,7 @@ _Example_
 
 _Example_
 
-If trying to find the truth table for A ∧ B ∧ C:
+If trying to find the truth table for ¬A ∧ B ∧ C:
 
 | A   | B   | C   |     | ¬A ∧ B ∨ C |
 | :-- | :-- | :-- | :-- | ---------: |

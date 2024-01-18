@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Propositional Logic Intro and Connectives
+title: Propositional Logic - Intro and Connectives
 course: SDEV120
 ---
 
@@ -263,14 +263,6 @@ Let Q = John's heart is beating.
 - John is alive if and only if John's heart is beating = P ↔ Q
 
 <!--
-TODO: Probably break into another file below here
-
-## Truth Tables
-
-**Truth values** are the values that propositions can have: true or false. These are also called Boolean values.
-
-**Truth tables** are tables that show all possible truth values for propositions in a problem.
-
 
 ## Order of Operations
 

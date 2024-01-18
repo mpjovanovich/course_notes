@@ -4,13 +4,14 @@ title: Home
 course: SDEV120
 ---
 
-- [Announcements](#announcements)
+- [Announcements / Agenda](#announcements--agenda)
 - [Module 01](#module-01)
   - [Day 1](#day-1)
   - [Day 2](#day-2)
+  - [Day 3](#day-3)
 - [Reference](#reference)
 
-# Announcements
+# Announcements / Agenda
 
 <figure>
     <span>
@@ -19,6 +20,8 @@ course: SDEV120
 </figure>
 
 - Sign up for proctored exams if you're a remote student.
+- Lecture
+- Intro Truth Tables Assignment
 
 # Module 01
 
@@ -28,34 +31,20 @@ course: SDEV120
 
 [Propositional Logic - Intro and Connectives](propositional_logic_intro_connectives.md)
 
-Propositional Logic - Order of Operations
-
-[Solving Problems with Truth Tables](truth_table_reference_sheet.md)
-
 ## Day 2
 
-Solving Problems with Logical Arguments (Part 1)
+[Propositional Logic - Order of Operations](propositional_logic_order_of_operations.md)
 
-<!-- https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/prop_logic_riddle.txt -->
+[Solving Problems with Truth Tables](solving_problems_with_truth_tables.md)
 
-Propositional Logic - Common Laws
+[Solving Problems with Logical Arguments](solving_problems_with_logical_arguments.md)
 
-<!-- https://www.math.uci.edu/~mathcircle/materials/Propositional_Logic_Nov24_2014.pdf -->
+## Day 3
 
 Logic Gates
 
-Logic Domains
-
-<!-- see chatGPT convo for example -->
-
 Set Theory
 
-Logical Quantifiers
-
-Solving Problems with Logical Arguments (Part 2)
-
 # Reference
-
-[Truth Table Reference Sheet](truth_table_reference_sheet.md)
 
 [Unix Basic Commands](../common/unix_basic_commands.html?course=SDEV120)
