@@ -25,6 +25,7 @@ course: SDEV255
   - [Loops](#loops)
     - [While](#while)
     - [For](#for)
+    - [Foreach](#foreach)
   - [Functions](#functions)
     - [Anonymous Functions](#anonymous-functions)
     - [Arrow Functions](#arrow-functions)
@@ -263,7 +264,7 @@ let total = `The total is $${price * quantity}`;
 ## Arrays
 
 ```javascript
-let myArray = ["John", "Doe", 33];
+let myArray = ["Bingo", "Rolly", "Spot"];
 ```
 
 ## If Statements
@@ -298,6 +299,15 @@ while (i < 10) {
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
+```
+
+### Foreach
+
+```javascript
+let myArray = ["Bingo", "Rolly", "Spot"];
+myArray.forEach((item) => {
+  console.log(item);
+});
 ```
 
 ## Functions
