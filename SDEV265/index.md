@@ -6,13 +6,14 @@ course: SDEV265
 
 # Announcements
 
-![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
-
-# TOC
-
-- [Announcements](#announcements)
-- [TOC](#toc)
-- [1/15](#115)
+<figure>
+    <span>
+        <img src="https://content.fortune.com/wp-content/uploads/2014/09/isa06_7.jpg?resize=1200,600" style="width: 60%;">
+    </span>
+    <figcaption>
+        <a href=""></a>
+    </figcaption>
+</figure>
 
 # 1/15
 
