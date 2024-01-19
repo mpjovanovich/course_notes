@@ -4,6 +4,9 @@ title: Home
 course: SDEV265
 ---
 
+- [Announcements](#announcements)
+- [1/15](#115)
+
 # Announcements
 
 <figure>
