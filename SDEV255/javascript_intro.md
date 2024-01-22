@@ -27,8 +27,6 @@ course: SDEV255
     - [For](#for)
     - [Foreach](#foreach)
   - [Functions](#functions)
-    - [Anonymous Functions](#anonymous-functions)
-    - [Arrow Functions](#arrow-functions)
 
 <figure>
     <span>
@@ -335,26 +333,4 @@ function myFunction(arg1, arg2) {
   returnValue = arg1 + arg2;
   return returnValue;
 }
-```
-
-### Anonymous Functions
-
-We will see these more when we talk about callbacks. Storing a function in a variable:
-
-```javascript
-const myFunction = function (arg1, arg2) {
-  returnValue = arg1 + arg2;
-  return returnValue;
-};
-```
-
-### Arrow Functions
-
-We will see these more when we talk about callbacks. Storing a function in a variable:
-
-```javascript
-const myFunction = (arg1, arg2) => {
-  returnValue = arg1 + arg2;
-  return returnValue;
-};
 ```

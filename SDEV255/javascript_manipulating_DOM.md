@@ -17,6 +17,7 @@ course: SDEV255
     - [Getting Children of an Element](#getting-children-of-an-element)
   - [Modifying HTML Elements](#modifying-html-elements)
     - [Changing Element Text:](#changing-element-text)
+    - [Form Input Retrieval:](#form-input-retrieval)
     - [Changing Element Style:](#changing-element-style)
     - [Changing Element Attributes:](#changing-element-attributes)
   - [Adding and Removing Elements](#adding-and-removing-elements)
@@ -144,6 +145,16 @@ const paragraph = document.getElementById("paragraph");
 
 // Change the text:
 paragraph.textContent = "This is new content.";
+```
+
+### Form Input Retrieval:
+
+Instead of using `textContent`, we can use `value` to retrieve the value entered in an HTML input field.
+
+```javascript
+// Retrieves the value entered in an input field
+const inputField = document.querySelector("#username");
+const userInput = inputField.value;
 ```
 
 ### Changing Element Style:

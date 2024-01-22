@@ -21,10 +21,16 @@ course: SDEV255
 
 # Agenda
 
+- Lab 1) Dev tools
+  - Each lab assignment is a GitHub repository.
+  - GitHub Classroom, how to accept assignment (show with test student)
+  - Codespaces vs downloading repo and uploading work
+  - How to submit work (Sync with GitHub - that's it! Sync often!)
 - Lecture
-- VS Code
-- GitHub Codespaces and GitHub Classroom
-- Lab
+- Local Dev Environment Configuration
+  - VS Code or other IDE; recommended extensions
+  - Run through some JS examples; simple HTML page, console logs, DOM Stuff...
+- Lab 2) JavaScript
 
 # Module 01
 
@@ -42,7 +48,7 @@ No class - MLK Day
 
 ## Day 3
 
-Finish [JavaScript: Intro](javascript_intro.md)
+Review [JavaScript: Intro](javascript_intro.md)
 
 [JavaScript: Manipulating the DOM](javascript_manipulating_dom.md)
 

@@ -23,15 +23,6 @@ title: HTML Forms
     - [Grading Results](#grading-results)
     - [Asking for Help](#asking-for-help)
 
-<!-- # Version Control and Collaboration Tools
-
-Several tools we may use, each with own purpose:
-
-- [Git](https://git-scm.com/)
-- [GitHub](https://github.com/)
-- [GitHub CodeSpaces](https://docs.github.com/en/codespaces/overview)
-- [VS Code](https://code.visualstudio.com/) -->
-
 # Git
 
 ![Git](https://git-scm.com/images/logo@2x.png)
