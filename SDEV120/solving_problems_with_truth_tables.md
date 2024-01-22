@@ -41,7 +41,7 @@ _Example_
 
 _Example_
 
-If trying to find the truth table for ¬A ∧ B ∧ C:
+If trying to find the truth table for ¬A ∧ B ∨ C:
 
 | A   | B   | C   |     | ¬A ∧ B ∨ C |
 | :-- | :-- | :-- | :-- | ---------: |
@@ -73,11 +73,11 @@ Be sure each row starts with T and not F.
 
 |  A  |  B  |  C  | ¬A  | ¬A ∧ B | ¬A ∧ B ∨ C |
 | :-: | :-: | :-: | :-: | :----: | :--------: |
-|  T  |  T  |  T  |  F  |   F    |     F      |
+|  T  |  T  |  T  |  F  |   F    |     T      |
 |  T  |  T  |  F  |  F  |   F    |     F      |
-|  T  |  F  |  T  |  F  |   F    |     F      |
+|  T  |  F  |  T  |  F  |   F    |     T      |
 |  T  |  F  |  F  |  F  |   F    |     F      |
 |  F  |  T  |  T  |  T  |   T    |     T      |
 |  F  |  T  |  F  |  T  |   T    |     T      |
 |  F  |  F  |  T  |  T  |   F    |     T      |
-|  F  |  F  |  F  |  T  |   F    |     T      |
+|  F  |  F  |  F  |  T  |   F    |     F      |

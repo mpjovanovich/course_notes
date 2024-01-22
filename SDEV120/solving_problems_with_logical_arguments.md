@@ -66,7 +66,7 @@ Translate the following verbal statements into logical arguments, and construct 
 - If an animal is a kangaroo, then it is a mammal.
 - If kangaroos are reptiles, then they lay eggs.
 - If I finish my work and chores, then I can go to the zoo.
-- If I do not finish my work or chores, then I cannot go to the zoo.
+- If I do not finish my work and chores, then I cannot go to the zoo.
 - If I am over 18 or I have parental consent, then I can get a tattoo.
 - If it's (either) raining and I have an umbrella, or it's sunny, then I'll go for a walk.
 
