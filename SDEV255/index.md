@@ -5,8 +5,12 @@ course: SDEV255
 ---
 
 - [Announcements](#announcements)
+- [Agenda](#agenda)
 - [Module 01](#module-01)
   - [Day 1](#day-1)
+  - [Day 2](#day-2)
+  - [Day 3](#day-3)
+  - [Day 4](#day-4)
 
 # Announcements
 
@@ -15,9 +19,20 @@ course: SDEV255
 - Create GitHub account if you don't have one.
 - Sign up for proctored exams if you're a remote student.
 
+# Agenda
+
+- Lecture
+- VS Code
+- GitHub Codespaces and GitHub Classroom
+- Lab
+
 # Module 01
 
 ## Day 1
+
+No class - MLK Day
+
+## Day 2
 
 [Computer Orientation](../common/computer_orientation.html?course=SDEV255)
 
@@ -25,7 +40,13 @@ course: SDEV255
 
 [JavaScript: Intro](javascript_intro.md)
 
+## Day 3
+
+Finish [JavaScript: Intro](javascript_intro.md)
+
 [JavaScript: Manipulating the DOM](javascript_manipulating_dom.md)
+
+## Day 4
 
 [JavaScript: Events](javascript_events.md)
 
