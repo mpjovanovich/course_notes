@@ -48,6 +48,8 @@ No class - MLK Day
 
 ## Day 3
 
+[Development Tools and Git](../common/git.html?course=SDEV255)
+
 Review [JavaScript: Intro](javascript_intro.md)
 
 [JavaScript: Manipulating the DOM](javascript_manipulating_dom.md)

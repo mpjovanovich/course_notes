@@ -9,6 +9,8 @@ course: SDEV120
   - [Day 1](#day-1)
   - [Day 2](#day-2)
   - [Day 3](#day-3)
+- [Module 02](#module-02)
+  - [Day 4](#day-4)
 - [Reference](#reference)
 
 # Announcements / Agenda
@@ -44,6 +46,16 @@ course: SDEV120
 Logic Gates
 
 Set Theory
+
+# Module 02
+
+## Day 4
+
+Algorithms and Structured Programming
+
+Pseudocode
+
+Flowcharts
 
 # Reference
 
