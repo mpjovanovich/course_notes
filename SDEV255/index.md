@@ -16,6 +16,7 @@ course: SDEV255
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
+- Please remind your instructor to record the lecture if you notice the he is not doing so - thanks!
 - Create GitHub account if you don't have one.
 - Sign up for proctored exams if you're a remote student.
 
