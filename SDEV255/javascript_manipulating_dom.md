@@ -125,15 +125,15 @@ const articleTitle = document.querySelector("article h2");
 
 ```javascript
 // Fetch the parent element:
-const article = document.querySelector("article");
+const body = document.querySelector("body");
 
 // Fetch the children of the parent element:
-const articleChildren = article.children;
+const bodyChildren = body.children;
 
 // We can loop through this collection to access each child element:
-articleChildren.forEach((child) => {
-  console.log(child);
-});
+for (let i = 0; i < bodyChildren.length; i++) {
+  console.log(bodyChildren[i]);
+}
 ```
 
 ## Modifying HTML Elements

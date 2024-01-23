@@ -16,22 +16,12 @@ course: SDEV255
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- Please remind your instructor to record the lecture if you notice the he is not doing so - thanks!
-- Create GitHub account if you don't have one.
-- Sign up for proctored exams if you're a remote student.
+- Please remind your instructor to record the lecture if you notice that he is not doing so - thanks!
 
 # Agenda
 
-- Lab 1) Dev tools
-  - Each lab assignment is a GitHub repository.
-  - GitHub Classroom, how to accept assignment (show with test student)
-  - Codespaces vs downloading repo and uploading work
-  - How to submit work (Sync with GitHub - that's it! Sync often!)
 - Lecture
-- Local Dev Environment Configuration
-  - VS Code or other IDE; recommended extensions
-  - Run through some JS examples; simple HTML page, console logs, DOM Stuff...
-- Lab 2) JavaScript
+- Lab
 
 # Module 01
 
@@ -51,11 +41,11 @@ No class - MLK Day
 
 [Development Tools and Git](../common/git.html?course=SDEV255)
 
-Review [JavaScript: Intro](javascript_intro.md)
-
 [JavaScript: Manipulating the DOM](javascript_manipulating_dom.md)
 
 ## Day 4
+
+Suggested workflow: VS Code, Live Server, Browser Dev Tools
 
 [JavaScript: Events](javascript_events.md)
 
