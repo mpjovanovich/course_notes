@@ -43,9 +43,9 @@ course: SDEV120
 
 ## Day 3
 
-Logic Gates
+[Logic Gates](logic_gates.md)
 
-Set Theory
+[Set Theory](set_theory.md)
 
 # Module 02
 
