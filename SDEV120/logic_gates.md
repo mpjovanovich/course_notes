@@ -44,6 +44,33 @@ Logic.ly
 
 <p class="demo">Demo:</p>
 
-Half Adder and Full Adder:
+One bit magnitude comparator
 
-https://www.electronics-tutorials.ws/combination/comb_7.html
+<figure>
+    <span>
+        <img src="images/one_bit_magnitude_comparator.png" style="">
+    </span>
+    <figcaption>
+        <a href=""></a>
+    </figcaption>
+</figure>
+
+Using A = 1, B = 1 as an example, let’s figure out the inputs to the gates that lead to each outcome:
+
+**What is the logic circuit for A < B?**
+
+- ¬A ∧ B
+- 0 ∧ 1 = False
+
+**What is the logic circuit for A > B?**
+
+- A ∧ ¬B
+- 1 ∧ 0 = False
+
+**What is the logic circuit for A = B?**
+
+- ¬( (¬A ∧ B) ∨ (A ∧ ¬B) )
+- A ∨ ¬B ∧ ¬A ∨ B
+- A ∨ (¬B ∧ ¬A) ∨ B
+- 1 ∨ (0 ∧ 0) ∨ 1
+- 1 ∨ 0 ∨ 1 = True
