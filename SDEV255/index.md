@@ -18,6 +18,7 @@ course: SDEV255
 
 - Make sure to turn in Lab1, the survey, by the end of class.
 - Make sure to ask for help with labs. Each missed requirement is worth a large portion of the lab.
+- PHP next week! Check the readings.
 
 # Agenda
 
