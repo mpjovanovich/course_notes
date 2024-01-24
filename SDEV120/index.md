@@ -4,6 +4,16 @@ title: Home
 course: SDEV120
 ---
 
+<figure>
+    <span>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Time_derivatives_of_position.svg/800px-Time_derivatives_of_position.svg.png" style="width: 25%">
+    </span>
+    <figcaption>
+    “The sixth derivative of the position vector with respect to time is sometimes referred to as pop. It is the rate of change of crackle with respect to time.”<br>
+    – Wikipedia
+    </figcaption>
+</figure>
+
 - [Announcements / Agenda](#announcements--agenda)
 - [Module 01](#module-01)
   - [Day 1](#day-1)
@@ -15,15 +25,8 @@ course: SDEV120
 
 # Announcements / Agenda
 
-<figure>
-    <span>
-        <img src="images/cable_management.jpg" style="width: 75%;">
-    </span>
-</figure>
-
-- Sign up for proctored exams if you're a remote student.
 - Lecture
-- Intro Truth Tables Assignment
+- Intro Set Theory Assignment
 
 # Module 01
 
@@ -55,7 +58,7 @@ Algorithms and Structured Programming
 
 Pseudocode
 
-Flowcharts
+[Flowcharts](flowcharts.md)
 
 # Reference
 
