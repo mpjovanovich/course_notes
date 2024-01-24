@@ -16,6 +16,7 @@ course: SDEV255
     - [Anonymous Functions](#anonymous-functions)
   - [DOMContentLoaded - Waiting for the Document to Load](#domcontentloaded---waiting-for-the-document-to-load)
   - [The Event Object](#the-event-object)
+  - [Event Bubbling](#event-bubbling)
 
 # Events
 
@@ -184,3 +185,32 @@ function printTarget(e) {
   console.log(e.target);
 }
 ```
+
+## Event Bubbling
+
+- When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
+- This is called **event bubbling**.
+
+```html
+<body>
+  <h1>The Title</h1>
+  <p>A paragraph.</p>
+  <ul>
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Cherry</li>
+  </ul>
+</body>
+```
+
+```javascript
+document.addEventListener("DOMContentLoaded", () => {
+  const body = document.querySelector("body");
+
+  body.addEventListener("click", (event) => {
+    console.log("Element clicked: " + event.target.tagName);
+  });
+});
+```
+
+In this example the event bubbles up from the child elements (of body) to the body element itself. The event handler on the body then runs.
