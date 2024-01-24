@@ -16,7 +16,8 @@ course: SDEV255
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- Please remind your instructor to record the lecture if you notice that he is not doing so - thanks!
+- Make sure to turn in Lab1, the survey, by the end of class.
+- Make sure to ask for help with labs. Each missed requirement is worth a large portion of the lab.
 
 # Agenda
 
