@@ -5,21 +5,62 @@ course: SDEV265
 ---
 
 - [Announcements](#announcements)
-- [1/15](#115)
+  - [Day 1](#day-1)
+  - [Day 2](#day-2)
+  - [Day 3](#day-3)
+  - [Day 4](#day-4)
 
 # Announcements
 
 <figure>
     <span>
-        <img src="https://content.fortune.com/wp-content/uploads/2014/09/isa06_7.jpg?resize=1200,600" style="width: 60%;">
+        <img src="" style="width: 60%;">
     </span>
     <figcaption>
         <a href=""></a>
     </figcaption>
 </figure>
 
-# 1/15
+- Due dates will always be whatever is in IvyLearn. If there is a discrepancy between IvyLearn and the course outline spreadsheet, IvyLearn is correct.
 
-- Create GitHub account if you don't have one
-- Demo previous projects
-  - TODO: pull from previous course in Canvas
+## Day 1
+
+Assignment: Create GitHub account
+
+Assignment: Intro project proposals
+
+Assignment: Demo previous projects
+
+## Day 2
+
+Lecture: Project pitches and voting
+
+Lecture: SDLC
+
+Lecture: Source Control / Version Control
+
+Lecture: Git Basics
+
+Assignment: Intro VC Assignment 1
+
+Lecture: Git Branching and Merging
+
+Assignment: Intro VC Assignment 2
+
+## Day 3
+
+Lecture: Software evolution
+
+Lecture: GitHub orgs
+
+Assignment: Intro company formation assignment
+
+Meeting: Companies form and break out
+
+## Day 4
+
+Lecture: Project management
+
+Lecture: Project planning
+
+Meeting: Prof check in with groups
