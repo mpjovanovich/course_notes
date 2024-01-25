@@ -4,6 +4,34 @@ title: algorithms
 course: SDEV120
 ---
 
+<figure>
+    <span>
+        <img src="https://imgs.xkcd.com/comics/linear_regression_2x.png" style="width: 60%;">
+    </span>
+    <figcaption>
+        <a href=""></a>
+    </figcaption>
+</figure>
+
+- [Algorithms](#algorithms)
+  - [What is an Algorithm?](#what-is-an-algorithm)
+    - [Examples](#examples)
+  - [Structured Programming](#structured-programming)
+    - [Sequence](#sequence)
+    - [Selection](#selection)
+    - [Iteration](#iteration)
+  - [Applications and Domains](#applications-and-domains)
+    - [Sorting](#sorting)
+    - [Searching](#searching)
+    - [Encryption](#encryption)
+    - [Compression](#compression)
+    - [Pathfinding](#pathfinding)
+    - [Flocking](#flocking)
+    - [Classification](#classification)
+    - [Prediction](#prediction)
+    - [Reinforcement Learning](#reinforcement-learning)
+    - [Data Mining](#data-mining)
+
 # Algorithms
 
 ## What is an Algorithm?
