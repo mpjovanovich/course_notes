@@ -35,6 +35,8 @@ Assignment: Demo previous projects
 
 Lecture: Project pitches and voting
 
+Assignment: Project voting. DUE TODAY.
+
 Lecture: SDLC
 
 Lecture: Source Control / Version Control
