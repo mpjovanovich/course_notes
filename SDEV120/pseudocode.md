@@ -59,10 +59,11 @@ _... and why are there so many?_
 ## How do I write PseudoCode?
 
 - There is no formal way.
+- _\*Your textbook claims there is - this is incorrect._
+
+**Generally:**
+
 - Use a combination of English and code-like syntax.
-
-Generally:
-
 - Start with "Start" or "Begin"
 - End with "End"
 - Indent the body of the algorithm
