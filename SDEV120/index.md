@@ -21,12 +21,14 @@ course: SDEV120
   - [Day 3](#day-3)
 - [Module 02](#module-02)
   - [Day 4](#day-4)
+  - [Day 5](#day-5)
 - [Reference](#reference)
 
 # Announcements / Agenda
 
-- Lecture
 - Intro Set Theory Assignment
+- Lecture
+- Intro draw.io (save some time for next lecture)
 
 # Module 01
 
@@ -57,6 +59,10 @@ course: SDEV120
 [Algorithms and Structured Programming](algorithms.md)
 
 [Pseudocode](pseudocode.md)
+
+[draw.io](https://app.diagrams.net/) - Online flowcharting tool
+
+## Day 5
 
 [Flowcharts](flowcharts.md)
 

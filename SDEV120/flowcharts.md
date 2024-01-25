@@ -16,3 +16,5 @@ course: SDEV120
 - [Flowcharts](#flowcharts)
 
 # Flowcharts
+
+TODO: use figures from textbook; available from publisher site
