@@ -70,10 +70,9 @@ Types of algorithms:
     <span>
         <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*nh6F_qERbgD3xmV-.gif" style="width: 60%;">
     </span>
-    <figcaption>
-        <a href=""></a>
-    </figcaption>
 </figure>
+
+"How do we arrange a set of items in a specific order?"
 
 - Bubble sort
 - Insertion sort
@@ -86,10 +85,9 @@ Types of algorithms:
     <span>
         <img src="https://miro.medium.com/v2/resize:fit:786/format:webp/1*GT9oSo0agIeIj6nTg3jFEA.gif" style="width: 60%;">
     </span>
-    <figcaption>
-        <a href=""></a>
-    </figcaption>
 </figure>
+
+"How do we find a specific piece of information?"
 
 - Linear search
 - Binary search
@@ -98,16 +96,93 @@ Types of algorithms:
 
 ### Encryption
 
+"How do we encode/decode information to and from human readable?"
+
+- RSA
+- AES
+- Triple DES
+
+### Compression
+
+"How do we represent the same information with fewer bits?"
+
+- Huffman coding
+- Lempel-Ziv-Welch (LZW)
+- Discrete cosine transform (DCT)
+
+### Pathfinding
+
 <figure>
     <span>
-        <img src="" style="width: 60%;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" style="">
     </span>
-    <figcaption>
-        <a href=""></a>
-    </figcaption>
 </figure>
 
-<!-- - Encryption
-- Compression
-- Pathfinding
-- Machine Learning -->
+"How do we find the shortest path between two points?"
+
+- Dijkstra's algorithm
+
+### Flocking
+
+<figure>
+    <span>
+        <img src="https://repository-images.githubusercontent.com/258305543/28971980-92d2-11ea-8a66-4d0d91c0e790" style="width: 60%;">
+    </span>
+</figure>
+
+"How do we simulate flock behavior?"
+
+- Boids
+
+### Classification
+
+<figure>
+    <span>
+        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*bhFifratH9DjKqMBTeQG5A.gif" style="width: 60%;">
+    </span>
+</figure>
+
+"How do we categorize items from a set of data?"
+
+- Naive Bayes
+- Decision tree
+- Random forest
+- Support vector machine (SVM)
+- K-nearest neighbors (KNN)
+- Neural network
+
+### Prediction
+
+"How do we predict a future value based on a set of data?"
+
+- Linear regression
+- Logistic regression
+- Polynomial regression
+- Markov chain
+- Monte Carlo method
+- Neural network
+
+### Reinforcement Learning
+
+"How do we get a computer to learn on its own?"
+
+- Q-learning
+- Temporal difference (TD) learning
+
+### Data Mining
+
+<figure>
+    <span>
+        <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*psbhLB_qOFm7UdeYZoLgeA.gif" style="">
+    </span>
+</figure>
+
+"How do we find patterns in a set of data?"
+
+- Apriori algorithm
+- Principal component analysis (PCA)
+- K-means clustering
+
+<p class="demo">Demo:</p>
+
+https://github.com/mpjovanovich/k-means_plus_plus

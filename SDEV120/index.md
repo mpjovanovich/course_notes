@@ -54,11 +54,13 @@ course: SDEV120
 
 ## Day 4
 
-Algorithms and Structured Programming
+[Algorithms and Structured Programming](algorithms.md)
 
-Pseudocode
+[Pseudocode](pseudocode.md)
 
 [Flowcharts](flowcharts.md)
+
+Decision Tree Walkthrough (Titanic)
 
 # Reference
 
