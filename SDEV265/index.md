@@ -85,7 +85,7 @@ Assignment: Intro VC Assignment 1
 
 _If time allows:_
 
-Lecture: Git Branching and Merging
+Lecture: [Git - Beyond the Basics](git_advanced.md)
 
 Assignment: Intro VC Assignment 2
 

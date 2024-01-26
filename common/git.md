@@ -1,6 +1,6 @@
 ---
 layout: base
-title: HTML Forms
+title: Git for this Course
 ---
 
 - [Git](#git)
