@@ -51,6 +51,7 @@ course: SDEV265
 
 - Due dates will always be whatever is in IvyLearn. If there is a discrepancy between IvyLearn and the course outline spreadsheet, IvyLearn is correct.
 - Starting next week groups will be meeting during class. We have a mix of local and remote students, so plan accordingly.
+- Make sure to fill in your topic in the course assignment page after we do the discussion today.
 
 ## Day 1
 
@@ -76,9 +77,13 @@ Lecture: [Software Development Life Cycle (SDLC)](../common/sdlc.html?course=SDE
 
 Lecture: Source Control / Version Control
 
-Lecture: Git Basics
+Lecture: [Git Basics](../common/git.html?course=SDEV265)
+
+- Some notes don't apply to us.
 
 Assignment: Intro VC Assignment 1
+
+_If time allows:_
 
 Lecture: Git Branching and Merging
 
@@ -86,7 +91,7 @@ Assignment: Intro VC Assignment 2
 
 ## Day 3
 
-Lecture: Software evolution
+Lecture: Software evolution, configuration management
 
 Lecture: GitHub orgs
 

@@ -248,8 +248,15 @@ _\*Testing spans multiple domains._
 
 <p class="demo">Demo:</p>
 
-GitHub Actions - the build and deploy process for this site.
+GitHub Actions - build and deploy process.
 
----
+- GitHub project: https://github.com/mpjovanovich/ivy_tech/tree/main/docs
+- GitHub pages site: https://mpjovanovich.github.io/ivy_tech/
+- Pages settings: https://github.com/mpjovanovich/ivy_tech/settings/pages
+- Build history: https://github.com/mpjovanovich/ivy_tech/actions
 
-TODO: Version management
+Let's try breaking it by putting a typo on the theme for the \_config.yml file.
+
+- New theme: https://github.com/pages-themes/architect
+
+... could have avoided the break if there were tests in our CI/CD pipeline.
