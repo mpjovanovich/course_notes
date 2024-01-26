@@ -75,15 +75,15 @@ Discussion: https://ethics.acm.org/code-of-ethics/software-engineering-code/
 
 Lecture: [Software Development Life Cycle (SDLC)](../common/sdlc.html?course=SDEV265)
 
-Lecture: Source Control / Version Control
-
-Lecture: [Git Basics](../common/git.html?course=SDEV265)
-
-- Some notes don't apply to us.
+Lecture: [Git Basics](git_basics.md)
 
 Assignment: Intro VC Assignment 1
 
 _If time allows:_
+
+Lecture: [Configuration management](configuration_management.md)
+
+<!-- This includes source control -->
 
 Lecture: [Git - Beyond the Basics](git_advanced.md)
 
@@ -91,7 +91,7 @@ Assignment: Intro VC Assignment 2
 
 ## Day 3
 
-Lecture: Software evolution, configuration management
+Lecture: Software evolution
 
 Lecture: GitHub orgs
 

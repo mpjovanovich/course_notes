@@ -1,6 +1,6 @@
 ---
 layout: base
-title: JavaScript - Events
+title: Introduction to the Course
 course: SDEV265
 ---
 
