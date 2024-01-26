@@ -28,7 +28,9 @@ course: SDEV265
 >
 > 8.  SELF – Software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the profession.
 >
-> https://ethics.acm.org/code-of-ethics/software-engineering-code/
+> Copyright (c) 1999 by the Association for Computing Machinery, Inc. and the Institute for Electrical and Electronics Engineers, Inc.
+>
+> - https://ethics.acm.org/code-of-ethics/software-engineering-code/
 
 - [Announcements](#announcements)
   - [Day 1](#day-1)
@@ -60,11 +62,17 @@ Assignment: Demo previous projects
 
 ## Day 2
 
+Lecture: [Tips to be successful in this class](intro_to_course.md)
+
 Lecture: Project pitches and voting
 
 Assignment: Project voting. DUE TODAY.
 
-Lecture: SDLC
+Lecture: [Software Engineering](software_engineering.md)
+
+Discussion: https://ethics.acm.org/code-of-ethics/software-engineering-code/
+
+Lecture: [Software Development Life Cycle (SDLC)](../common/sdlc.html?course=SDEV265)
 
 Lecture: Source Control / Version Control
 

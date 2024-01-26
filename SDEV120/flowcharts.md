@@ -6,11 +6,8 @@ course: SDEV120
 
 <figure>
     <span>
-        <img src="images/fun_flowchart.png" style="">
+        <img src="https://imgs.xkcd.com/comics/flow_charts.png" style="width: 80%;">
     </span>
-    <figcaption>
-        <a href=""></a>
-    </figcaption>
 </figure>
 
 - [Flowcharts](#flowcharts)
