@@ -16,6 +16,7 @@ course: SDEV255
   - [Arrays](#arrays)
   - [Indexed Arrays](#indexed-arrays)
   - [Associative Arrays](#associative-arrays)
+    - [Array Functions](#array-functions)
 - [Embedding PHP in HTML](#embedding-php-in-html)
   - [Shorthand Echo](#shorthand-echo)
 - [Configuration](#configuration)
@@ -154,30 +155,59 @@ $names[] = "Jane";
 
 ## Associative Arrays
 
-Also called dictionaries, maps, or hashmaps.
+- Used to "map" keys to values.
+- Also called dictionaries, maps, or hashmaps.
+- Key/value pairs.
+- Keys are unique.
+- Values do not have to be unique.
 
 Referencing:
 
 ```php
-$person = [
-    "firstName" => "Bobby",
-    "lastName" => "Beebop",
-    "age" => 42
+$students = [
+    "C0123456" => "Jonny Danger",
+    "C0123457" => "Q",
+    "C0123458" => "Jennifer's Cat",
 ];
-echo $person["firstName"]; // Bobby
+echo $students["C0123457"]; // Q
 ```
 
 Appending:
 
 ```php
-$person = [
-    "firstName" => "Bobby",
-    "lastName" => "Beebop",
-    "age" => 42
+$students = [
+    "C0123456" => "Jonny Danger",
+    "C0123457" => "Q",
+    "C0123458" => "Jennifer's Cat",
 ];
 // This adds a new key/value pair to the array if it doesn't exist.
 // If it does it will overwrite the value.
-$person["favoriteColor"] = "blue";
+$students["C0123459"] = "Dr. Evil";
+```
+
+### Array Functions
+
+[PHP Array Functions](https://www.php.net/manual/en/ref.array.php)
+
+```php
+// Indexed Arrays
+$names = ["Bobby", "Sally", "Jimmy"];
+echo count($names); // 3
+echo implode(", ", $names); // Bobby, Sally, Jimmy
+echo in_array("Bobby", $names); // true
+echo array_sort($names); // ["Bobby", "Jimmy", "Sally"]
+```
+
+```php
+// Associative Arrays
+$students = [
+    "C0123456" => "Jonny Danger",
+    "C0123457" => "Q",
+    "C0123458" => "Jennifer's Cat",
+];
+echo array_key_exists("C0123456", $students); // true
+echo array_keys($students); // ["C0123456", "C0123457", "C0123458"]
+echo array_values($students); // ["Jonny Danger", "Q", "Jennifer's Cat"]
 ```
 
 # Embedding PHP in HTML

@@ -9,9 +9,14 @@ course: SDEV255
 - [Module 01](#module-01)
   - [Day 1](#day-1)
   - [Day 2](#day-2)
+- [Module 02](#module-02)
+- [Module 03](#module-03)
   - [Day 3](#day-3)
   - [Day 4](#day-4)
+- [Module 04](#module-04)
   - [Day 5](#day-5)
+- [Module 05](#module-05)
+  - [Day 6](#day-6)
 
 # Announcements
 
@@ -38,7 +43,11 @@ No class - MLK Day
 
 Review suggested workflow: VS Code, Live Server, Browser Dev Tools
 
+# Module 02
+
 [JavaScript: Intro](javascript_intro.md)
+
+# Module 03
 
 ## Day 3
 
@@ -49,6 +58,8 @@ Review suggested workflow: VS Code, Live Server, Browser Dev Tools
 ## Day 4
 
 [JavaScript: Events](javascript_events.md)
+
+# Module 04
 
 ## Day 5
 
@@ -63,3 +74,9 @@ Accessing the book material
 [PHP: Decisions and Loops](php_decisions_loops.md)
 
 [PHP: Functions](php_functions.md)
+
+# Module 05
+
+## Day 6
+
+[PHP: Classes and Objects](php_classes_objects.md)
