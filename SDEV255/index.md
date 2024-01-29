@@ -27,7 +27,7 @@ course: SDEV255
 # Agenda
 
 - Lecture
-- Improptu Lab?
+- Cipher Lab, guided message is encrypted, students will handle decrypt
 
 # Module 01
 
