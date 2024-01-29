@@ -11,14 +11,13 @@ course: SDEV255
   - [Day 2](#day-2)
   - [Day 3](#day-3)
   - [Day 4](#day-4)
+  - [Day 5](#day-5)
 
 # Announcements
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- Make sure to turn in Lab1, the survey, by the end of class.
-- Make sure to ask for help with labs. Each missed requirement is worth a large portion of the lab.
-- PHP next week! Check the readings.
+- ...
 
 # Agenda
 
@@ -37,6 +36,8 @@ No class - MLK Day
 
 [Intro to Full Stack Development](intro_full_stack_development.md)
 
+Review suggested workflow: VS Code, Live Server, Browser Dev Tools
+
 [JavaScript: Intro](javascript_intro.md)
 
 ## Day 3
@@ -47,53 +48,18 @@ No class - MLK Day
 
 ## Day 4
 
-Suggested workflow: VS Code, Live Server, Browser Dev Tools
-
 [JavaScript: Events](javascript_events.md)
 
-<!-- [Understanding URLs](urls.md) -->
+## Day 5
 
-<!--
-# Old Lecture Schedule
+[Understanding URLs](urls.md)
 
-[M02: JS Part II: form validation; event listeners; objects, properties, and methods; JSON; AJAX](m02.md)
+Using and configuring WAMP
 
-[M03: PHP: Variables; Arrays; Control structures; Objects; HTML Integration](m03.md)
+Accessing the book material
 
-# New Lecture Schedule
+[PHP: Intro, Syntax, and Data Types](php_intro.md)
 
-## Module 04
+[PHP: Decisions and Loops](php_decisions_loops.md)
 
-### Day 1
-
-[PHP: Exception Handling](php_exception_handling.md)
-
-[HTTP Headers](php_http_headers.md)
-
-[HTTP Status Codes](php_http_status_codes.md)
-
-[PHP: Include and Require](php_include_require.md)
-
-[PHP: Ternary If and Null Coalescing Operators](php_ternary_if_null_coalescing_operators.md)
-
-### Day 2
-
-[HTML Forms](../common/html_forms.html?course=SDEV255)
-
-[PHP: Super Global Arrays](php_superglobal_arrays.md)
-
-[PHP: Using GET](php_GET.md)
-
-[PHP: Input Validation](php_input_validation.md)
-
-[PHP: Input Sanitization](php_input_sanitization.md)
-
-## Module 05
-
-### Day 1
-
-[PHP: Using POST](php_POST.md)
-
-[PHP: Filter Functions](php_filter_functions.md)
-
--->
+[PHP: Functions](php_functions.md)

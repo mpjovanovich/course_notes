@@ -5,14 +5,14 @@ course: SDEV255
 ---
 
 - [PHP Filter Functions](#php-filter-functions)
-    - [Validate Filters](#validate-filters)
-    - [Sanitize Filters](#sanitize-filters)
-    - [Filtering a Single Value](#filtering-a-single-value)
-    - [Sanitizing a Single Value](#sanitizing-a-single-value)
-    - [Filter Flags and Options](#filter-flags-and-options)
-    - [Filtering a Single Value with Options](#filtering-a-single-value-with-options)
-    - [Filtering Multiple Values](#filtering-multiple-values)
-    - [Demos - Complete Form Validation with Filters](#demos---complete-form-validation-with-filters)
+  - [Validate Filters](#validate-filters)
+  - [Sanitize Filters](#sanitize-filters)
+  - [Filtering a Single Value](#filtering-a-single-value)
+  - [Sanitizing a Single Value](#sanitizing-a-single-value)
+  - [Filter Flags and Options](#filter-flags-and-options)
+  - [Filtering a Single Value with Options](#filtering-a-single-value-with-options)
+  - [Filtering Multiple Values](#filtering-multiple-values)
+  - [Demos - Complete Form Validation with Filters](#demos---complete-form-validation-with-filters)
 
 # PHP Filter Functions
 

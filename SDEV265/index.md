@@ -49,9 +49,7 @@ course: SDEV265
     </figcaption>
 </figure>
 
-- Due dates will always be whatever is in IvyLearn. If there is a discrepancy between IvyLearn and the course outline spreadsheet, IvyLearn is correct.
-- Starting next week groups will be meeting during class. We have a mix of local and remote students, so plan accordingly.
-- Make sure to fill in your topic in the course assignment page after we do the discussion today.
+-
 
 ## Day 1
 

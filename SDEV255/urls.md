@@ -1,5 +1,18 @@
-<!--
-## Understanding URL
+---
+layout: base
+title: URLs
+course: SDEV255
+---
+
+- [Understanding URL](#understanding-url)
+  - [Protocol](#protocol)
+  - [Domain Name](#domain-name)
+  - [Localhost](#localhost)
+  - [Port](#port)
+  - [Default ports:](#default-ports)
+  - [Path](#path)
+
+# Understanding URL
 
 <figure>
     <span>
@@ -12,7 +25,7 @@
 
 - A URL is a **Uniform Resource Locator**.
 
-### Protocol
+## Protocol
 
 - The protocol tells the browser how to communicate with the server.
 - HTTP = **HyperText Transfer Protocol**
@@ -20,7 +33,7 @@
 - HTTPS = **HyperText Transfer Protocol Secure**
   - Uses SSL/TLS to encrypt the connection.
 
-### Domain Name
+## Domain Name
 
 - An **IP address** is a unique identifier for a computer on a network.
   - IP addresses are for computers and nerds.
@@ -28,7 +41,7 @@
   - Domain names are for humans.
   - It's just a lookup table.
 
-### Localhost
+## Localhost
 
 - **localhost** is a special hostname that refers to the local machine.
 - We can ping the localhost to get the IP address.
@@ -37,12 +50,12 @@
 $ ping localhost
 ```
 
-### Port
+## Port
 
 - Ports are used to identify which program should receive the data.
 - A program is said to be 'listening' on a port.
 
-#### Default ports:
+## Default ports:
 
 If no port is specified, the browser will use the default port for the protocol.
 
@@ -52,11 +65,9 @@ If no port is specified, the browser will use the default port for the protocol.
 | HTTPS    | 443  |
 | MariaDB  | 3306 |
 
-### Path
+## Path
 
 - The path is the location of the resource on the server.
 - The **root** of our web server is the _htdocs_ folder.
 - For this class:
   - **http://localhost:80/SDEV255/**
-
-TODO -->
