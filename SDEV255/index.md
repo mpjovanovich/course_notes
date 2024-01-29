@@ -27,7 +27,7 @@ course: SDEV255
 # Agenda
 
 - Lecture
-- Lab
+- Improptu Lab?
 
 # Module 01
 
