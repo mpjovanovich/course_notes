@@ -66,7 +66,7 @@ Review suggested workflow: VS Code, Live Server, Browser Dev Tools
 
 [Understanding URLs](urls.md)
 
-Using and configuring WAMP
+Using and configuring XAMPP
 
 Accessing the book material
 
