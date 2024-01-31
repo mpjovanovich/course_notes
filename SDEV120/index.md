@@ -22,6 +22,7 @@ course: SDEV120
 - [Module 02](#module-02)
   - [Day 4](#day-4)
   - [Day 5](#day-5)
+- [Day 6](#day-6)
 - [Reference](#reference)
 
 # Announcements / Agenda
@@ -64,9 +65,15 @@ course: SDEV120
 
 ## Day 5
 
+... Professor was out ...
+
+# Day 6
+
 [Flowcharts](flowcharts.md)
 
 Decision Tree Walkthrough (Titanic)
+
+Decisions
 
 # Reference
 

@@ -26,8 +26,9 @@ course: SDEV255
 
 # Agenda
 
+- How to see / close codespaces
 - Lecture
-- Cipher Lab, guided message is encrypted, students will handle decrypt
+- Lab
 
 # Module 01
 
