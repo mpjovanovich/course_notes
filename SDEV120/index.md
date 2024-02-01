@@ -26,9 +26,14 @@ course: SDEV120
 
 # Announcements / Agenda
 
-- Intro Set Theory Assignment
-- Lecture
-- Intro draw.io (save some time for next lecture)
+_Announcements:_
+
+- Coding assignment links don't work; there is a workaround (access via textbook)
+  - We will do the first one together; need to note what to do with all of the popup messages.
+
+_Agenda:_
+
+- Intro decision tree assignment
 
 # Module 01
 
