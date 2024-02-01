@@ -80,6 +80,8 @@ _Agenda:_
 
 Programming Paradigms
 
+... Walkthrough of first coding assignment ...
+
 <!--
 programming languages and terminology (syntax, intpreter, etc), paradigms, IDE, sychronicity and flow of execution, debuggers, variables, constants
 -->
