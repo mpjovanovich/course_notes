@@ -78,7 +78,11 @@ _Agenda:_
 
 Decision Tree Walkthrough (Titanic)
 
-Decisions
+Programming Paradigms
+
+<!--
+programming languages and terminology (syntax, intpreter, etc), paradigms, IDE, sychronicity and flow of execution, debuggers, variables, constants
+-->
 
 # Reference
 

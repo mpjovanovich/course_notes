@@ -24,6 +24,16 @@ course: SDEV255
 
 - ...
 
+<!--
+TODO:
+Discussion: Attend or watch prof. dev. webinar.
+- I should probably give them  a few options.
+- Microsoft dev conference
+- Google cloud on air
+https://cloudonair.withgoogle.com/
+https://azure.microsoft.com/en-us/resources/events
+-->
+
 # Agenda
 
 - How to see / close codespaces
