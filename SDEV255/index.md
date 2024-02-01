@@ -26,8 +26,9 @@ course: SDEV255
 
 # Agenda
 
+- How to see / close codespaces
 - Lecture
-- Cipher Lab, guided message is encrypted, students will handle decrypt
+- Lab
 
 # Module 01
 
@@ -65,7 +66,7 @@ Review suggested workflow: VS Code, Live Server, Browser Dev Tools
 
 [Understanding URLs](urls.md)
 
-Using and configuring WAMP
+Using and configuring XAMPP
 
 Accessing the book material
 

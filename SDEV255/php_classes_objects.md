@@ -208,50 +208,63 @@ class Person
     // Properties
     private string $firstName;
     private string $lastName;
-    private Person $father;
-    private Person $mother;
+    private ?Person $father; // ?means the property can be null
+    private ?Person $mother; // This is referred to as a "nullable" type.
     private array $children;
 
     // Constructor
-    public function __construct(string $firstName, string $lastName, Person $father, Person $mother)
+    public function __construct(string $firstName, string $lastName, ?Person $father, ?Person $mother)
     {
         $this->firstName = $firstName;
         $this->lastName = $lastName;
         $this->father = $father;
         $this->mother = $mother;
-        $this->children = $children;
     }
 
-    // Public Methods
-    public function addChild(Person $child) : void
+    public function addChild(Person $child): void
     {
-        // Append the child to the array
-        // *We didn't cover this syntax, but it's the same result as array_push(),
-        // and is more efficient for single value appends.
         $this->children[] = $child;
     }
 
-    public function getFullName() : string
+    public function getFullName(): string
     {
         return $this->firstName . " " . $this->lastName;
     }
 
-    public function printInfo() : void
+    public function printInfo(): void
     {
-        // Print the name
-        echo $this->getFullName() . "\n";
+        // Print my info
+        echo $this->printFormattedInfo();
 
         // Print children
         foreach ($this->children as $child) {
-            echo $child->getFullName() . "\n";
+            echo $child->printFormattedInfo();
         }
+    }
+
+    private function printFormattedInfo(): string
+    {
+        // Father and mother might be null, so we have to check if  set before using.
+        $father_name = $this->father === null ? "" : $this->father->getFullName();
+        $mother_name = $this->mother === null ? "" : $this->mother->getFullName();
+
+        $output = "<p style=\"font-weight: bold;\">Person Info: {$this->getFullName()}</p>";
+        $output .= "<p>Father: $father_name</p>";
+        $output .= "<p>Mother: $mother_name</p>";
+
+        return $output;
     }
 }
 
+// Create the parents (they have no parents).
 $father = new Person("John", "Doe", null, null);
 $mother = new Person("Jane", "Doe", null, null);
-$father->addChild(new Person("Bobby", "Beebop", $father, $mother));
-$father->addChild(new Person("Sally", "Sue", $father, $mother));
-$father->addChild(new Person("Jimmy", "John", $father, $mother));
+
+// Create children and add them to the father.
+$father.addChild( new Person("Bobby", "Beebop", $father, $mother) );
+$father.addChild( new Person("Sally", "Beebop", $father, $mother) );
+$father.addChild( new Person("Jimmy", "Beebop", $father, $mother) );
+
+// This will print the father and all of his children (recursively).
 $father->printInfo();
 ```
