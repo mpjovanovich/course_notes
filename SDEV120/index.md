@@ -76,7 +76,7 @@ _Agenda:_
 
 [Flowcharts](flowcharts.md)
 
-Decision Tree Walkthrough (Titanic)
+[Decision Trees](decision_tree.md)
 
 Programming Paradigms
 
