@@ -5,6 +5,7 @@ course: SDEV265
 ---
 
 - [Resources](#resources)
+- [Old Notes - not yet ported but needed for reference](#old-notes---not-yet-ported-but-needed-for-reference)
 - [Clone](#clone)
 - [Fork](#fork)
 - [Add](#add)
@@ -19,8 +20,11 @@ course: SDEV265
 # Resources
 
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
-- [Git Immersion](https://gitimmersion.com/index.html)
 - [Pro Git](https://git-scm.com/book/en/v2)
+
+# Old Notes - not yet ported but needed for reference
+
+[Git Pointers](https://docs.google.com/document/d/1oBMa7d5uzV91AKu9DcJPpJFeu83DLWrOHPoj9rxUc6s/edit)
 
 # Clone
 
