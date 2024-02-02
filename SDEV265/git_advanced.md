@@ -5,7 +5,6 @@ course: SDEV265
 ---
 
 - [Resources](#resources)
-- [Old Notes - not yet ported but needed for reference](#old-notes---not-yet-ported-but-needed-for-reference)
 - [Clone](#clone)
 - [Fork](#fork)
 - [Add](#add)
@@ -20,11 +19,8 @@ course: SDEV265
 # Resources
 
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
 - [Pro Git](https://git-scm.com/book/en/v2)
-
-# Old Notes - not yet ported but needed for reference
-
-[Git Pointers](https://docs.google.com/document/d/1oBMa7d5uzV91AKu9DcJPpJFeu83DLWrOHPoj9rxUc6s/edit)
 
 # Clone
 
@@ -83,10 +79,14 @@ Commiting does not push your changes to the remote repository. They are only **s
   - Bug fixes
   - Feature development
 
+_See Old Notes_: [Git Pointers](https://docs.google.com/document/d/1oBMa7d5uzV91AKu9DcJPpJFeu83DLWrOHPoj9rxUc6s/edit)
+
 # Merge
 
 - **Merging** takes the changes from one branch and applies them into another.
 - Feature branches are merged into the master branch when complete.
+
+_See Old Notes_: [Git Pointers](https://docs.google.com/document/d/1oBMa7d5uzV91AKu9DcJPpJFeu83DLWrOHPoj9rxUc6s/edit)
 
 # Understanding Diffs
 
