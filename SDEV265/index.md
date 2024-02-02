@@ -97,11 +97,11 @@ Lecture: [Git - Beyond the Basics](git_advanced.md)
 
 Assignment: Intro VC Assignment 2
 
-Lecture: Software evolution
-
-Lecture: GitHub orgs
-
 Assignment: Intro company formation assignment
+
+**If Time:**
+
+Lecture: Software evolution
 
 **Post lecture:**
 

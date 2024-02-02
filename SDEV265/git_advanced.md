@@ -46,6 +46,10 @@ course: SDEV265
 
 # Pull
 
+**PULL OFTEN WHEN WORKING ON A TEAM PROJECT!**
+
+**ALWAYS PULL BEFORE YOU PUSH!**
+
 # Branch
 
 - A **branch** is a parallel version of a repository.
