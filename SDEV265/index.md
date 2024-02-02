@@ -4,6 +4,14 @@ title: Home
 course: SDEV265
 ---
 
+- [Announcements](#announcements)
+- [M01: SDLC; Source Control](#m01-sdlc-source-control)
+  - [Day 1](#day-1)
+  - [Day 2](#day-2)
+- [M02: Software Evolution; Project Management; Project Planning](#m02-software-evolution-project-management-project-planning)
+  - [Day 3](#day-3)
+  - [Day 4](#day-4)
+
 > SOFTWARE ENGINEERING CODE OF ETHICS AND PROFESSIONAL PRACTICE (SHORT VERSION)
 >
 > PREAMBLE
@@ -32,12 +40,6 @@ course: SDEV265
 >
 > - https://ethics.acm.org/code-of-ethics/software-engineering-code/
 
-- [Announcements](#announcements)
-  - [Day 1](#day-1)
-  - [Day 2](#day-2)
-  - [Day 3](#day-3)
-  - [Day 4](#day-4)
-
 # Announcements
 
 <figure>
@@ -49,7 +51,15 @@ course: SDEV265
     </figcaption>
 </figure>
 
--
+- 2/9: Guest speaker, Tactile Engineering
+- 2/9: Class ends at 2pm
+- Groups are set. See "People" in Canvas.
+  - We will break out later today.
+  - If you are not in a group, you'll have to negotiate with one to get in.
+  - 2d game is capped at 4 people.
+  - Wildflower is capped at 5 people.
+
+# M01: SDLC; Source Control
 
 ## Day 1
 
@@ -77,17 +87,15 @@ Lecture: [Git Basics](git_basics.md)
 
 Assignment: Intro VC Assignment 1
 
-_If time allows:_
+# M02: Software Evolution; Project Management; Project Planning
+
+## Day 3
 
 Lecture: [Configuration management](configuration_management.md)
-
-<!-- This includes source control -->
 
 Lecture: [Git - Beyond the Basics](git_advanced.md)
 
 Assignment: Intro VC Assignment 2
-
-## Day 3
 
 Lecture: Software evolution
 
@@ -95,13 +103,23 @@ Lecture: GitHub orgs
 
 Assignment: Intro company formation assignment
 
+**Post lecture:**
+
 Meeting: Companies form and break out
 
 ## Day 4
 
+**Guest Speaker: Tactile Engineering**
+
+... Likely some of the below will be pushed ...
+
+**If Time:**
+
 Lecture: Project management
 
 Lecture: Project planning
+
+**Post lecture:**
 
 Meeting: Prof check in with groups
 
