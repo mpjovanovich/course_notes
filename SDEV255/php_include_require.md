@@ -12,6 +12,10 @@ course: SDEV255
 - [Include\_once and Require\_once Statements](#include_once-and-require_once-statements)
   - [Example](#example-1)
   - [Regular vs Once - Which to Use?](#regular-vs-once---which-to-use)
+- [Absolute, Relative, and Root-Relative Paths](#absolute-relative-and-root-relative-paths)
+  - [Relative Path](#relative-path)
+  - [Absolute Path](#absolute-path)
+  - [Root-Relative Path](#root-relative-path)
 - [Typical Uses](#typical-uses)
   - [Repeated Front End HTML Components](#repeated-front-end-html-components)
   - [Repeated Back End Components](#repeated-back-end-components)
@@ -116,6 +120,44 @@ _output_
 
 - Slower than include and require, but only on a scale of milliseconds.
 - Prefer these versions unless you have a reason not to.
+
+# Absolute, Relative, and Root-Relative Paths
+
+For small projects relative paths are fine. 
+
+For larger projects, typically use absolute or root-relative paths.
+
+**Directory Traversal**
+
+- `/` is the root directory
+- `..` moves up one directory
+
+_Example_
+
+- `../includes/header.php` moves up one directory and then into the includes directory.
+
+## Relative Path
+
+**Relative Path** is the path from the current file.
+
+- `header.php`
+- `includes/header.php`
+- `../includes/header.php`
+
+## Absolute Path
+
+**Absolute Path** is the full path from the root of the file system.
+
+- `/var/www/html/includes/header.php`
+- `C:\xampp\htdocs\my_lab\includes\header.php`
+
+## Root-Relative Path
+
+**Root-Relative Path** is the path from the root of the web server.
+
+- `/includes/header.php`
+- `/my_lab/includes/header.php`
+- `/../config.php`
 
 # Typical Uses
 

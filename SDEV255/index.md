@@ -95,6 +95,8 @@ Accessing the book material
 
 # Module 06
 
+Absolute and Relative Paths
+
 [PHP: Include and Require](php_include_require.md)
 
 [PHP: Superglobals](php_superglobal_arrays.md)
