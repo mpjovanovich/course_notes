@@ -24,7 +24,6 @@ course: SDEV255
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
 - ...
-- Prof TODO: fix absolute / relative paths link
 
 <!--
 TODO:
@@ -96,14 +95,10 @@ Accessing the book material
 
 # Module 06
 
-Absolute and Relative Paths
-
 [PHP: Include and Require](php_include_require.md)
+
+[PHP: Ternary and Null Coalescing Operators](php_ternary_null_coalescing_operators.md)
 
 [PHP: Superglobals](php_superglobal_arrays.md)
 
 [PHP: GET](php_GET.md)
-
-_Misc_
-
-[PHP: Ternary and Null Coalescing Operators](php_ternary_null_coalescing_operators.md)
