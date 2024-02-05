@@ -3,12 +3,6 @@ Check course planning workbook; not sure if all assignments made it in.
 Get images from the text - 
 https://faculty.cengage.com/
 
-Code quality jokes series:
-
-https://imgs.xkcd.com/comics/code_quality_2x.png
-https://imgs.xkcd.com/comics/code_quality_2_2x.png
-https://imgs.xkcd.com/comics/code_quality_3_2x.png
-
 Flowcharts:
 
 https://imgs.xkcd.com/comics/good_code.png

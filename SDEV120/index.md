@@ -22,19 +22,20 @@ course: SDEV120
 - [Module 02](#module-02)
   - [Day 4](#day-4)
   - [Day 5](#day-5)
-- [Day 6](#day-6)
-- [Reference](#reference)
+- [Module 03](#module-03)
+  - [Day 6](#day-6)
+  - [Day 7](#day-7)
 
 # Announcements / Agenda
 
 _Announcements:_
 
-- Coding assignment links don't work; there is a workaround (access via textbook)
-  - We will do the first one together; need to note what to do with all of the popup messages.
+- Midterm will cover through day 7. If you have questions about today's homework, ask before the midterm.
 
 _Agenda:_
 
-- Intro decision tree assignment
+- Lecture
+- Intro assignment
 
 # Module 01
 
@@ -70,22 +71,31 @@ _Agenda:_
 
 ## Day 5
 
-... Professor was out ...
-
-# Day 6
-
 [Flowcharts](flowcharts.md)
 
 [Decision Trees](decision_tree.md)
 
-Programming Paradigms
+# Module 03
+
+## Day 6
+
+[Programming Paradigms](https://docs.google.com/document/d/1qId4olrCAPER_9gGioK8CKQBE61vkn4hdj5mbQTTOcM/edit?usp=sharing)
+
+<!-- TODO: grammar and syntax -->
 
 ... Walkthrough of first coding assignment ...
 
+## Day 7
+
+[Expressions and Arithmetic](expressions.md)
+
+[Coding Environments](coding_environments.md)
+
+[Data Types](data_types.md)
+
+<!-- variables and constants -->
+
 <!--
 programming languages and terminology (syntax, intpreter, etc), paradigms, IDE, sychronicity and flow of execution, debuggers, variables, constants
+data types, arithmetic, order of ops, expressions
 -->
-
-# Reference
-
-[Unix Basic Commands](../common/unix_basic_commands.html?course=SDEV120)
