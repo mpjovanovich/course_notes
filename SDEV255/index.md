@@ -24,6 +24,7 @@ course: SDEV255
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
 - ...
+- Prof TODO: fix absolute / relative paths link
 
 <!--
 TODO:
@@ -101,7 +102,7 @@ Absolute and Relative Paths
 
 [PHP: Superglobals](php_superglobal_arrays.md)
 
-[PHP: GET](php_get.md)
+[PHP: GET](php_GET.md)
 
 _Misc_
 
