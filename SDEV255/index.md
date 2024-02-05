@@ -17,6 +17,7 @@ course: SDEV255
   - [Day 5](#day-5)
 - [Module 05](#module-05)
   - [Day 6](#day-6)
+- [Module 06](#module-06)
 
 # Announcements
 
@@ -91,3 +92,15 @@ Accessing the book material
 ## Day 6
 
 [PHP: Classes and Objects](php_classes_objects.md)
+
+# Module 06
+
+[PHP: Include and Require](php_include_require.md)
+
+[PHP: Superglobals](php_superglobal_arrays.md)
+
+[PHP: GET](php_get.md)
+
+_Misc_
+
+[PHP: Ternary and Null Coalescing Operators](php_ternary_null_coalescing_operators.md)

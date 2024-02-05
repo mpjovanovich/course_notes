@@ -53,11 +53,7 @@ course: SDEV265
 
 - 2/9: Guest speaker, Tactile Engineering
 - 2/9: Class ends at 2pm
-- Groups are set. See "People" in Canvas.
-  - We will break out later today.
-  - If you are not in a group, you'll have to negotiate with one to get in.
-  - 2d game is capped at 4 people.
-  - Wildflower is capped at 5 people.
+- VC Assignment 1: call for resubmissions; due end of day
 
 # M01: SDLC; Source Control
 
