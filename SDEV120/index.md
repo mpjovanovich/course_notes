@@ -93,9 +93,3 @@ _Agenda:_
 
 [Data Types](data_types.md)
 
-<!-- variables and constants -->
-
-<!--
-programming languages and terminology (syntax, intpreter, etc), paradigms, IDE, sychronicity and flow of execution, debuggers, variables, constants
-data types, arithmetic, order of ops, expressions
--->
