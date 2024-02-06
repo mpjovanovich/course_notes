@@ -87,9 +87,8 @@ _Agenda:_
 
 ## Day 7
 
-[Grammars and Arithmetic](programming_grammars.md)
+[Grammars and Arithmetic](grammars_arithmetic.md)
 
 [Coding Environments](coding_environments.md)
 
 [Data Types](data_types.md)
-
