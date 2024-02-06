@@ -23,7 +23,8 @@ course: SDEV255
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- ...
+- Viewing instructor's solution during lab (ngrok)
+- Review fix to modular website lab
 
 <!--
 TODO:

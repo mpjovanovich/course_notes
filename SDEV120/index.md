@@ -87,7 +87,7 @@ _Agenda:_
 
 ## Day 7
 
-[Expressions and Arithmetic](expressions.md)
+[Grammars and Arithmetic](programming_grammars.md)
 
 [Coding Environments](coding_environments.md)
 
