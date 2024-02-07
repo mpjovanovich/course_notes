@@ -103,6 +103,6 @@ Accessing the book material
 
 <!-- GET; more front/back end demos; Try / catch; odds and ends JS (async, validation) -->
 
-[Web Forms](../common/web_forms.html?course=SDEV255)
+[Web Forms](../common/html_forms.html?course=SDEV255)
 
 [PHP: Exception Handling](php_exception_handling.md)
