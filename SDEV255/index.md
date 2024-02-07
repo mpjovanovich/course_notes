@@ -23,7 +23,7 @@ course: SDEV255
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- ...
+- Labs solution sites will now be exposed for the duration of lab (via ngrok). I will give you a temporary link.
 
 <!--
 TODO:
