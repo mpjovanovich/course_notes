@@ -8,6 +8,14 @@ title: HTML Forms
   - [Form Attributes](#form-attributes)
     - [Action](#action)
     - [Method](#method)
+  - [User Centered Design](#user-centered-design)
+    - [General Goals](#general-goals)
+    - [Why is it important?:](#why-is-it-important)
+    - [Affordance](#affordance)
+    - [Signifiers](#signifiers)
+    - [Constraints](#constraints)
+    - [Mapping](#mapping)
+    - [Feedback](#feedback)
   - [Child Elements](#child-elements)
     - [Fieldset and Legend](#fieldset-and-legend)
     - [Label](#label)
@@ -29,10 +37,12 @@ title: HTML Forms
     - [Psuedo-Classes](#psuedo-classes)
       - [Focus](#focus)
       - [Invalid vs User-invalid](#invalid-vs-user-invalid)
-  - [Form Design](#form-design)
+  - [Summary of Best Practices](#summary-of-best-practices)
   - [Demo - Tying it All Together](#demo---tying-it-all-together)
 
 # HTML Forms
+
+**Prof put this in here to remind himself to do this later - separate usability notes from form notes.**
 
 ## Purpose
 
@@ -60,6 +70,103 @@ title: HTML Forms
 
 - The `method` attribute specifies how to send form-data.
 - Can be set to `GET` or `POST`.
+
+## User Centered Design
+
+Recommended reading: [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
+
+Abbreviated versions:
+
+- [Don Norman’s Principles of Interaction Design](https://medium.com/@sachinrekhi/don-normans-principles-of-interaction-design-51025a2c0f33)
+- [Summary of Design Of Everyday Things by Don Norman.](https://medium.com/@DEJIDOPE/summary-of-design-of-everyday-things-by-don-norman-f06f023fdc95)
+
+### General Goals
+
+- Make it easy for user to accomplish goals.
+  - "Least effort / least clicks."
+- Make it as hard as possible for user to make a mistake.
+
+### Why is it important?:
+
+[Medical Usability: How to Kill Patients Through Bad Design](https://www.nngroup.com/articles/medical-usability/)
+
+- skim...
+
+### Affordance
+
+Describes the possible actions that an object can perform.
+
+<figure>
+    <span>
+        <img src="images/push_pull_door.jpg" style="width: 60%;">
+    </span>
+</figure>
+
+- "Don't let the user make a mistake (via architectural design)."
+- Button affords clicking.
+- Radio button affords single selection.
+- Disabled inputs do not afford interaction.
+
+### Signifiers
+
+Signals that indicate how to interact with an object.
+
+<figure>
+    <span>
+        <img src="https://hadermann.be/wp-content/uploads/2015/07/bad_vending_ui.jpg" style="width: 50%">
+    </span>
+</figure>
+
+- "Conform to user expectations."
+- Expect button looks rectangular.
+- Expect text input has cursor.
+- Expect disabled inputs grayed out.
+
+### Constraints
+
+Limitations on the possible actions.
+
+<figure>
+    <span>
+        <img src="https://i.pinimg.com/736x/88/ba/35/88ba354a835d32cfbff6db9029e3cacb.jpg" style="width: 50%">
+    </span>
+</figure>
+
+- "Don't let the user make a mistake (via enforced validation)."
+- Text input has a maximum length.
+- Button is disabled until form is filled out.
+
+### Mapping
+
+Relationship between controls and their effects.
+
+<figure>
+    <span>
+        <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*I2xA2Om8tZXki3g3CCxL_g.png" style="width: 80%">
+    </span>
+</figure>
+
+- "Don't make the user guess what will happen."
+- Label is next to the input.
+- Error message is next to the input.
+- Error takes user to the input with the error.
+- Slider control - indicates natural "fullness" of value.
+
+### Feedback
+
+Response to an action.
+
+<figure>
+    <span>
+        <img src="https://www.mongodb.com/community/forums/uploads/default/optimized/3X/7/3/73a40e5fff34c1451c54b8bf244d307a5e9a8a1a_2_1035x436.png" style="width: 60%">
+    </span>
+</figure>
+
+- "Don't make the user guess what happened."
+- Hovering over a button changes the cursor.
+- Loading screens.
+- Submitted forms indicate success.
+- Errors are desciptive and helpful.
 
 ## Child Elements
 
@@ -265,9 +372,7 @@ input:user-invalid {
 }
 ```
 
-## Form Design
-
-A few best practices:
+## Summary of Best Practices
 
 - Use a `<label>` for every `<input>`.
 - Use a `<fieldset>` and `<legend>` to group related data.
@@ -278,6 +383,10 @@ A few best practices:
   - [Label Placement in Forms](https://www.uxmatters.com/mt/archives/2006/07/label-placement-in-forms.php)
 - Buttons should use a cursor pointer.
 - Don't rely on color alone to indicate required fields.
+
+**Use the dang product yourself!**
+
+**Get at least one other person to look at it!**
 
 ## Demo - Tying it All Together
 

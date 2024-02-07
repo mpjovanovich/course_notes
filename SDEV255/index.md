@@ -18,27 +18,16 @@ course: SDEV255
 - [Module 05](#module-05)
   - [Day 6](#day-6)
 - [Module 06](#module-06)
+  - [Day 7](#day-7)
+  - [Day 8](#day-8)
 
 # Announcements
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-<<<<<<< HEAD
-- Labs solution sites will now be exposed for the duration of lab (via ngrok). I will give you a temporary link.
-=======
+- # Labs solution sites will now be exposed for the duration of lab (via ngrok). I will give you a temporary link.
 - Viewing instructor's solution during lab (ngrok)
 - Review fix to modular website lab
->>>>>>> b237d21a213e0ca5357c87fa651be233a4f49be4
-
-<!--
-TODO:
-Discussion: Attend or watch prof. dev. webinar.
-- I should probably give them  a few options.
-- Microsoft dev conference
-- Google cloud on air
-https://cloudonair.withgoogle.com/
-https://azure.microsoft.com/en-us/resources/events
--->
 
 # Agenda
 
@@ -100,6 +89,8 @@ Accessing the book material
 
 # Module 06
 
+## Day 7
+
 [PHP: Include and Require](php_include_require.md)
 
 [PHP: Ternary and Null Coalescing Operators](php_ternary_null_coalescing_operators.md)
@@ -107,3 +98,11 @@ Accessing the book material
 [PHP: Superglobals](php_superglobal_arrays.md)
 
 [PHP: GET](php_GET.md)
+
+## Day 8
+
+<!-- GET; more front/back end demos; Try / catch; odds and ends JS (async, validation) -->
+
+[Web Forms](../common/web_forms.html?course=SDEV255)
+
+[PHP: Exception Handling](php_exception_handling.md)

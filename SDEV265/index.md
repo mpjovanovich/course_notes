@@ -4,6 +4,16 @@ title: Home
 course: SDEV265
 ---
 
+<!--
+TODO:
+Discussion: Attend or watch prof. dev. webinar.
+- I should probably give them  a few options.
+- Microsoft dev conference
+- Google cloud on air
+https://cloudonair.withgoogle.com/
+https://azure.microsoft.com/en-us/resources/events
+-->
+
 - [Announcements](#announcements)
 - [M01: SDLC; Source Control](#m01-sdlc-source-control)
   - [Day 1](#day-1)
