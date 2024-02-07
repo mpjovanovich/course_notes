@@ -87,15 +87,8 @@ _Agenda:_
 
 ## Day 7
 
-[Expressions and Arithmetic](expressions.md)
+[Grammars and Arithmetic](grammars_arithmetic.md)
 
 [Coding Environments](coding_environments.md)
 
 [Data Types](data_types.md)
-
-<!-- variables and constants -->
-
-<!--
-programming languages and terminology (syntax, intpreter, etc), paradigms, IDE, sychronicity and flow of execution, debuggers, variables, constants
-data types, arithmetic, order of ops, expressions
--->
