@@ -70,6 +70,11 @@ Anything inside the code block (indented at the if’s level) will be evaluated 
 
 The expression for the if statement can be arbitrarily complex - the only constraint is that it must evaluate to True or False.
 
+```python
+if x:
+    # do something
+```
+
 Examples:
 
 ```python
@@ -82,8 +87,6 @@ if is_admin == False or user_logged_in == False:
 ```
 
 #### Demo Programs
-
-... flowchart ...
 
 ... rename and link ...
 
@@ -133,7 +136,12 @@ END
 
 ### Python `if, else` Statement
 
-...
+```python
+if x:
+    # do something
+else:
+    # do something else
+```
 
 #### Demo Programs
 
@@ -188,13 +196,18 @@ END
 
 ### Python `if, elif, else` Statement
 
-...
+```python
+if x:
+    # do something
+elif y:
+    # do something else
+else:
+    # do something else
+```
 
 #### Demo Programs
 
-... rename and link ...
-
-m03_if_elif_else.py
+[Percent to Grade Program](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/grade_calc_if_elif_else.py)
 
 ## Nested Decision Structures
 

@@ -25,6 +25,8 @@ course: SDEV120
 - [Module 03](#module-03)
   - [Day 6](#day-6)
   - [Day 7](#day-7)
+- [Module 04](#module-04)
+  - [Day 8](#day-8)
 
 # Announcements / Agenda
 
@@ -92,3 +94,21 @@ _Agenda:_
 [Coding Environments](coding_environments.md)
 
 [Data Types](data_types.md)
+
+# Module 04
+
+## Day 8
+
+Review Python:
+
+- [Assignment](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/assignment_operator.py)
+
+- [Dynamic Typing](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/dynamic_type_conversion.py)
+
+- [Constant vs Variable](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/variable_const_type_demo.py)
+
+Input and Output in Python
+
+[Selection](selection.md)
+
+Midterm Review

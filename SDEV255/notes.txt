@@ -1,0 +1,14 @@
+Multiple student feedback that they don't understand what was applied coming out of the course.
+Concepts are lost in complex labs.
+Need to put my own boredom aside and sympathise with students' current experience level.
+
+Labs to simplify / remove / fix:
+- Grocery
+
+END OF COURSE ANONYMOUS SURVEY:
+- Rate each lab: I understood the concepts from this lab (not at all - very well)
+- I believe that I would learn better if the labs were broken into smaller pieces
+- On a scale from 1-10
+    1 = labs are simple but are "toy problems"
+    10 = labs are complex but demonstrate production level code
+- Free comments
