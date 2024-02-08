@@ -6,6 +6,7 @@ Labs to simplify / remove / fix:
 - Grocery
 
 END OF COURSE ANONYMOUS SURVEY:
+- Make it required or nobody will do it.
 - Rate each lab: I understood the concepts from this lab (not at all - very well)
 - I believe that I would learn better if the labs were broken into smaller pieces
 - On a scale from 1-10
