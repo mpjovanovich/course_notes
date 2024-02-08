@@ -1,6 +1,14 @@
 Multiple student feedback that they don't understand what was applied coming out of the course.
 Concepts are lost in complex labs.
-Need to put my own boredom aside and sympathise with students' current experience level.
+Comments are not helpful.
+LABS SHOULD BE SHORTER IN SCOPE w/ LITTLE EXTRA CODE TO DISTRACT
+- Make sure to move any CSS to its own file.
+Need to put learning objectives so that students know how to approach, e.g.:
+- Use a PHP foreach loop to...
+- Use a PHP if statement to conditionally show output...
+- Use the $_GET superglobal array to ...
+- etc.
+
 
 Labs to simplify / remove / fix:
 - Grocery
