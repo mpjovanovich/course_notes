@@ -22,7 +22,7 @@ course: SDEV255
   - [Day 8](#day-8)
 - [Module 07](#module-07)
   - [Day 9](#day-9)
-- [One offs](#one-offs)
+  - [Day 9](#day-9-1)
 
 # Announcements
 
@@ -116,12 +116,18 @@ Accessing the book material
 
 [PHP: POST](php_POST.md)
 
+- ...
+
 [PHP: Input Sanitization](php_input_sanitization.md)
 
 [PHP: Input Validation](php_input_validation.md)
 
 [PHP: Filter Functions](php_filter_functions.md)
 
-# One offs
-
 JS Async and Defer - https://i.stack.imgur.com/wfL82.png
+
+## Day 9
+
+[PHP: POST](php_POST.md)
+
+- ... more in depth filtering with bulk filter functions ...
