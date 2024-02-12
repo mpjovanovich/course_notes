@@ -20,7 +20,9 @@ course: SDEV255
 - [Module 06](#module-06)
   - [Day 7](#day-7)
   - [Day 8](#day-8)
+- [Module 07](#module-07)
   - [Day 9](#day-9)
+- [One offs](#one-offs)
 
 # Announcements
 
@@ -106,6 +108,8 @@ Accessing the book material
 
 [PHP: Exception Handling](php_exception_handling.md)
 
+# Module 07
+
 ## Day 9
 
 [PHP: POST](php_POST.md)
@@ -115,3 +119,7 @@ Accessing the book material
 [PHP: Input Validation](php_input_validation.md)
 
 [PHP: Filter Functions](php_filter_functions.md)
+
+# One offs
+
+JS Async and Defer - https://i.stack.imgur.com/wfL82.png
