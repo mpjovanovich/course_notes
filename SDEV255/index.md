@@ -28,9 +28,11 @@ course: SDEV255
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- # Labs solution sites will now be exposed for the duration of lab (via ngrok). I will give you a temporary link.
-- Viewing instructor's solution during lab (ngrok)
-- Review fix to modular website lab
+- Correction: reset form button
+  - Does not clear the form
+  - Does not do a page refresh
+  - Resets the form to its state on last load
+  - Use `document.getElementById('formID').reset()` to clear the form
 
 # Agenda
 
