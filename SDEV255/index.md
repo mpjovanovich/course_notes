@@ -20,6 +20,7 @@ course: SDEV255
 - [Module 06](#module-06)
   - [Day 7](#day-7)
   - [Day 8](#day-8)
+  - [Day 9](#day-9)
 
 # Announcements
 
@@ -101,8 +102,16 @@ Accessing the book material
 
 ## Day 8
 
-<!-- GET; more front/back end demos; Try / catch; odds and ends JS (async, validation) -->
-
 [Web Forms](../common/html_forms.html?course=SDEV255)
 
 [PHP: Exception Handling](php_exception_handling.md)
+
+## Day 9
+
+[PHP: POST](php_POST.md)
+
+[PHP: Input Sanitization](php_input_sanitization.md)
+
+[PHP: Input Validation](php_input_validation.md)
+
+[PHP: Filter Functions](php_filter_functions.md)
