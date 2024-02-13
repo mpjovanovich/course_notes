@@ -27,6 +27,8 @@ course: SDEV120
   - [Day 7](#day-7)
 - [Module 04](#module-04)
   - [Day 8](#day-8)
+- [Module 05](#module-05)
+  - [Day 9](#day-9)
 
 # Announcements / Agenda
 
@@ -112,3 +114,9 @@ Input and Output in Python
 [Selection](selection.md)
 
 Midterm Review
+
+# Module 05
+
+## Day 9
+
+[UML](uml.md)
