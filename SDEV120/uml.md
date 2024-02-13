@@ -250,7 +250,7 @@ Shows states of a system and how it transitions between them.
 
 <p class="demo">Walkthrough:</p>
 
-State diagram for a light with two switches (one at each end of a hallway).
+State diagram for a light with two switches - one at each end of a hallway.
 
 - Assume light is off with both switches in the off position (initial state).
 
