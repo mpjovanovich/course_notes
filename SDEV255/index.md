@@ -153,7 +153,7 @@ Case Study: High DOP Multi-layer-cached Application for Forecasting and Data Mig
     - Weekend forecast for full range
 -->
 
-[State Management for Web Applications](state_managment.md)
+[State Management for Web Applications](state_management.md)
 
 JSON
 
