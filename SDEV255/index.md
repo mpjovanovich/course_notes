@@ -10,8 +10,8 @@ course: SDEV255
   - [Day 1](#day-1)
   - [Day 2](#day-2)
 - [Module 02](#module-02)
-- [Module 03](#module-03)
   - [Day 3](#day-3)
+- [Module 03](#module-03)
   - [Day 4](#day-4)
 - [Module 04](#module-04)
   - [Day 5](#day-5)
@@ -22,17 +22,17 @@ course: SDEV255
   - [Day 8](#day-8)
 - [Module 07](#module-07)
   - [Day 9](#day-9)
-  - [Day 9](#day-9-1)
+  - [Day 10](#day-10)
+  - [Day 11](#day-11)
 
 # Announcements
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- Correction: reset form button
-  - Does not clear the form
-  - Does not do a page refresh
-  - Resets the form to its state on last load
-  - Use `document.getElementById('formID').reset()` to clear the form
+- Grading
+  - Make sure programs run at minimum
+  - Halfway through grading one of the labs...
+- Will intro final project next class
 
 # Agenda
 
@@ -52,21 +52,21 @@ No class - MLK Day
 
 [Intro to Full Stack Development](intro_full_stack_development.md)
 
+[Development Tools and Git](../common/git.html?course=SDEV255)
+
 Review suggested workflow: VS Code, Live Server, Browser Dev Tools
 
 # Module 02
+
+## Day 3
 
 [JavaScript: Intro](javascript_intro.md)
 
 # Module 03
 
-## Day 3
-
-[Development Tools and Git](../common/git.html?course=SDEV255)
+## Day 4
 
 [JavaScript: Manipulating the DOM](javascript_manipulating_dom.md)
-
-## Day 4
 
 [JavaScript: Events](javascript_events.md)
 
@@ -116,8 +116,6 @@ Accessing the book material
 
 [PHP: POST](php_POST.md)
 
-- ...
-
 [PHP: Input Sanitization](php_input_sanitization.md)
 
 [PHP: Input Validation](php_input_validation.md)
@@ -126,8 +124,47 @@ Accessing the book material
 
 JS Async and Defer - https://i.stack.imgur.com/wfL82.png
 
-## Day 9
+## Day 10
+
+Case Study: High DOP Multi-layer-cached Application for Forecasting and Data Migration
+
+<!--
+- Client needs end of day:
+    - Aggregation reports for meter usage by region
+    - Subset of data migrated to client data repository
+- Strategy 1: Calculation Level Caching
+    - During calc of forecast, an hourly time-zone mapping data structure for meter date range is used repeatedly
+    - Fetch once, cache for this meter for duration of forecast
+- Strategy 2: Application Level Caching
+    - Weather data (shared among multiple meters), cache it for all of them until...
+    - Pricing data (shared among multiple meters), cache it for all of them until...
+    - Retention policy:
+      - Weather changes (daily)
+      - Pricing changes (daily)
+      - Meter usage (monthly)
+- Strategy 3: Parallel processing
+    - Many instances of app running, each pulling off meters to forecast
+    - Put meters that share attributes, on the same application instance so they can share cache
+    - Use partitioning to spread the load within the shared database to avoid contention
+- Strategy 4: Incremental forecasting
+    - Weather data only really changes for next week or so
+    - Forecast requirement may be for several years
+    - Daily forecast for next week
+    - Weekend forecast for full range
+-->
+
+[State Management for Web Applications](state_managment.md)
+
+JSON
+
+## Day 11
+
+Intro Final Project
+
+[HTTP Headers](php_http_headers.md)
+
+[HTTP Status Codes](php_http_status_codes.md)
 
 [PHP: POST](php_POST.md)
 
-- ... more in depth filtering with bulk filter functions ...
+[PHP: Redirect After POST](php_redirect_after_post.md)
