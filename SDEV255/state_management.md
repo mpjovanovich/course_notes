@@ -49,7 +49,9 @@ _Dev tip:_ 👌
 
 > All HTTP requests that the browser makes are first routed to the browser cache to check whether there is a valid cached response that can be used to fulfill the request. If there's a match, the response is read from the cache, which eliminates both the network latency and the data costs that the transfer incurs.
 
-Usually the defaults from the web server are sufficient, but you can control caching behavior with HTTP headers.
+- Caching behavior is controlled by HTTP headers.
+- Usually defaults from web server are sufficient.
+- Not something that devs typically use directly.
 
 _Dev tip:_ 👌
 
@@ -119,6 +121,8 @@ let value = localStorage.getItem("name");
 
 **Security:** Can be vulnerable to cross-site scripting (XSS) attacks if not properly secured.
 
+**_Do not store sensitive data in cookies._**
+
 ### Use Cases
 
 - Retaining user login for duration of session
@@ -164,12 +168,24 @@ Can set a cookie on the server side with PHP (or other server-side languages).
 
 Can set a cookie on the client side with JavaScript.
 
+**Setting a cookie with PHP**
+
 [php: setcookie](https://www.php.net/manual/en/function.setcookie.php)
 
 ```php
 <?php
-// Set a cookie
-setcookie('name', 'value', time() + 3600, '/');
+// 3600ms = 1 hour
+// '/' means the cookie is available in the entire website
+setcookie('username', 'Bobby Beebop', time() + 3600, '/');
+?>
+```
+
+**Deleting a cookie with PHP**
+
+```php
+<?php
+// To delete - set the expiration date to a time in the past
+setcookie('username', 'Bobby Beebop', time() - 3600, '/');
 ?>
 ```
 
