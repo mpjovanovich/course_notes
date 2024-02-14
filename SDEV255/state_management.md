@@ -33,7 +33,7 @@ course: SDEV255
 
 _Dev tip:_ 👌
 
-**Premature optimization** is a common way to waste development time. Do not attempt to optimize performance until you have data to show that it is necessary.
+- **Premature optimization** is a common way to waste development time. Do not attempt to optimize performance until you have data to show that it is necessary.
 
 ## HTTP Cache
 
@@ -85,6 +85,10 @@ _Dev tip:_ 👌
 - Offline web apps
 
 ### Examples
+
+_Dev tip:_ 👌
+
+You can use the "Storage" tab in the browser developer tools to view local storage.
 
 ```javascript
 // Set a value
@@ -167,6 +171,12 @@ E.g: Domain and path restrictions, SameSite attribute
 Can set a cookie on the server side with PHP (or other server-side languages).
 
 Can set a cookie on the client side with JavaScript.
+
+_Dev tip:_ 👌
+
+- You can use the "Storage" tab in the browser developer tools to view cookies.
+
+- You can use the `$_COOKIE` superglobal in PHP to access cookies.
 
 **Setting a cookie with PHP**
 
