@@ -156,11 +156,13 @@ Case Study: High DOP Multi-layer-cached Application for Forecasting and Data Mig
     - Weekend forecast for full range
 -->
 
-[State Management for Web Applications](state_management.md)
+[Client Side State Management](state_management.md)
 
 JSON
 
 ## Day 11
+
+[Session Storage](session_storage.md)
 
 Intro Final Project
 

@@ -1,6 +1,6 @@
 ---
 layout: base
-title: State Management for Web Applications
+title: Client Side State Management
 course: SDEV255
 ---
 
@@ -19,7 +19,6 @@ course: SDEV255
       - [Performance Concerns](#performance-concerns)
       - [So uh... Should I Accept Cookies?](#so-uh-should-i-accept-cookies)
     - [Examples](#examples-1)
-  - [Session Storage](#session-storage)
 
 <figure>
     <span>
@@ -199,7 +198,3 @@ setcookie('username', 'Bobby Beebop', time() + 3600, '/');
 setcookie('username', 'Bobby Beebop', time() - 3600, '/');
 ?>
 ```
-
-## Session Storage
-
-... Will cover next class ...
