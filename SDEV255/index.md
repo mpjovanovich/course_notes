@@ -34,6 +34,9 @@ course: SDEV255
   - Halfway through grading one of the labs...
 - Will intro final project next class
 
+- Correction:
+  - When setting cookie expiry in the set cookie function calls I was saying 3600ms for 1 hour - the unit is seconds (3600s = 1h)
+
 # Agenda
 
 - How to see / close codespaces

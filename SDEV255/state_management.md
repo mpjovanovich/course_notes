@@ -185,7 +185,7 @@ _Dev tip:_ 👌
 
 ```php
 <?php
-// 3600ms = 1 hour
+// 3600s = 1 hour
 // '/' means the cookie is available in the entire website
 setcookie('username', 'Bobby Beebop', time() + 3600, '/');
 ?>
