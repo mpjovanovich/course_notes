@@ -121,6 +121,7 @@ let value = localStorage.getItem("name");
 
 ### Use Cases
 
+- Retaining user login for duration of session
 - User preferences / personalization
 - Shopping cart / temporary data
 - Analytics / tracking
@@ -133,13 +134,19 @@ let value = localStorage.getItem("name");
 - Cross-site tracking: Building a profile of a user's browsing habits.
 - Sale of data: Data collected by cookies can be sold to third parties.
 
-Examples case studies?
+[ITP 2.1: Why you won’t make your advertising targets, but will finally understand how cookies work](https://www.deptagency.com/insight/itp-2-1-why-you-wont-make-your-advertising-targets-but-will-finally-understand-how-cookies-work/)
+
+- Good explanation of how cookies are used.
+
+[The Future of Privacy on the way to a Cookieless World](https://www.waste-creative.com/future-of-privacy-on-the-way-to-a-cookieless-world)
+
+- See the timeline.
 
 #### Security Concerns
 
-[OWASP: Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)
+- [OWASP: Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)
 
-[BrightSec: CSRF](https://brightsec.com/blog/cross-site-request-forgery-csrf/)
+- [BrightSec: CSRF](https://brightsec.com/blog/cross-site-request-forgery-csrf/)
 
 #### Performance Concerns
 
@@ -153,9 +160,9 @@ E.g: Domain and path restrictions, SameSite attribute
 
 ### Examples
 
-... TODO ...
+Can set a cookie on the server side with PHP (or other server-side languages).
 
-Built in function for cookie management:
+Can set a cookie on the client side with JavaScript.
 
 [php: setcookie](https://www.php.net/manual/en/function.setcookie.php)
 
@@ -168,4 +175,4 @@ setcookie('name', 'value', time() + 3600, '/');
 
 ## Session Storage
 
-... TODO ...
+... Will cover next class ...
