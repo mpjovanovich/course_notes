@@ -88,14 +88,15 @@ _Dev tip:_ 👌
 
 _Dev tip:_ 👌
 
-You can use the "Storage" tab in the browser developer tools to view local storage.
+You can use the "Storage" or "Application" tab in the browser developer tools to view local storage.
 
 ```javascript
 // Set a value
-localStorage.setItem("name", "value");
+localStorage.setItem("username", "Jennifer Beebop");
 
 // Get a value
-let value = localStorage.getItem("name");
+let username = localStorage.getItem("username");
+console.log(username);
 ```
 
 ## Cookies
@@ -174,7 +175,7 @@ Can set a cookie on the client side with JavaScript.
 
 _Dev tip:_ 👌
 
-- You can use the "Storage" tab in the browser developer tools to view cookies.
+- You can use the "Storage" or "Application" tab in the browser developer tools to view cookies.
 
 - You can use the `$_COOKIE` superglobal in PHP to access cookies.
 
