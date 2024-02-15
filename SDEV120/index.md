@@ -29,6 +29,8 @@ course: SDEV120
   - [Day 8](#day-8)
 - [Module 05](#module-05)
   - [Day 9](#day-9)
+- [Module 06](#module-06)
+  - [Day 10](#day-10)
 
 # Announcements / Agenda
 
@@ -120,3 +122,10 @@ Midterm Review
 ## Day 9
 
 [UML](uml.md)
+
+
+# Module 06
+
+## Day 10
+
+variable scope; functions; modularity
