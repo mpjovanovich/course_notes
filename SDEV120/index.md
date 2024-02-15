@@ -36,12 +36,19 @@ course: SDEV120
 
 _Announcements:_
 
-- Midterm will cover through day 7. If you have questions about today's homework, ask before the midterm.
+- A couple of questions need fixed on the midterm:
 
-_Agenda:_
+<figure>
+    <span>
+        <img src="tmp/midterm_fix1.JPG" style="width: 80%">
+    </span>
+</figure>
 
-- Lecture
-- Intro assignment
+<figure>
+    <span>
+        <img src="tmp/midterm_fix2.JPG" style="width: 80%">
+    </span>
+</figure>
 
 # Module 01
 
