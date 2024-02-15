@@ -14,6 +14,9 @@ course: SDEV120
     - [Code Portability](#code-portability)
   - [Anatomy of a Function](#anatomy-of-a-function)
     - [Python Functions](#python-functions)
+      - [Calling Functions and Returning Results](#calling-functions-and-returning-results)
+      - [Parameter Naming](#parameter-naming)
+      - [Void Functions](#void-functions)
   - [The `main` Function](#the-main-function)
   - [Variable Scope](#variable-scope)
     - [Local Scope](#local-scope)
@@ -82,10 +85,6 @@ Data processing:
 - Functions can be used by other parts of the same program.
 - Functions can be used by different programs.
 
-<p class="demo">Demo:</p>
-
-m04_create_truth_table.py
-
 ## Anatomy of a Function
 
 All functions have the following components:
@@ -96,16 +95,59 @@ All functions have the following components:
 
 ### Python Functions
 
-- In Python, data types of parameters and return values are inferred.
 - Keyword `def` is used to define a function.
 - Function body is indented.
 - `return` keyword is used to return a value if a return value is needed.
 
 ```python
-def function_name(parameters):
+def function_name(parameter1, parameter2, ...):
     # Function body
     # ...
     return value
+```
+
+#### Calling Functions and Returning Results
+
+When we **define** a function in code, it doesn't actually run.
+
+We **call** the function to make it run.
+
+If parameters are specified, these are passed in as **arguments**.
+
+The result of a function is returned using the `return` keyword.
+
+```python
+def add_one(x):
+    result = x + 1
+    return result
+
+# We can capture the result of the function in a variable
+result = add_one(5)
+```
+
+We can exit a function early by using the `return` keyword.
+
+#### Parameter Naming
+
+The names of the parameters and the names of the arguments do not have to match.
+
+```python
+def add(x, y):
+    return x + y
+
+first = 5
+second = 10
+result = add(first, second)
+```
+
+#### Void Functions
+
+- Functions that do not return a (useful) value are called **void functions**.
+- Do not need a `return` statement.
+
+```python
+def print_stuff():
+    print("stuff")
 ```
 
 ## The `main` Function
@@ -188,7 +230,7 @@ When you pass a variable to a function, you are passing the value of the variabl
 
 ## The Call Stack
 
-Functions can call other functions, which can call other functions, and so on. 
+Functions can call other functions, which can call other functions, and so on.
 
 This creates a **call stack**.
 

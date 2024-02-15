@@ -123,9 +123,8 @@ Midterm Review
 
 [UML](uml.md)
 
-
 # Module 06
 
 ## Day 10
 
-variable scope; functions; modularity
+[Functions and Modularity](functions_modularity.md)
