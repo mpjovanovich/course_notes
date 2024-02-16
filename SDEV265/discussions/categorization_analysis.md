@@ -2,8 +2,6 @@
 
 ## Discussion
 
-_Possibly split methods among groups for sake of time._
-
 ### Part 1:
 
 Review the following categorization based methods of prioritizing requirements. Analyze:
