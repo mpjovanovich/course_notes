@@ -21,6 +21,9 @@ https://azure.microsoft.com/en-us/resources/events
 - [M02: Software Evolution; Project Management; Project Planning](#m02-software-evolution-project-management-project-planning)
   - [Day 3](#day-3)
   - [Day 4](#day-4)
+  - [Day 5](#day-5)
+- [M03: Requirements Engineering; Agile Development](#m03-requirements-engineering-agile-development)
+  - [Day 6](#day-6)
 
 > SOFTWARE ENGINEERING CODE OF ETHICS AND PROFESSIONAL PRACTICE (SHORT VERSION)
 >
@@ -52,82 +55,100 @@ https://azure.microsoft.com/en-us/resources/events
 
 # Announcements
 
-<figure>
-    <span>
-        <img src="" style="width: 60%;">
-    </span>
-    <figcaption>
-        <a href=""></a>
-    </figcaption>
-</figure>
-
-- 2/9: Guest speaker, Tactile Engineering
-- 2/9: Class ends at 2pm
-- VC Assignment 1: call for resubmissions; due end of day
+- https://www.linkedin.com/events/7163970760338866176/
 
 # M01: SDLC; Source Control
 
 ## Day 1
 
-Assignment: Create GitHub account
+Lecture:
 
-Assignment: Intro project proposals
+- Course Overview
+- [Tips to be successful in this class](intro_to_course.md)
+- Demo previous projects
+- [Software Development Life Cycle (SDLC)](../common/sdlc.html?course=SDEV265)
 
-Assignment: Demo previous projects
+Intro to Assignments:
+
+- Create GitHub account
+- Project proposals
 
 ## Day 2
 
-Lecture: [Tips to be successful in this class](intro_to_course.md)
+Activities:
 
-Lecture: Project pitches and voting
+- Project pitches and voting (DUE TODAY)
 
-Assignment: Project voting. DUE TODAY.
+Lecture:
 
-Lecture: [Software Engineering](software_engineering.md)
+- [Intro to Software Engineering](software_engineering.md)
+- [Git Basics](git_basics.md)
 
-Discussion: https://ethics.acm.org/code-of-ethics/software-engineering-code/
+Discussion:
 
-Lecture: [Software Development Life Cycle (SDLC)](../common/sdlc.html?course=SDEV265)
+- Software ethics (https://ethics.acm.org/code-of-ethics/software-engineering-code/)
 
-Lecture: [Git Basics](git_basics.md)
+Intro to Assignments:
 
-Assignment: Intro VC Assignment 1
+- VC Assignment 1
 
 # M02: Software Evolution; Project Management; Project Planning
 
 ## Day 3
 
-Lecture: [Configuration management](configuration_management.md)
+Lecture:
 
-Lecture: [Git - Beyond the Basics](git_advanced.md)
+- [Configuration Management](configuration_management.md)
+- [Git - Beyond the Basics](git_advanced.md)
 
-Assignment: Intro VC Assignment 2
+Intro to Assignments:
 
-Assignment: Intro company formation assignment
-
-**If Time:**
-
-Lecture: Software evolution
-
-**Post lecture:**
-
-Meeting: Companies form and break out
+- VC Assignment 2
+- Company formation assignment
 
 ## Day 4
 
+Activities:
+
 **Guest Speaker: Tactile Engineering**
 
-... Likely some of the below will be pushed ...
+Lecture:
 
-**If Time:**
+- Software Evolution (ch 9.1-9.3) (TODO: transfer from SDEV_265_M02_W1)
 
-Lecture: Project management
+## Day 5
 
-Lecture: Project planning
+Discussion:
 
-**Post lecture:**
+- First Principles
 
-Meeting: Prof check in with groups
+Lecture:
+
+(TODO: transfer old notes SDEV_265_M03_W2)
+
+https://docs.google.com/document/d/1B56TB159UEySnExPDaq1nnYiV0qKAXRUfZKbcCRXtRU/edit?usp=sharing
+
+- Risk Managment
+- People and Teams
+- Project Planning
+
+Intro to Assignments:
+
+- Resource Selection Assignment
+
+# M03: Requirements Engineering; Agile Development
+
+## Day 6
+
+Lecture:
+
+- [Requirements Engineering](requirements_engineering.md)
+
+<!-- __________________________________________ -->
+<!-- STUFF THAT WE MISSED
+- Software Evolution (ch 9.1-9.3)
+-->
+<!-- __________________________________________ -->
 
 <!-- __________________________________________ -->
 <!-- If discussions are needed see notes.txt -->
