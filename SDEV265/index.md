@@ -118,10 +118,6 @@ Lecture:
 
 ## Day 5
 
-Discussion:
-
-- First Principles
-
 Lecture:
 
 (TODO: transfer old notes SDEV_265_M03_W2)
@@ -131,6 +127,12 @@ https://docs.google.com/document/d/1B56TB159UEySnExPDaq1nnYiV0qKAXRUfZKbcCRXtRU/
 - Risk Managment
 - People and Teams
 - Project Planning
+
+Discussion:
+
+_\*Swapping with Day 6_
+
+- First Principles
 
 Intro to Assignments:
 
@@ -143,6 +145,12 @@ Intro to Assignments:
 Lecture:
 
 - [Requirements Engineering](requirements_engineering.md)
+
+Discussion:
+
+_\*Swapping with Day 5_
+
+- [Categorization Analysis](discussions/categorization_analysis.md)
 
 <!-- __________________________________________ -->
 <!-- STUFF THAT WE MISSED
