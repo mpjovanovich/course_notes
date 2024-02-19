@@ -159,7 +159,7 @@ JSON
 
 ## Day 11
 
-[Session Storage](session_storage.md)
+[Session Storage](sessions.md)
 
 [HTTP Headers](php_http_headers.md)
 
