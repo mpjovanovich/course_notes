@@ -24,15 +24,11 @@ course: SDEV255
   - [Day 9](#day-9)
   - [Day 10](#day-10)
   - [Day 11](#day-11)
+  - [Day 12](#day-12)
 
 # Announcements
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
-
-- Grading
-  - Make sure programs run at minimum
-  - Halfway through grading one of the labs...
-- Will intro final project next class
 
 - Correction:
   - When setting cookie expiry in the set cookie function calls I was saying 3600ms for 1 hour - the unit is seconds (3600s = 1h)
@@ -164,8 +160,6 @@ JSON
 
 [Session Storage](session_storage.md)
 
-Intro Final Project
-
 [HTTP Headers](php_http_headers.md)
 
 [HTTP Status Codes](php_http_status_codes.md)
@@ -173,3 +167,7 @@ Intro Final Project
 [PHP: POST](php_POST.md)
 
 [PHP: Redirect After POST](php_redirect_after_post.md)
+
+## Day 12
+
+Intro Final Project...
