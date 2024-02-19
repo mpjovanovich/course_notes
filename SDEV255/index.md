@@ -30,6 +30,7 @@ course: SDEV255
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
+- Readings for next lecture posted - Ch 11.
 - Correction:
   - When setting cookie expiry in the set cookie function calls I was saying 3600ms for 1 hour - the unit is seconds (3600s = 1h)
 
