@@ -36,19 +36,7 @@ course: SDEV120
 
 _Announcements:_
 
-- A couple of questions need fixed on the midterm:
-
-<figure>
-    <span>
-        <img src="tmp/midterm_fix1.JPG" style="width: 80%">
-    </span>
-</figure>
-
-<figure>
-    <span>
-        <img src="tmp/midterm_fix2.JPG" style="width: 80%">
-    </span>
-</figure>
+- Intro extra credit notebook assignment.
 
 # Module 01
 
