@@ -13,6 +13,13 @@ Need to put learning objectives so that students know how to approach, e.g.:
 Labs to simplify / remove / fix:
 - Grocery
 
+- Login lab
+    - Way too much going on
+    - remove config values for hardcoded user and pass
+    - remove redirects
+    - be ready to step through; write order of things in advance in lab description as objectives
+    - move CSS to own file
+
 END OF COURSE ANONYMOUS SURVEY:
 - Make it required or nobody will do it.
 - Rate each lab: I understood the concepts from this lab (not at all - very well)
@@ -21,3 +28,4 @@ END OF COURSE ANONYMOUS SURVEY:
     1 = labs are simple but are "toy problems"
     10 = labs are complex but demonstrate production level code
 - Free comments
+

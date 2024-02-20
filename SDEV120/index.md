@@ -31,12 +31,18 @@ course: SDEV120
   - [Day 9](#day-9)
 - [Module 06](#module-06)
   - [Day 10](#day-10)
+- [Module 07](#module-07)
 
 # Announcements / Agenda
 
 _Announcements:_
 
 - Intro extra credit notebook assignment.
+- Review new way of doing coding assignments.
+    - Accept pull request if prompted
+    - Commit and sync
+    - How to view your repository for assignments (GitHub Organization)
+    - How to view test results
 
 # Module 01
 
@@ -123,3 +129,9 @@ Midterm Review
 ## Day 10
 
 [Functions and Modularity](functions_modularity.md)
+
+# Module 07
+
+Loops and Iteration
+
+<!-- [Loops and Iteration](loops.md) -->
