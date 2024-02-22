@@ -5,7 +5,6 @@ course: SDEV255
 ---
 
 - [Announcements](#announcements)
-- [Agenda](#agenda)
 - [Module 01](#module-01)
   - [Day 1](#day-1)
   - [Day 2](#day-2)
@@ -30,15 +29,7 @@ course: SDEV255
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- Readings for next lecture posted - Ch 11.
-- Correction:
-  - When setting cookie expiry in the set cookie function calls I was saying 3600ms for 1 hour - the unit is seconds (3600s = 1h)
-
-# Agenda
-
-- How to see / close codespaces
-- Lecture
-- Lab
+- Readings for next lecture posted - M10: Ch 12.
 
 # Module 01
 
@@ -171,4 +162,15 @@ JSON
 
 ## Day 12
 
-Intro Final Project...
+Intro Final Project
+
+Relational Database Management Systems
+
+- Normalization
+  - [Flat (unnormalized)](examples/dog_schema_flat.csv)
+  - [Partially normalized](examples/dog_schema_partially_normalized.sql)
+  - [Fullly normalized (3NF)](examples/dog_schema_partially_normalized.sql)
+
+SQL
+
+<!-- Lab: Write and save SQL file - homework style lab, not walkthrough -->
