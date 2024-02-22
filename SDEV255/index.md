@@ -164,13 +164,31 @@ JSON
 
 Intro Final Project
 
-Relational Database Management Systems
+Relational Database Management Systems (RDBMS)
 
-- Normalization
+- MariaDB
+- phpMyAdmin
+
+SQL
+
+- DDL
+  - Create database
+  - Create table
+    - Data types
+    - Null constraints
+    - Primary key constraints
+  - Drop table
+- CRUD
+  - Create (INSERT)
+  - Read (SELECT)
+    - Filtering (WHERE)
+    - Sorting (ORDER BY)
+  - Update (UPDATE)
+  - Delete (DELETE)
+- Relations and Normalization
+  - Foreign keys
   - [Flat (unnormalized)](examples/dog_schema_flat.csv)
   - [Partially normalized](examples/dog_schema_partially_normalized.sql)
   - [Fullly normalized (3NF)](examples/dog_schema_partially_normalized.sql)
-
-SQL
 
 <!-- Lab: Write and save SQL file - homework style lab, not walkthrough -->
