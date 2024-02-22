@@ -39,10 +39,17 @@ course: SDEV120
 
 _Announcements:_
 
-- Coding function assignments posted. Lmk if tests are broken.
+- Coding:
+  - Function assignments posted. Lmk if tests are broken.
   - One in particular: "Enter 0 to quit"; don't know if this test will work.
-- Loop assignment not due this week. Will be posted ASAP.
-- UML assignment due Sunday.
+  - Loop assignment not due this week. Will be posted ASAP.
+- Other assignments:
+  - UML assignment due Sunday.
+  - Mikal: schedule makeup exam.
+- Schedule:
+  - We will do M09 before M08 b/c of difficulty and proximity to final.
+    - Readings are posted.
+  - This weekend - will catch up on grading to be current minimum as of 2wks ago.
 
 # Module 01
 
