@@ -33,7 +33,7 @@ _Reference:_
 
 #### B. Configure Home Tab
 
-1. Name your table tab "Home"
+1. Rename the starting tab on the table to "Home"
 1. Create a label for "user story".
    1. Show the "Labels" column on the home tab of your project.
 1. Create a new column for the "Home" view of the project.
@@ -42,6 +42,10 @@ _Reference:_
    1. Add options for "Critical", "High", "Medium", and "Low".
    1. Set a color scheme for the new options (click the context menu for the column and selecting "Edit values...).
 1. In the Status column, click "Edit values...". Change the "Todo" option to "Backlog".
+
+_Reference:_
+
+- [Managing labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
 
 #### C. Add User Stories
 
@@ -55,17 +59,16 @@ _Reference:_
    1. Add the issues to your project.
    1. Assign them to the backlog of the current development iteration.
 
+_Reference:_
+
+- Textbook: figures 4.10, 4.13
+
 #### D. Create Sprint Tab
 
 1. Create a new view under the project top level page.
 1. Title the new view “Sprint [current date]”, subbing in the current date.
 1. Using the dropdown arrow, change the layout to “Board”.
 1. Move at least two user stories from your backlog to the current sprint.
-
-_Reference:_
-
-- [Managing labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
-- Textbook: figures 4.10, 4.13
 
 ### Deliverable
 
