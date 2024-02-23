@@ -143,7 +143,10 @@ Intro to Assignments:
 
 Lecture:
 
-- [Requirements Engineering](requirements_engineering.md)
+<!-- - [Requirements Engineering](requirements_engineering.md) -->
+
+- [Feasibility](feasibility.md)
+- [Detailing Requirements](detailing_requirements.md)
 
 <!-- Switching to quizzes or essays instead. -->
 <!-- _\*Swapping with Day 5_ -->
