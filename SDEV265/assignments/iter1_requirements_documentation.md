@@ -6,7 +6,7 @@ course: SDEV265
 
 ### Assignment Description
 
-There are many effective ways to organize and track requirements. In this assignment we will use GitHub tools to create a product backlog and a sprint backlog. This will allow us to track manage requirements and track the progress of our project in a way that is consistent with Agile development practices.
+There are many effective ways to organize and track requirements. In this assignment we will use the _GitHub Project_ software tool to create a product backlog and a sprint backlog. This will allow us to track manage requirements and track the progress of our project in a way that is consistent with Agile development practices.
 
 _Reference:_
 
