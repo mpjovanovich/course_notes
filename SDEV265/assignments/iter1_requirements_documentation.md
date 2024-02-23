@@ -25,7 +25,7 @@ You may view the following link to see an example:
 1. From your product repository, navigate to the projects tab and create a GitHub project.
    1. Title your project appropriately.
    1. Use the "table" template.
-   1. Make sure that your new project is set to public visibility.
+   1. Make sure that your new project is set to public visibility. This can be changed in the project settings.
 
 _Reference:_
 
