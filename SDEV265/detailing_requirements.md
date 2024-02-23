@@ -22,7 +22,9 @@ course: SDEV265
 
 _Reference:_
 
-- [NASA: How to Write a Good Requirement](https://dl.acm.org/doi/abs/10.1007/978-3-030-44429-7_2)
+From readings...
+
+- [NASA: How to Write a Good Requirement](https://www.nasa.gov/reference/appendix-c-how-to-write-a-good-requirement/)
 
 ## User Requirements
 

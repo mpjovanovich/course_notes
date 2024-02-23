@@ -147,6 +147,7 @@ Lecture:
 
 - [Feasibility](feasibility.md)
 - [Detailing Requirements](detailing_requirements.md)
+- Requirements Engineering Processes
 
 <!-- Switching to quizzes or essays instead. -->
 <!-- _\*Swapping with Day 5_ -->
