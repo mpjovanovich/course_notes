@@ -11,6 +11,10 @@ course: SDEV265
     - [System Requirements (Functional Specifications)](#system-requirements-functional-specifications)
     - [Keywords](#keywords)
     - [Natural vs Structured Natural Language](#natural-vs-structured-natural-language)
+  - [Functional vs Non-Functional Requirements (vs Business Rules)](#functional-vs-non-functional-requirements-vs-business-rules)
+    - [Functional Requirements](#functional-requirements)
+    - [Non-Functional Requirements](#non-functional-requirements)
+    - [Business Rules](#business-rules)
 
 # Requirements Engineering
 
@@ -107,3 +111,36 @@ _Example:_
 - Follow a template.
 - Can be tabular (table format) or textual.
 - [NASA: GATEWAY SYSTEM REQUIREMENTS](https://ntrs.nasa.gov/api/citations/20190029153/downloads/20190029153.pdf)
+
+## Functional vs Non-Functional Requirements (vs Business Rules)
+
+### Functional Requirements
+
+Describe what the system should do. Form the basis for use cases and test cases.
+
+- "The system shall display a welcome message after login."
+- "The system shall show a logout button after login."
+
+### Non-Functional Requirements
+
+Describe how the system should do it. Often called "constraints".
+
+- "The report shall be sent out prior to close of business, 5pm EST."
+- "The email shall be sent no later than 24 hours after receiving a the request."
+- "The system shall be available 99.9% of the time."
+- "The system shall be able to handle 1000 concurrent users."
+
+### Business Rules
+
+Not the same as requirements, but similar.
+
+_Reference:_
+
+- [IBM: What are business rules?](https://www.ibm.com/topics/business-rules)
+
+**Business rules** are constraints on the business that may or may not affect the system.
+
+You may hear, "The company has a business rule that [...]".
+
+- "Transactions of over $10,000 must be audited by two persons."
+- "Invoice totals must appear on the front page of the invoice."
