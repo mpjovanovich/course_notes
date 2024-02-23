@@ -2,6 +2,8 @@
 
 ## Discussion
 
+In the following will look at categorical and hybrid quantitative / categorical tools that may be used in the decision making process for requirements.
+
 ### Part 1:
 
 Review the following categorization based methods of prioritizing requirements. Analyze:
@@ -13,7 +15,7 @@ Review the following categorization based methods of prioritizing requirements. 
 
 Find release notes for any software product.
 
-- Place items from the release in categories from the methods.
+- Apply your chosen methodology to several items from the release.
 - Imagine some items that could have been released, but didn't make the cut. Place these into categories.
 - Visually present your findings and/or reference the release notes where possible.
 
@@ -50,8 +52,6 @@ Find release notes for any software product.
         <img src="https://www.prodpad.com/wp-content/uploads/2023/06/RICE-Scoring-model.png.webp" style="">
     </span>
 </figure>
-
-Quantitative, not categorical - but we'll look at it anyway.
 
 (Reach \* Impact \* Confidence) / Effort
 
