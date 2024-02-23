@@ -4,9 +4,7 @@ title: Iteration 1 Requirements Documentation
 course: SDEV265
 ---
 
-# Assignment: Iteration 1 Requirements Documentation
-
-### Description
+### Assignment Description
 
 There are many effective ways to organize and track requirements. In this assignment we will use GitHub tools to create a product backlog and a sprint backlog. This will allow us to track manage requirements and track the progress of our project in a way that is consistent with Agile development practices.
 
