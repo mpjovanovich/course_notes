@@ -55,7 +55,7 @@ https://azure.microsoft.com/en-us/resources/events
 
 # Announcements
 
-- Discussion portion of grade for class is being replaced with quizzes and short essay. See IvyLearn for due dates.
+- Qizzes posted in IvyLearn. See for due dates.
 
 # M01: SDLC; Source Control
 
@@ -148,10 +148,10 @@ Lecture:
 <!-- Switching to quizzes or essays instead. -->
 <!-- _\*Swapping with Day 5_ -->
 
-Discussion:
+<!-- Discussion:
 
 - [Categorization Analysis](discussions/categorization_analysis.md)
-- \*S24 - we already covered this
+- \*S24 - we already covered this -->
 
 Intro to Assignments:
 
