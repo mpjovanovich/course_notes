@@ -8,6 +8,8 @@ course: SDEV265
 
 There are many effective ways to organize and track requirements. In this assignment we will use the _GitHub Project_ software tool to create a product backlog and a sprint backlog. This will allow us to track manage requirements and track the progress of our project in a way that is consistent with Agile development practices.
 
+We will refer to your **repository** as the repo for your product, and the **project** as the GitHub project board.
+
 _Reference:_
 
 It may be helpful to view the following video before attempting the assignment. The interface has changed slightly since the video was made:
@@ -34,9 +36,9 @@ _Reference:_
 #### B. Configure Home Tab
 
 1. Rename the starting tab on the table to "Home"
-1. Create a label for "user story".
-   1. Show the "Labels" column on the home tab of your project.
-1. Create a new column for the "Home" view of the project.
+1. Create a new label for "user story". You will have to do this from your repository page, not the project board.
+1. Show the "Labels" column on the home tab of your project (click the + button on the header row).
+1. Create a new column for the "Home" view of the project (click the + button on the header row).
    1. Name this column "Priority".
    1. Set the field type to "Single select".
    1. Add options for "Critical", "High", "Medium", and "Low".
