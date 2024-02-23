@@ -43,7 +43,11 @@ _Reference:_
    1. Set the field type to "Single select".
    1. Add options for "Critical", "High", "Medium", and "Low".
    1. Set a color scheme for the new options (click the context menu for the column and selecting "Edit values...).
-1. In the Status column, click "Edit values...". Change the "Todo" option to "Backlog".
+1. Create a new column for the "Home" view of the project (click the + button on the header row).
+   1. Name this column "Level of Effort".
+   1. Set the field type to "Single select".
+   1. Add options for "High", "Medium", and "Low".
+   1. Set a color scheme for the new options (click the context menu for the column and selecting "Edit values...).
 
 _Reference:_
 
@@ -52,14 +56,17 @@ _Reference:_
 #### C. Add User Stories
 
 1. Create at least five issues for your user stories. These will form our initial product backlog.
-   1. The title of the issue should be the short form user story description: `“As a ___ I want to ___ so ___”.`.
-   1. In the details pane of the issue, develop your user story into a scenario. These should focus on the technical/system requirements rather than the user requirements (how will the user story be “achieved” via the technology you’re using).
-   1. Tag the issues with the label “user story”.
-   1. Assign a priority to the issue. Make at least one high, one medium, and one low priority item.
-   1. Assign the issue to a developer.
-   1. Assign an estimated level of effort to each in the details pane of the issue.
-   1. Add the issues to your project.
-   1. Assign them to the backlog of the current development iteration.
+   1. Type # in a new row and select your repository prior to creating the issue. This links the issue to your repository.
+   2. The title of the issue should be brief but descriptive.
+   3. In the details pane of the issue, flush out the details of the scenario using the format provided in the example project:
+      1. Assumptions / Preconditions - what is assumed to be true before the scenario begins?
+      2. Outcomes / Postconditions - what is expected to be true after the scenario ends?
+      3. Normal Scenario - what happens in the scenario?
+      4. Error Conditions - under what conditions would the scenario fail?
+   4. Tag the issues with the label “user story”.
+   5. Assign a priority to the issue. Make at least one high, one medium, and one low priority item.
+   6. Assign an estimated level of effort to the issue.
+   7. Assign the issue to a developer.
 
 _Reference:_
 
@@ -67,10 +74,15 @@ _Reference:_
 
 #### D. Create Sprint Tab
 
-1. Create a new view under the project top level page.
-1. Title the new view “Sprint [current date]”, subbing in the current date.
+1. Create a new view for your project (a new tab from under the project top level page).
+1. Title the view “Sprint [current date]”, subbing in the current date.
 1. Using the dropdown arrow, change the layout to “Board”.
-1. Move at least two user stories from your backlog to the current sprint.
+1. Create or edit the columns so that you have one for each of the following:
+   1. Backlog
+   1. In Development
+   1. Ready to Test
+   1. Done
+1. Place some of your user stories in the "Backlog" column, and somne in the "In Development" column.
 
 ### Deliverable
 
