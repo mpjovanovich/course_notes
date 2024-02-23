@@ -5,7 +5,6 @@ course: SDEV255
 ---
 
 - [Announcements](#announcements)
-- [Agenda](#agenda)
 - [Module 01](#module-01)
   - [Day 1](#day-1)
   - [Day 2](#day-2)
@@ -24,24 +23,13 @@ course: SDEV255
   - [Day 9](#day-9)
   - [Day 10](#day-10)
   - [Day 11](#day-11)
+  - [Day 12](#day-12)
 
 # Announcements
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- Grading
-  - Make sure programs run at minimum
-  - Halfway through grading one of the labs...
-- Will intro final project next class
-
-- Correction:
-  - When setting cookie expiry in the set cookie function calls I was saying 3600ms for 1 hour - the unit is seconds (3600s = 1h)
-
-# Agenda
-
-- How to see / close codespaces
-- Lecture
-- Lab
+- Readings for next lecture posted - M10: Ch 12.
 
 # Module 01
 
@@ -162,9 +150,7 @@ JSON
 
 ## Day 11
 
-[Session Storage](session_storage.md)
-
-Intro Final Project
+[Session Storage](sessions.md)
 
 [HTTP Headers](php_http_headers.md)
 
@@ -173,3 +159,34 @@ Intro Final Project
 [PHP: POST](php_POST.md)
 
 [PHP: Redirect After POST](php_redirect_after_post.md)
+
+## Day 12
+
+Intro Final Project
+
+Relational Database Management Systems (RDBMS)
+
+- MariaDB
+- phpMyAdmin
+
+SQL
+
+- DDL
+  - Create database
+  - Create table
+    - Data types
+    - Null constraints
+    - Primary key constraints
+  - Drop table
+- CRUD
+  - Create (INSERT)
+  - Read (SELECT)
+    - Filtering (WHERE)
+    - Sorting (ORDER BY)
+  - Update (UPDATE)
+  - Delete (DELETE)
+- Relations and Normalization
+  - Foreign keys
+  - [Flat (unnormalized)](examples/dog_schema_flat.csv)
+  - [Partially normalized](examples/dog_schema_partially_normalized.sql)
+  - [Fullly normalized (3NF)](examples/dog_schema_partially_normalized.sql)

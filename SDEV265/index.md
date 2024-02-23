@@ -55,7 +55,7 @@ https://azure.microsoft.com/en-us/resources/events
 
 # Announcements
 
-- https://www.linkedin.com/events/7163970760338866176/
+- Discussion portion of grade for class is being replaced with quizzes and short essay. See IvyLearn for due dates.
 
 # M01: SDLC; Source Control
 
@@ -120,7 +120,7 @@ Lecture:
 
 Lecture:
 
-(TODO: transfer old notes SDEV_265_M03_W2)
+<!-- (TODO: transfer old notes SDEV_265_M03_W2) -->
 
 https://docs.google.com/document/d/1B56TB159UEySnExPDaq1nnYiV0qKAXRUfZKbcCRXtRU/edit?usp=sharing
 
@@ -128,11 +128,10 @@ https://docs.google.com/document/d/1B56TB159UEySnExPDaq1nnYiV0qKAXRUfZKbcCRXtRU/
 - People and Teams
 - Project Planning
 
-Discussion:
-
+<!-- Discussion:
 _\*Swapping with Day 6_
-
-- First Principles
+- First Principles -->
+<!-- Switching to quizzes or essays instead. -->
 
 Intro to Assignments:
 
@@ -146,18 +145,14 @@ Lecture:
 
 - [Requirements Engineering](requirements_engineering.md)
 
+<!-- Switching to quizzes or essays instead. -->
+<!-- _\*Swapping with Day 5_ -->
+
 Discussion:
 
-_\*Swapping with Day 5_
-
 - [Categorization Analysis](discussions/categorization_analysis.md)
+- \*S24 - we already covered this
 
-<!-- __________________________________________ -->
-<!-- STUFF THAT WE MISSED
-- Software Evolution (ch 9.1-9.3)
--->
-<!-- __________________________________________ -->
+Intro to Assignments:
 
-<!-- __________________________________________ -->
-<!-- If discussions are needed see notes.txt -->
-<!-- __________________________________________ -->
+- Iteration 1 Requirements Documentation

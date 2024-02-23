@@ -31,24 +31,25 @@ course: SDEV120
   - [Day 9](#day-9)
 - [Module 06](#module-06)
   - [Day 10](#day-10)
+- [Module 07](#module-07)
+  - [Day 11](#day-11)
+  - [Day 12](#day-12)
 
 # Announcements / Agenda
 
 _Announcements:_
 
-- A couple of questions need fixed on the midterm:
-
-<figure>
-    <span>
-        <img src="tmp/midterm_fix1.JPG" style="width: 80%">
-    </span>
-</figure>
-
-<figure>
-    <span>
-        <img src="tmp/midterm_fix2.JPG" style="width: 80%">
-    </span>
-</figure>
+- Coding:
+  - Function assignments posted. Lmk if tests are broken.
+  - One in particular: "Enter 0 to quit"; don't know if this test will work.
+  - Loop assignment not due this week. Will be posted ASAP.
+- Other assignments:
+  - UML assignment due Sunday.
+  - Mikal: schedule makeup exam.
+- Schedule:
+  - We will do M09 before M08 b/c of difficulty and proximity to final.
+    - Readings are posted.
+  - This weekend - will catch up on grading to be current minimum as of 2wks ago.
 
 # Module 01
 
@@ -135,3 +136,30 @@ Midterm Review
 ## Day 10
 
 [Functions and Modularity](functions_modularity.md)
+
+# Module 07
+
+## Day 11
+
+Loops and Iteration
+
+- Indefinite Loops (While Loops)
+  - Flowcharting a Loop
+  - Controlling a Loop With a Sentinal Value
+
+## Day 12
+
+Loops and Iteration
+
+- Definite Loops (For Loops)
+  - When to use indefinite vs definite loops?
+  - Python `range()` function
+    - Syntax, basic usage, default values explained
+  - Examples:
+    - Print even numbers from 0 to 10
+    - Print even numbers from 0 to `n`
+    - Count backwards from 10 to 1
+    - [Harmonic Series](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/m05_harmonic_series_loop.py)
+- Nested Loops
+  - Exercise: [Calculate Exponents](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/m05_calculate_exponents.py)
+    - Modify to wrap in an input prompt loop
