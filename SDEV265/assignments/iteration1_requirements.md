@@ -18,7 +18,7 @@ It may be helpful to view the following video before attempting the assignment. 
 
 You may view the following link to see an example:
 
-- [Ivy Demo Project](https://github.com/users/mpjovanovich/projects/2/views/4)
+- [Ivy Demo Project](https://github.com/users/mpjovanovich/projects/2)
 
 ### Instructions
 
