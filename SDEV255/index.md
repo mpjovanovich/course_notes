@@ -32,7 +32,7 @@ course: SDEV255
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- Readings for next lecture posted - M10: Ch 12.
+- Review changes to final project assignment description.
 
 # Reference
 
