@@ -26,6 +26,7 @@ course: SDEV255
   - [Day 11](#day-11)
   - [Day 12](#day-12)
   - [Day 13](#day-13)
+  - [Day 14](#day-14)
 
 # Announcements
 
@@ -199,8 +200,16 @@ SQL
 
 ## Day 13
 
-... PHP connect to db ...
+[Interfacing with a Database in PHP](php_database.md)
 
 Lab:
 
 [Connecting to a Database in CodeSpaces](db_connection_codespaces.md)
+
+## Day 14
+
+[JSON](json.md)
+
+Javascript Async and Promises
+
+Javascript Fetch API
