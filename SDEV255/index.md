@@ -200,7 +200,7 @@ SQL
 
 ## Day 13
 
-SQLLite
+SQLLite (redo last week's lab assignment using this).
 
 SQL Joins
 
