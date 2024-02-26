@@ -5,6 +5,7 @@ course: SDEV255
 ---
 
 - [Announcements](#announcements)
+- [Reference](#reference)
 - [Module 01](#module-01)
   - [Day 1](#day-1)
   - [Day 2](#day-2)
@@ -24,12 +25,17 @@ course: SDEV255
   - [Day 10](#day-10)
   - [Day 11](#day-11)
   - [Day 12](#day-12)
+  - [Day 13](#day-13)
 
 # Announcements
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
 - Readings for next lecture posted - M10: Ch 12.
+
+# Reference
+
+[Connecting to a Database in CodeSpaces](db_connection_codespaces.md)
 
 # Module 01
 
@@ -190,3 +196,11 @@ SQL
   - [Flat (unnormalized)](examples/dog_schema_flat.csv)
   - [Partially normalized](examples/dog_schema_partially_normalized.sql)
   - [Fullly normalized (3NF)](examples/dog_schema_partially_normalized.sql)
+
+## Day 13
+
+... PHP connect to db ...
+
+Lab:
+
+[Connecting to a Database in CodeSpaces](db_connection_codespaces.md)
