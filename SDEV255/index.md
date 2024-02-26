@@ -26,7 +26,7 @@ course: SDEV255
   - [Day 11](#day-11)
   - [Day 12](#day-12)
   - [Day 13](#day-13)
-  - [Day 14](#day-14)
+  - [Remaining Topics](#remaining-topics)
 
 # Announcements
 
@@ -200,16 +200,28 @@ SQL
 
 ## Day 13
 
+SQLLite
+
+SQL Joins
+
 [Interfacing with a Database in PHP](php_database.md)
 
 Lab:
 
 [Connecting to a Database in CodeSpaces](db_connection_codespaces.md)
 
-## Day 14
+## Remaining Topics
+
+SQL Prepared Statements
 
 [JSON](json.md)
 
 Javascript Async and Promises
 
 Javascript Fetch API
+
+Lab:
+
+Add a dropdown filter for user and category to photo gallery.
+
+Use the fetch API to get the data from the server instead of form submission.
