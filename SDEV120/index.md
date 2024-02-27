@@ -177,6 +177,7 @@ Loops and Iteration
 Intro Assignment: Numbering Systems for Computing
 
 - Conversions
+- Metric system
 - Data type questions
 - Text encoding
 
