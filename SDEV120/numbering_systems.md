@@ -39,7 +39,7 @@ course: SDEV120
         - [Example 2](#example-2-2)
   - [Binary Arithmetic and Encodings](#binary-arithmetic-and-encodings)
     - [Binary Addition](#binary-addition)
-      - [Example 1](#example-1-3)
+        - [Example 1](#example-1-3)
     - [Complement Encoding](#complement-encoding)
       - [Why Use It?](#why-use-it)
       - [One's Complement Encoding](#ones-complement-encoding)
@@ -448,11 +448,11 @@ When adding a column you can either have (depending on remainder and row values)
 
 Calculate 0111<sub>2</sub> + 1110<sub>2</sub>.
 
-|       |     1 |     1 |     1 |       |
+|     1 |     1 |     1 |       |       |
 | ----: | ----: | ----: | ----: | ----: |
 |       |     0 |     1 |     1 |     1 |
 |     + |     1 |     1 |     1 |     0 |
-| **1** | **1** | **0** | **1** | **0** |
+| **1** | **0** | **1** | **0** | **1** |
 
 - Does this tie out if we calc in decimal?...
 
