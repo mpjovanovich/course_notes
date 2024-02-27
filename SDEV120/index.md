@@ -4,7 +4,7 @@ title: Home
 course: SDEV120
 ---
 
-<figure>
+<!-- <figure>
     <span>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Time_derivatives_of_position.svg/800px-Time_derivatives_of_position.svg.png" style="width: 25%">
     </span>
@@ -12,7 +12,7 @@ course: SDEV120
     “The sixth derivative of the position vector with respect to time is sometimes referred to as pop. It is the rate of change of crackle with respect to time.”<br>
     – Wikipedia
     </figcaption>
-</figure>
+</figure> -->
 
 - [Announcements / Agenda](#announcements--agenda)
 - [Module 01](#module-01)
@@ -34,22 +34,20 @@ course: SDEV120
 - [Module 07](#module-07)
   - [Day 11](#day-11)
   - [Day 12](#day-12)
+- [Module 09](#module-09)
+  - [Day 13](#day-13)
+  - [Day 14](#day-14)
+- [Module 08](#module-08)
+  - [Day 15](#day-15)
+- [Final Exam](#final-exam)
 
 # Announcements / Agenda
 
 _Announcements:_
 
-- Coding:
-  - Function assignments posted. Lmk if tests are broken.
-  - One in particular: "Enter 0 to quit"; don't know if this test will work.
-  - Loop assignment not due this week. Will be posted ASAP.
-- Other assignments:
-  - UML assignment due Sunday.
-  - Mikal: schedule makeup exam.
-- Schedule:
-  - We will do M09 before M08 b/c of difficulty and proximity to final.
-    - Readings are posted.
-  - This weekend - will catch up on grading to be current minimum as of 2wks ago.
+- Coding assignments from **Module 07 (loops)** are now assigned.
+  - Going to try existing Cengage assignments.
+  - Please let me know towards end of class which grades still need fixed.
 
 # Module 01
 
@@ -163,3 +161,35 @@ Loops and Iteration
 - Nested Loops
   - Exercise: [Calculate Exponents](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/m05_calculate_exponents.py)
     - Modify to wrap in an input prompt loop
+
+# Module 09
+
+## Day 13
+
+[Numbering Systems for Computing](numbering_systems.md)
+
+## Day 14
+
+[Data Types in Detail](data_types_detail.md)
+
+[Encoding Text for Computing](encoding_text.md)
+
+Intro Assignment: Numbering Systems for Computing
+
+- Conversions
+- Data type questions
+- Text encoding
+
+Start on Arrays?
+
+# Module 08
+
+## Day 15
+
+Arrays
+
+Final Review
+
+# Final Exam
+
+In class or scheduled remote. Same format as midterm.
