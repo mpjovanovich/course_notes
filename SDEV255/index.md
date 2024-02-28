@@ -26,13 +26,15 @@ course: SDEV255
   - [Day 11](#day-11)
   - [Day 12](#day-12)
   - [Day 13](#day-13)
-  - [Remaining Topics](#remaining-topics)
+  - [Day 14](#day-14)
+  - [Day 15](#day-15)
+  - [Overflow Topics](#overflow-topics)
 
 # Announcements
 
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
-- Review changes to final project assignment description.
+- Review Progress Check and Questions assignment
 
 # Reference
 
@@ -173,8 +175,7 @@ Intro Final Project
 
 Relational Database Management Systems (RDBMS)
 
-- MariaDB
-- phpMyAdmin
+SQLLite (local database)
 
 SQL
 
@@ -200,8 +201,6 @@ SQL
 
 ## Day 13
 
-SQLLite (redo last week's lab assignment using this).
-
 SQL Joins
 
 [Interfacing with a Database in PHP](php_database.md)
@@ -210,18 +209,28 @@ Lab:
 
 [Connecting to a Database in CodeSpaces](db_connection_codespaces.md)
 
-## Remaining Topics
+## Day 14
 
 SQL Prepared Statements
 
+Populating Appliction Fields from a Database
+
+Function Chaining (via JavaScript)
+
+## Day 15
+
+Individual meetings
+
+## Overflow Topics
+
 [JSON](json.md)
 
-Javascript Async and Promises
+[Asyncronous JavaScript](javascript_async.md)
 
-Javascript Fetch API
+[Javascript Fetch API](javascript_fetch.md)
 
-Lab:
+<!-- Lab:
 
 Add a dropdown filter for user and category to photo gallery.
 
-Use the fetch API to get the data from the server instead of form submission.
+Use the fetch API to get the data from the server instead of form submission. -->

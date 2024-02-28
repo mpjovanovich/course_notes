@@ -5,6 +5,13 @@ course: SDEV255
 ---
 
 - [JSON](#json)
+  - [How is it used?](#how-is-it-used)
+    - [Serialization](#serialization)
+    - [Representing Objects](#representing-objects)
+  - [Syntax](#syntax)
+  - [Serialization](#serialization-1)
+    - [Serialize to a String](#serialize-to-a-string)
+    - [Deserialize from a String](#deserialize-from-a-string)
 
 # JSON
 
@@ -25,7 +32,7 @@ To **serialize** data means to encode it as a string.
 
 Represent objects in JavaScript.
 
-- **Objects** are a way of grouping together related data and functions.
+- **Objects** are a way of grouping together related data and functions (recall from OOP).
 - **Properties** are variables / constants that belong to an object.
 
 ## Syntax
@@ -37,6 +44,9 @@ const person = {
   name: "Socrates",
   birthYear: -469,
 };
+
+// Get the name property
+const name = socrates.name;
 ```
 
 Example - Array as a Property:
@@ -46,6 +56,9 @@ const person = {
   name: "Socrates",
   children: ["Lamprocles", "Sophroniscus"],
 };
+
+// Get the first child
+const firstChild = socrates.children[0];
 ```
 
 Example - JSON as a Property:
@@ -65,6 +78,9 @@ const socrates = {
     },
   ],
 };
+
+// Get the first child's name
+const firstChildName = socrates.children[0].name;
 ```
 
 ## Serialization
