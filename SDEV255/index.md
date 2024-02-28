@@ -211,11 +211,13 @@ Lab:
 
 ## Day 14
 
-SQL Prepared Statements
+Populating Application Fields from a Database
 
-Populating Appliction Fields from a Database
+<!-- [Populating Application Fields from a Database](populating_fields.md) -->
 
-Function Chaining (via JavaScript)
+[SQL Prepared Statements](php_prepared_statements.md)
+
+<!-- Lab: Both of the above. Make this extremely simple. -->
 
 ## Day 15
 
@@ -223,14 +225,14 @@ Individual meetings
 
 ## Overflow Topics
 
+Function Chaining
+
+<!-- [Function Chaining](function_chaining.md) -->
+
 [JSON](json.md)
 
 [Asyncronous JavaScript](javascript_async.md)
 
 [Javascript Fetch API](javascript_fetch.md)
 
-<!-- Lab:
-
-Add a dropdown filter for user and category to photo gallery.
-
-Use the fetch API to get the data from the server instead of form submission. -->
+<!-- Lab: See existing -->
