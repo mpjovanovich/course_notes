@@ -4,6 +4,15 @@ title: SQL Prepared Statements
 course: SDEV255
 ---
 
+- [SQL Prepared Statements](#sql-prepared-statements)
+  - [Advantages Over Regular SQL Statements](#advantages-over-regular-sql-statements)
+  - [Naive Dynamic Query Approach: Concatenation](#naive-dynamic-query-approach-concatenation)
+  - [SQL Injection Attack](#sql-injection-attack)
+  - [PHP Prepared Statement Syntax](#php-prepared-statement-syntax)
+    - [Example Insert](#example-insert)
+    - [Example Update](#example-update)
+    - [Example Delete](#example-delete)
+
 # SQL Prepared Statements
 
 A **prepared statement** is a used to execute similar SQL statements repeatedly.
@@ -36,8 +45,67 @@ $sql = "SELECT * FROM users WHERE userid = $userid";
 
 We should sanitize the input, but also use prepared statements.
 
-## Syntax
+## PHP Prepared Statement Syntax
+
+**Single Parameter Binding**
 
 ```php
-// TODO... it's very late.
+$user_id = 1;
+
+// Create the SQL. :userid is a placeholder
+$sql = "SELECT * FROM users WHERE userid = :userid";
+
+// $db is our PDO connection object.
+// It has methods on it to prepare statements.
+$stmt = $db->prepare($sql);
+
+// Bind the parameter to the placeholder
+// Use a PDO constant to specify the data type for the third argument for safety
+$stmt->bindParam(':userid', $user_id, PDO::PARAM_INT);
+
+// Execute the statement
+$stmt->execute();
+
+// Fetch the results
+$results = $stmt->fetchAll();
+```
+
+**Multiple Parameter Binding**
+
+```php
+// ...
+$sql = "SELECT * FROM users WHERE category_id = :category_id AND price <= :price";
+$stmt = $db->prepare($sql);
+$stmt->bindParam(':category_id', $category_id, PDO::PARAM_INT);
+$stmt->bindParam(':price', $price, PDO::PARAM_FLOAT);
+```
+
+### Example Insert
+
+```php
+// ...
+$sql = "INSERT INTO users (username, title) VALUES (:username, :title)";
+$stmt = $db->prepare($sql);
+$stmt->bindParam(':username', $username, PDO::PARAM_STR);
+$stmt->bindParam(':title', $title, PDO::PARAM_STR);
+```
+
+### Example Update
+
+```php
+// ...
+$sql = "UPDATE users SET username = :username, title = :title WHERE userid = :userid";
+$stmt = $db->prepare($sql);
+$stmt->bindParam(':username', $username, PDO::PARAM_STR);
+$stmt->bindParam(':title', $title, PDO::PARAM_STR);
+$stmt->bindParam(':userid', $userid, PDO::PARAM_INT);
+```
+
+### Example Delete
+
+```php
+// ...
+$sql = "DELETE FROM users WHERE userid = :userid";
+$stmt = $db->prepare($sql);
+$stmt->bindParam(':userid', $userid, PDO::PARAM_INT);
 ```
