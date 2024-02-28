@@ -197,7 +197,7 @@ SQL
   - Foreign keys
   - [Flat (unnormalized)](examples/dog_schema_flat.csv)
   - [Partially normalized](examples/dog_schema_partially_normalized.sql)
-  - [Fullly normalized (3NF)](examples/dog_schema_partially_normalized.sql)
+  - [Fully normalized (3NF)](examples/dog_schema_partially_normalized.sql)
 
 ## Day 13
 
