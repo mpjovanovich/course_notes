@@ -78,6 +78,8 @@ $sql = "SELECT * FROM users WHERE category_id = :category_id AND price <= :price
 $stmt = $db->prepare($sql);
 $stmt->bindParam(':category_id', $category_id, PDO::PARAM_INT);
 $stmt->bindParam(':price', $price, PDO::PARAM_FLOAT);
+$stmt->execute();
+// No need to fetch results if we're doing an insert, update, or delete
 ```
 
 ### Example Insert
@@ -88,6 +90,7 @@ $sql = "INSERT INTO users (username, title) VALUES (:username, :title)";
 $stmt = $db->prepare($sql);
 $stmt->bindParam(':username', $username, PDO::PARAM_STR);
 $stmt->bindParam(':title', $title, PDO::PARAM_STR);
+$stmt->execute();
 ```
 
 ### Example Update
@@ -99,6 +102,7 @@ $stmt = $db->prepare($sql);
 $stmt->bindParam(':username', $username, PDO::PARAM_STR);
 $stmt->bindParam(':title', $title, PDO::PARAM_STR);
 $stmt->bindParam(':userid', $userid, PDO::PARAM_INT);
+$stmt->execute();
 ```
 
 ### Example Delete
