@@ -37,10 +37,16 @@ course: SDEV120
 
 _Announcements:_
 
+Assignments:
+
 - No assignment for Module 09.
 - Coding assignments from **Module 08 (arrays)** are now assigned.
 - These are due Monday at midnight instead of Sunday.
-- Loops notes added to Day 11 / 12. They are somewhat complete.
+
+Grading:
+
+- All grading (aside from outstanding) will be in gradebook by Monday.
+- Grade category weightings are subject to change.
 
 # Module 01
 
