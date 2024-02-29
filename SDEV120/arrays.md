@@ -15,7 +15,7 @@ course: SDEV120
   - [Looping Through Arrays](#looping-through-arrays)
     - [Looping by Index](#looping-by-index)
     - ["foreach" Loops](#foreach-loops)
-  - [Strings are Arrays!](#strings-are-arrays)
+  - [Strings are Arrays (Sort of)](#strings-are-arrays-sort-of)
   - [Ordered Lists](#ordered-lists)
     - [Getting item(s) from an ordered list by index.](#getting-items-from-an-ordered-list-by-index)
     - [Getting item(s) from an ordered list by range.](#getting-items-from-an-ordered-list-by-range)
@@ -137,14 +137,16 @@ for letter in arr:
     print( letter ) # prints: a, b, c, d
 ```
 
-## Strings are Arrays!
+## Strings are Arrays (Sort of)
+
+Strings are an iterable collection of characters.
 
 Anything we can do with an array, we can do with a string.
 
 ```python
-longWord = ['Acetylcholinergic neurotransmission',]
+long_word = ['Acetylcholinergic neurotransmission',]
 
-for letter in longWord:
+for letter in long_word:
     print( letter )
 ```
 
