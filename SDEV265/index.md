@@ -25,6 +25,8 @@ https://azure.microsoft.com/en-us/resources/events
 - [M03: Requirements Engineering; Agile Development](#m03-requirements-engineering-agile-development)
   - [Day 6](#day-6)
   - [Day 7](#day-7)
+- [M04: Software Testing; Reliability](#m04-software-testing-reliability)
+  - [Day 8](#day-8)
 
 > SOFTWARE ENGINEERING CODE OF ETHICS AND PROFESSIONAL PRACTICE (SHORT VERSION)
 >
@@ -162,9 +164,18 @@ Intro to Assignments:
 
 - Midterm Career Development and Review
 
+# M04: Software Testing; Reliability
+
+- [Software Testing](software_testing.md)
+
+## Day 8
+
+Performance Review and Career Development
+
 <!--
 TODO:
 Testing - SDEV_265_M04_W1
 Reliability - SDEV_265_M04_W1
 [SOLID Programming Principles] - SDEV_265_M04_W1
+Distributed - distributed_architecture_exercise.drawio on github
 -->
