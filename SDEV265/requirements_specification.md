@@ -1,10 +1,10 @@
 ---
 layout: base
-title: Detailing Requirements
+title: Requirements Specification
 course: SDEV265
 ---
 
-- [Detailing Requirements](#detailing-requirements)
+- [Requirements Sepecification](#requirements-sepecification)
   - [User Requirements](#user-requirements)
   - [System Requirements (Functional Specifications)](#system-requirements-functional-specifications)
   - [Keywords](#keywords)
@@ -18,7 +18,7 @@ course: SDEV265
     - [Using Quantitative Metrics](#using-quantitative-metrics)
   - [Business Rules](#business-rules)
 
-# Detailing Requirements
+# Requirements Sepecification
 
 _Reference:_
 
@@ -80,12 +80,13 @@ Describe what the system should do. Form the basis for use cases and test cases.
 
 ## Non-Functional Requirements
 
-Describe how the system should do it. Often called "constraints".
+<figure>
+    <span>
+        <img src="images/4.3_non_functional_requirements.jpg" style="">
+    </span>
+</figure>
 
-- "The report shall be sent out prior to close of business, 5pm EST."
-- "The email shall be sent no later than 24 hours after receiving a the request."
-- "The system shall be available 99.9% of the time."
-- "The system shall be able to handle 1000 concurrent users."
+Describe how the system should do it. Often called "constraints".
 
 ### Product Requirements
 
@@ -104,10 +105,19 @@ Describe how the system should do it. Often called "constraints".
 ### External Requirements
 
 - Regulatory
-- Legistlative
+- Legislative
 - Ethical
 
 ### Using Quantitative Metrics
+
+<figure>
+    <span>
+        <img src="images/4.5_nonfunctional_metrics.jpg" style="width: 90%;">
+    </span>
+    <figcaption>
+        <a href=""></a>
+    </figcaption>
+</figure>
 
 _Avoid:_
 
@@ -117,9 +127,10 @@ _Avoid:_
 
 _Prefer:_
 
-- "The system shall respond to user input within 1 second."
-- "The system shall encrypt offsite database backups."
-- "The system shall have an uptime of 99.9%."
+- "The report shall be sent out prior to close of business, 5pm EST."
+- "The email shall be sent no later than 24 hours after receiving a the request."
+- "The system shall be available 99.9% of the time."
+- "The system shall be able to handle 1000 concurrent users."
 
 ## Business Rules
 

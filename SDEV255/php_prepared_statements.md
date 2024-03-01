@@ -88,6 +88,8 @@ $sql = "INSERT INTO users (username, title) VALUES (:username, :title)";
 $stmt = $db->prepare($sql);
 $stmt->bindParam(':username', $username, PDO::PARAM_STR);
 $stmt->bindParam(':title', $title, PDO::PARAM_STR);
+$stmt->execute();
+// No need to fetch results for an insert
 ```
 
 ### Example Update
@@ -99,6 +101,7 @@ $stmt = $db->prepare($sql);
 $stmt->bindParam(':username', $username, PDO::PARAM_STR);
 $stmt->bindParam(':title', $title, PDO::PARAM_STR);
 $stmt->bindParam(':userid', $userid, PDO::PARAM_INT);
+$stmt->execute();
 ```
 
 ### Example Delete
@@ -108,4 +111,5 @@ $stmt->bindParam(':userid', $userid, PDO::PARAM_INT);
 $sql = "DELETE FROM users WHERE userid = :userid";
 $stmt = $db->prepare($sql);
 $stmt->bindParam(':userid', $userid, PDO::PARAM_INT);
+$stmt->execute();
 ```

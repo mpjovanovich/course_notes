@@ -24,6 +24,7 @@ https://azure.microsoft.com/en-us/resources/events
   - [Day 5](#day-5)
 - [M03: Requirements Engineering; Agile Development](#m03-requirements-engineering-agile-development)
   - [Day 6](#day-6)
+  - [Day 7](#day-7)
 
 > SOFTWARE ENGINEERING CODE OF ETHICS AND PROFESSIONAL PRACTICE (SHORT VERSION)
 >
@@ -55,7 +56,8 @@ https://azure.microsoft.com/en-us/resources/events
 
 # Announcements
 
-- Qizzes posted in IvyLearn. See for due dates.
+- Next week is individual meetings; will review after lecture
+- Existing quizzes had too many bugs; we will hold off. Percent of final grade downgraded.
 
 # M01: SDLC; Source Control
 
@@ -128,11 +130,6 @@ https://docs.google.com/document/d/1B56TB159UEySnExPDaq1nnYiV0qKAXRUfZKbcCRXtRU/
 - People and Teams
 - Project Planning
 
-<!-- Discussion:
-_\*Swapping with Day 6_
-- First Principles -->
-<!-- Switching to quizzes or essays instead. -->
-
 Intro to Assignments:
 
 - Resource Selection Assignment
@@ -143,20 +140,31 @@ Intro to Assignments:
 
 Lecture:
 
-<!-- - [Requirements Engineering](requirements_engineering.md) -->
-
 - [Feasibility](feasibility.md)
-- [Detailing Requirements](detailing_requirements.md)
-- Requirements Engineering Processes
-
-<!-- Switching to quizzes or essays instead. -->
-<!-- _\*Swapping with Day 5_ -->
-
-<!-- Discussion:
-
-- [Categorization Analysis](discussions/categorization_analysis.md)
-- \*S24 - we already covered this -->
 
 Intro to Assignments:
 
 - Iteration 1 Requirements Documentation
+
+## Day 7
+
+Lecture:
+
+- [Requirements Elicitation](requirements_elicitation.md)
+
+- [Requirements Specification](requirements_specification.md)
+
+  - We covered this last time
+
+- [Requirements Validation](requirements_validation.md)
+
+Intro to Assignments:
+
+- Midterm Career Development and Review
+
+<!--
+TODO:
+Testing - SDEV_265_M04_W1
+Reliability - SDEV_265_M04_W1
+[SOLID Programming Principles] - SDEV_265_M04_W1
+-->
