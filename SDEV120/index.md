@@ -4,16 +4,6 @@ title: Home
 course: SDEV120
 ---
 
-<!-- <figure>
-    <span>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Time_derivatives_of_position.svg/800px-Time_derivatives_of_position.svg.png" style="width: 25%">
-    </span>
-    <figcaption>
-    “The sixth derivative of the position vector with respect to time is sometimes referred to as pop. It is the rate of change of crackle with respect to time.”<br>
-    – Wikipedia
-    </figcaption>
-</figure> -->
-
 - [Announcements / Agenda](#announcements--agenda)
 - [Module 01](#module-01)
   - [Day 1](#day-1)
@@ -31,23 +21,32 @@ course: SDEV120
   - [Day 9](#day-9)
 - [Module 06](#module-06)
   - [Day 10](#day-10)
-- [Module 07](#module-07)
   - [Day 11](#day-11)
   - [Day 12](#day-12)
 - [Module 09](#module-09)
   - [Day 13](#day-13)
-  - [Day 14](#day-14)
 - [Module 08](#module-08)
+  - [Day 14](#day-14)
+- [Overflow](#overflow)
   - [Day 15](#day-15)
+  - [Overflow](#overflow-1)
 - [Final Exam](#final-exam)
+  - [Day 16](#day-16)
 
 # Announcements / Agenda
 
 _Announcements:_
 
-- Coding assignments from **Module 07 (loops)** are now assigned.
-  - Going to try existing Cengage assignments.
-  - Please let me know towards end of class which grades still need fixed.
+Assignments:
+
+- No assignment for Module 09.
+- Coding assignments from **Module 08 (arrays)** are now assigned.
+- These are due Monday at midnight instead of Sunday.
+
+Grading:
+
+- All grading (aside from outstanding) will be in gradebook by Monday.
+- Grade category weightings are subject to change.
 
 # Module 01
 
@@ -135,32 +134,15 @@ Midterm Review
 
 [Functions and Modularity](functions_modularity.md)
 
-# Module 07
+RRRRRRRRRRRRRRRRRRuuu
 
 ## Day 11
 
-Loops and Iteration
-
-- Indefinite Loops (While Loops)
-  - Flowcharting a Loop
-  - Controlling a Loop With a Sentinal Value
+[Loops](../common/loops.html?course=SDEV120)
 
 ## Day 12
 
-Loops and Iteration
-
-- Definite Loops (For Loops)
-  - When to use indefinite vs definite loops?
-  - Python `range()` function
-    - Syntax, basic usage, default values explained
-  - Examples:
-    - Print even numbers from 0 to 10
-    - Print even numbers from 0 to `n`
-    - Count backwards from 10 to 1
-    - [Harmonic Series](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/m05_harmonic_series_loop.py)
-- Nested Loops
-  - Exercise: [Calculate Exponents](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/m05_calculate_exponents.py)
-    - Modify to wrap in an input prompt loop
+[Loops](../common/loops.html?course=SDEV120)
 
 # Module 09
 
@@ -168,29 +150,56 @@ Loops and Iteration
 
 [Numbering Systems for Computing](numbering_systems.md)
 
+<!-- Intro Assignment: Numbering Systems for Computing
+
+- Conversions
+- Metric system
+- Data type questions
+- Text encoding -->
+
+# Module 08
+
 ## Day 14
+
+Arrays
+
+<!-- TODO: break into subtopics. for loop, foreach loop, parallel arrays, etc. -->
+
+# Overflow
+
+## Day 15
 
 [Data Types in Detail](data_types_detail.md)
 
 [Encoding Text for Computing](encoding_text.md)
 
-Intro Assignment: Numbering Systems for Computing
-
-- Conversions
-- Metric system
-- Data type questions
-- Text encoding
-
-Start on Arrays?
-
-# Module 08
-
-## Day 15
-
-Arrays
-
 Final Review
 
+## Overflow
+
+Reading a file
+
+Incorporating Graphics into Software
+
+Advanced print formatting (making printed stuff look nice)
+
+Using third party libraries
+
+<!-- In most programming languages you would use a third party library to build charts and graphs. These are bundled pieces of code that are not a part of the standard libraries that are included with a language.
+
+### Graphic Libraries of Note
+
+- Python
+  - Plotly: Basic charts in Python
+  - Matplotlib: Examples — Matplotlib 3.6.2 documentation
+    - demo: [Monte Carlo - Radioactive Decay](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/monte_carlo_radio_decay.py)
+    - Does our chart result align with the decay rate / half-life given - 5730 years?
+- Javascript:
+  - Plenty of good choices.
+- demo: [Taylor Series](https://illustrated-math-taylor-series.web.app/) -->
+
 # Final Exam
+
+## Day 16
 
 In class or scheduled remote. Same format as midterm.

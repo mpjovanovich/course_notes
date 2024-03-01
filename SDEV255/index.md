@@ -205,10 +205,6 @@ SQL Joins
 
 [Interfacing with a Database in PHP](php_database.md)
 
-Lab:
-
-[Connecting to a Database in CodeSpaces](db_connection_codespaces.md)
-
 ## Day 14
 
 <!-- Populating Application Fields from a Database -->

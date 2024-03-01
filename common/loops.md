@@ -1,6 +1,6 @@
 ---
 layout: base
-title: SDEV 140 - M03
+title: Loops
 ---
 
 - [Intro to Loops](#intro-to-loops)
@@ -17,6 +17,9 @@ title: SDEV 140 - M03
 - [Nested Loops](#nested-loops)
 - [Controlled Loops with "break" and "continue"](#controlled-loops-with-break-and-continue)
 - [Indefinite Loops](#indefinite-loops)
+  - [Loop Efficiency](#loop-efficiency)
+    - [Using Break and Continue](#using-break-and-continue)
+    - [Avoiding Redundant Calculations](#avoiding-redundant-calculations)
 
 ## Announcements
 
@@ -52,18 +55,13 @@ title: SDEV 140 - M03
 
 ## Pseudocode
 
-```
-while some_condition == True:
+```python
+for item in collection:
     # loop body
 ```
 
-```
-for some_start_value to some_end_value:
-    # loop body
-```
-
-```
-for each item in some_collection:
+```python
+while entry_condition == True:
     # loop body
 ```
 
@@ -240,3 +238,22 @@ for i in range( 0, 3, 1 ):
 
 - m05_calculate_exponents.py
 - m05_name_sentinal.py
+
+## Loop Efficiency
+
+### Using Break and Continue
+
+If we have a loop that was set to run a set number of times, but it’s doing work that is no longer necessary, we should break out of that loop.
+
+- **break** keyword - exits the loop immediately
+- **continue** keyword - skips the rest of the loop body and goes to the next iteration
+- <span class="demo">demo:</span> walkthrough flowchart p. 249
+- <span class="demo">demo:</span> revisit / fix m06_search_array.py
+
+### Avoiding Redundant Calculations
+
+Whether or not a line of code is included in the body of a loop makes a difference on how many times that line will execute.
+
+Anything that doesn’t have to be changed inside the loop should be calculated outside of the loop - even if it’s a variable that we may use in the loop body.
+
+<span class="demo">demo:</span> m06_string_comparison_case_invariant.py
