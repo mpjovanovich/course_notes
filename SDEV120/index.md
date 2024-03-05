@@ -175,6 +175,10 @@ Arrays
 
 Final Review
 
+- Everything since midterm + selections
+- Focus on terminology and concepts
+- Don't have to write code, but will have a few snippets to read and interpret.
+
 ## Overflow
 
 Reading a file
