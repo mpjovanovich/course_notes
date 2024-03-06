@@ -37,7 +37,7 @@ Simple static webscrape:
 
 ```javascript
 // Make a request to the url.
-const url = "http://example.com";
+const url = "https://mpjovanovich.github.io/course_notes/SDEV255/";
 fetch(url)
   .then((httpResponse) => {
     // "httpResponse" will be a "Response" object.
