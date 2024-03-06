@@ -5,7 +5,6 @@ course: SDEV255
 ---
 
 - [Announcements](#announcements)
-- [Reference](#reference)
 - [Module 01](#module-01)
   - [Day 1](#day-1)
   - [Day 2](#day-2)
@@ -35,10 +34,6 @@ course: SDEV255
 ![Empty](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DRSnSPeoqsbaeBITkzKYK8rwadli-d-JcuREzOwcnx8-Zby_iVfQxargkOG1yv45TWg&usqp=CAU)
 
 - Have a great Spring Break!
-
-# Reference
-
-[Connecting to a Database in CodeSpaces](db_connection_codespaces.md)
 
 # Module 01
 
