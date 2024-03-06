@@ -138,7 +138,7 @@ longRunningOperation(p1)
   .then(() => console.log(`Finished all processes.`));
 ```
 
-**xample: Returning a value**
+**Example: Returning a value**
 
 The `then` method can also return a value.
 
