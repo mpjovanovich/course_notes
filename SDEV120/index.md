@@ -169,7 +169,7 @@ Arrays
 
 ## Day 15
 
-[Data Types in Detail](data_types_detail.md)
+<!-- [Data Types in Detail](data_types_detail.md) -->
 
 [Encoding Text for Computing](encoding_text.md)
 
