@@ -78,7 +78,7 @@ The `then` method is used to handle the result of a promise, much like an event 
 
 #### Examples
 
-**Simulate an I/O or CPU bound operation.**
+<p class="demo">Simulate an I/O or CPU bound operation.</p>
 
 We're mostly concerned with consuming promises, but here's an example of a function that returns a promise.
 
@@ -97,7 +97,7 @@ function longRunningOperation(processName) {
 }
 ```
 
-**Example: Run an async operation to avoid blocking**
+<p class="demo">Example: Run an async operation to avoid blocking</p>
 
 ```javascript
 // Kick off the long running operation
@@ -109,7 +109,7 @@ console.log("Doing other work...");
 console.log("Doing even more work...");
 ```
 
-**Example: Run several async operations**
+<p class="demo">Example: Run several async operations<p>
 
 ```javascript
 const p1 = "Process A";
@@ -122,7 +122,7 @@ const p3 = "Process C";
 longRunningOperation(p3).then(() => console.log(`Finished ${p3}`));
 ```
 
-**Example: Chain several async operations**
+<p class="demo">Example: Chain several async operations<p>
 
 ```javascript
 const p1 = "Process A";
@@ -138,7 +138,7 @@ longRunningOperation(p1)
   .then(() => console.log(`Finished all processes.`));
 ```
 
-**Example: Returning a value**
+<p class="demo">Example: Returning a value<p>
 
 The `then` method can also return a value.
 
@@ -160,7 +160,7 @@ function chainedWorkFunction(value) {
 chainedWorkFunction(1).then((result) => console.log(`Final value: ${result}`));
 ```
 
-**Example: Chaining returned values**
+<p class="demo">Example: Chaining returned values<p>
 
 ```javascript
 // Call it several times.
