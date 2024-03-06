@@ -221,8 +221,6 @@ Individual meetings
 
 ## Overflow Topics
 
-Function Chaining
-
 <!-- [Function Chaining](function_chaining.md) -->
 
 [JSON](json.md)
@@ -230,5 +228,7 @@ Function Chaining
 [Asyncronous JavaScript](javascript_async.md)
 
 [Javascript Fetch API](javascript_fetch.md)
+
+Tying it All Together: Full Stack Application Walkthrough
 
 <!-- Lab: See existing -->
