@@ -109,7 +109,7 @@ console.log("Doing other work...");
 console.log("Doing even more work...");
 ```
 
-<p class="demo">Example: Run several async operations<p>
+<p class="demo">Example: Run several async operations</p>
 
 ```javascript
 const p1 = "Process A";
@@ -122,7 +122,7 @@ const p3 = "Process C";
 longRunningOperation(p3).then(() => console.log(`Finished ${p3}`));
 ```
 
-<p class="demo">Example: Chain several async operations<p>
+<p class="demo">Example: Chain several async operations</p>
 
 ```javascript
 const p1 = "Process A";
@@ -138,7 +138,7 @@ longRunningOperation(p1)
   .then(() => console.log(`Finished all processes.`));
 ```
 
-<p class="demo">Example: Returning a value<p>
+<p class="demo">Example: Returning a value</p>
 
 The `then` method can also return a value.
 
@@ -160,7 +160,7 @@ function chainedWorkFunction(value) {
 chainedWorkFunction(1).then((result) => console.log(`Final value: ${result}`));
 ```
 
-<p class="demo">Example: Chaining returned values<p>
+<p class="demo">Example: Chaining returned values</p>
 
 ```javascript
 // Call it several times.
