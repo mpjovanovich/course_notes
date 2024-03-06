@@ -158,7 +158,11 @@ function chainedWorkFunction(value) {
 
 // Call it once...
 chainedWorkFunction(1).then((result) => console.log(`Final value: ${result}`));
+```
 
+**Example: Chaining returned values**
+
+```javascript
 // Call it several times.
 // First call
 chainedWorkFunction(1)
