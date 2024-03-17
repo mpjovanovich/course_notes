@@ -10,7 +10,7 @@ course: SDEV255
   - [Day 2](#day-2)
 - [Module 02](#module-02)
   - [Day 3](#day-3)
-- [Module 03](#module-03)
+- [Module 03https://open.spotify.com/track/1uDHnWoAi4k3UkbmcNkS69?si=f6da7cec2c5545e5](#module-03httpsopenspotifycomtrack1udhnwoai4k3ukbmcnks69sif6da7cec2c5545e5)
   - [Day 4](#day-4)
 - [Module 04](#module-04)
   - [Day 5](#day-5)
@@ -57,7 +57,7 @@ Review suggested workflow: VS Code, Live Server, Browser Dev Tools
 
 [JavaScript: Intro](javascript_intro.md)
 
-# Module 03
+# Module 03https://open.spotify.com/track/1uDHnWoAi4k3UkbmcNkS69?si=f6da7cec2c5545e5
 
 ## Day 4
 
