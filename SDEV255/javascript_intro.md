@@ -4,7 +4,7 @@ title: Intro to JavaScript
 course: SDEV255
 ---
 
-- [What is JavaScript?](#what-is-javascript)
+- [JavaScript?](#javascript)
 - [Where do I Write JavaScript?](#where-do-i-write-javascript)
 - [The Console and Debugging](#the-console-and-debugging)
   - [Developer Tools and the Console](#developer-tools-and-the-console)
@@ -37,7 +37,7 @@ course: SDEV255
     </figcaption>
 </figure>
 
-# What is JavaScript?
+# JavaScript?
 
 JavaScript is a programming language that runs in the browser.
 

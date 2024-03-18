@@ -1,0 +1,27 @@
+---
+layout: base
+title: Home
+course: SDEV265
+---
+
+# Announcements
+
+...
+
+# Module 01
+
+## Day 1
+
+Syllabus
+
+HTML - element hierarchies
+
+CSS - selectors, properties, values
+
+[JavaScript Intro](../SDEV255/javascript_intro.md)
+
+[Typescript Intro](typescript_intro.md)
+
+[GH Classrooms and Codespaces](../common/git.html?course=SDEV264)
+
+Intro Lab
