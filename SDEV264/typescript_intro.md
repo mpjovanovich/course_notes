@@ -36,7 +36,8 @@ let count: number = 5;
 let isTrue: boolean = true;
 ```
 
-The transpiler will still infer types if you don't specify them, but you cannot change the type of a variable after it has been declared.
+// The transpiler will still infer types if you don't specify them, but you
+// cannot change the type of a variable after it has been declared.
 
 ```typescript
 let message = "Oh hello there!";
@@ -66,4 +67,51 @@ To compile a file:
 
 ```bash
 tsc myFile.ts
+```
+
+## Example App
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TS_Demo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>TS Demo</h1>
+    <p>I'm p1!</p>
+    <p>I'm p2!</p>
+    <p>I'm p3!</p>
+    <p>I'm p4!</p>
+    <p>I'm p5!</p>
+    <button id="btnClick">Click me!</button>
+  </body>
+</html>
+```
+
+```typescript
+let cur_color: number = 0;
+const colors: string[] = [
+  "red",
+  "green",
+  "blue",
+  "orange",
+  "purple",
+  "teal",
+  "pink",
+];
+
+// Whenever the button is clicked, do this function...
+document.getElementById("btnClick")?.addEventListener("click", () => {
+  // Get all of the paragraph elements, and for each one...
+  document.querySelectorAll("p").forEach((p) => {
+    // Change the color of the text to the next color in the array
+    p.style.color = colors[cur_color];
+
+    // Increment the color index, and if it's at the end of the array, reset it to 0
+    cur_color = (cur_color + 1) % colors.length;
+  });
+});
 ```
