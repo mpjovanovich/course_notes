@@ -134,8 +134,6 @@ Midterm Review
 
 [Functions and Modularity](functions_modularity.md)
 
-RRRRRRRRRRRRRRRRRRuuu
-
 ## Day 11
 
 [Loops](../common/loops.html?course=SDEV120)

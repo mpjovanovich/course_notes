@@ -1,7 +1,7 @@
 ---
 layout: base
-tital: Home
-course: SDEV 140
+title: Home
+course: SDEV140
 ---
 
 - [Announcements](#announcements)
