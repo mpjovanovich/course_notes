@@ -25,3 +25,11 @@ CSS - selectors, properties, values
 [GH Classrooms and Codespaces](../common/git.html?course=SDEV264)
 
 Intro Lab
+
+## Day 2
+
+JS objects, methods, and properties
+
+JS Events
+
+JS arrow functions
