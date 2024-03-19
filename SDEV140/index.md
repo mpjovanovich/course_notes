@@ -41,7 +41,7 @@ Lab
 
 [Evolution of Programming Languages](../common/evolution_programming_languages.html?course=SDEV140)
 
-[Data Types and Conversions](data_types.md)
+[Data Types and Conversions](../SDEV120/data_types.html?course=SDEV140)
 
 [Assignment](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/assignment_operator.py)
 
