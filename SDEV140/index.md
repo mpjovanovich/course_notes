@@ -31,7 +31,7 @@ Syllabus
 
 [Command Line Basics](../common/command_line_basics.html?course=SDEV140)
 
-Input and output in Python
+`input()` and `print()` functions
 
 Lab
 
