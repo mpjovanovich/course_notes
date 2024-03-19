@@ -74,6 +74,11 @@ src
 ├── index.css
 ├── main.tsx
 └── vite-env.d.ts
+.eslintrc.cjs
+.firebaserc
+.gitignore
+favicon.png
+...
 ```
 
 **Good Habits:**

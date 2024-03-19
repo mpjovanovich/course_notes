@@ -4,6 +4,15 @@ title: Intro to TypeScript
 course: SDEV264
 ---
 
+- [TypeScript](#typescript)
+  - [Why might I uses over plain JS?](#why-might-i-uses-over-plain-js)
+  - [Any Reason to still use JS then?](#any-reason-to-still-use-js-then)
+  - [Syntax](#syntax)
+    - [Type Annotations](#type-annotations)
+    - [Functions](#functions)
+  - [TypeScript Compiler](#typescript-compiler)
+  - [Example App](#example-app)
+
 # TypeScript
 
 - TypeScript is a **superset** of JavaScript

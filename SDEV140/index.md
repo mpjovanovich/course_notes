@@ -7,6 +7,7 @@ course: SDEV140
 - [Announcements](#announcements)
 - [Module 01](#module-01)
   - [Day 1](#day-1)
+  - [Day 2](#day-2)
 
 # Announcements
 
@@ -19,6 +20,26 @@ course: SDEV140
 # Module 01
 
 ## Day 1
+
+Syllabus
+
+[Computer Orientation](../common/computer_orientation.html?course=SDEV140)
+
+[Coding Environments](../SDEV120/coding_environments.md)
+
+[Programming Paradigms](../common/overview_of_programming.html?course=SDEV140)
+
+[Using Git and GitHub](../common/git.md)
+
+Version Control
+
+Lab - Walkthrough
+
+## Day 2
+
+[Data Types](data_types.md)
+
+Lab
 
 <!-- # Old Lecture Schedule
 

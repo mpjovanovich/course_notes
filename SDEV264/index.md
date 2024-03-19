@@ -28,8 +28,14 @@ Intro Lab
 
 ## Day 2
 
+Review: How to write simple TS for a static HTML page.
+
 JS objects, methods, and properties
 
 JS Events
 
 JS arrow functions
+
+Review: How to use GH Classroom and Codespaces.
+
+Lab
