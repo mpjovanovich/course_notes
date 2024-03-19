@@ -22,7 +22,7 @@ CSS - selectors, properties, values
 
 [Typescript Intro](typescript_intro.md)
 
-[GH Classrooms and Codespaces](../common/git.html?course=SDEV264)
+[Using Git and GitHub](../common/git.html?course=SDEV264)
 
 Intro Lab
 
@@ -36,6 +36,6 @@ JS Events
 
 JS arrow functions
 
-Review: How to use GH Classroom and Codespaces.
+Review: [Using Git and GitHub](../common/git.html?course=SDEV264)
 
 Lab

@@ -25,54 +25,32 @@ Syllabus
 
 [Computer Orientation](../common/computer_orientation.html?course=SDEV140)
 
-[Coding Environments](../SDEV120/coding_environments.md)
+[Coding Environments](../SDEV120/coding_environments.html?course=SDEV140)
 
-[Programming Paradigms](../common/overview_of_programming.html?course=SDEV140)
+[Using Git and GitHub](../common/git.html?course=SDEV140)
 
-[Using Git and GitHub](../common/git.md)
+[Command Line Basics](../common/command_line_basics.html?course=SDEV140)
 
-Version Control
-
-Lab - Walkthrough
-
-## Day 2
-
-[Data Types](data_types.md)
+Input and output in Python
 
 Lab
 
-<!-- # Old Lecture Schedule
+<!-- input, print, comment, debug, commit, sync, view feedback -->
 
-[Module 02: Selection Structures; Functions; Variable Scope](m02.md)
+## Day 2
 
-[Module 03: Loops](m03.md)
+[Evolution of Programming Languages](../common/evolution_programming_languages.html?course=SDEV140)
 
-[Module 04: Arrays](m04.md)
+[Data Types and Conversions](data_types.md)
 
-[Module 05: M05 - GUI Development; Event Driven Programming; Exception Handling; Input Validation](m05.md)
+[Assignment](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/assignment_operator.py)
 
-# New Lecture Schedule
+[Dynamic Typing](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/dynamic_type_conversion.py)
 
-## Module 06
+[Constant vs Variable](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/variable_const_type_demo.py)
 
-### Day 1
+String concatenation, formatting, and manipulation
 
-[Dictionaries](dictionary.md)
+Lab
 
-[Multidimensional Arrays](multidimensional_arrays.md)
-
-### Day 2
-
-String Manipulation and Formatting
-
-Context Managers (`with` Statements)
-
-File IO and Parsing
-
-Debugging with File Paths in VS Code
-
-## Module 07
-
-### Day 1
-
-[Object Oriented Programming](oop.md) -->
+<!-- get a number from user and do some math; print data type -->
