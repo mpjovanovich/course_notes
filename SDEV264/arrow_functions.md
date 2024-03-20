@@ -4,6 +4,10 @@ title: Arrow Functions
 course: SDEV264
 ---
 
+- [Arrow Functions](#arrow-functions)
+  - [How to Write an Arrow Function](#how-to-write-an-arrow-function)
+  - [Examples](#examples)
+
 # Arrow Functions
 
 Arrow functions are a shorthand way of writing functions in JavaScript and TypeScript. They are similar to **lambda functions**.
@@ -24,7 +28,7 @@ const functionName = (param1: dataType, param2: dataType): returnType => {
 };
 ```
 
-### Examples
+## Examples
 
 Function with one argument and a return value:
 

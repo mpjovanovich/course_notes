@@ -8,6 +8,7 @@ course: SDEV140
 - [Module 01](#module-01)
   - [Day 1](#day-1)
   - [Day 2](#day-2)
+  - [Day 3](#day-3)
 
 # Announcements
 
@@ -35,22 +36,22 @@ Syllabus
 
 Lab
 
-<!-- input, print, comment, debug, commit, sync, view feedback -->
-
 ## Day 2
 
 [Evolution of Programming Languages](../common/evolution_programming_languages.html?course=SDEV140)
 
-[Data Types and Conversions](../SDEV120/data_types.html?course=SDEV140)
+[Variables, Constants, Data Types](../SDEV120/data_types.html?course=SDEV140)
 
-[Assignment](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/assignment_operator.py)
-
-[Dynamic Typing](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/dynamic_type_conversion.py)
-
-[Constant vs Variable](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV120_Computing_Logic/variable_const_type_demo.py)
-
-String concatenation, formatting, and manipulation
+[String Concatenation, Formatting, and Manipulation](string_manipulation.md)
 
 Lab
 
-<!-- get a number from user and do some math; print data type -->
+## Day 3
+
+<!-- See M02 notes -->
+
+Comparison and Boolean Expressions
+
+Logical Operators
+
+Selection Structures

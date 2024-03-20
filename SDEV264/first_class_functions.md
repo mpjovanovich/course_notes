@@ -4,6 +4,11 @@ title: First Class Functions
 course: SDEV264
 ---
 
+- [First Class Functions](#first-class-functions)
+  - [Example: Passing a function as an argument](#example-passing-a-function-as-an-argument)
+  - [Example: Passing a function that takes an argument](#example-passing-a-function-that-takes-an-argument)
+  - [Example: Using arrow functions](#example-using-arrow-functions)
+
 # First Class Functions
 
 The term **first class functions** refers to the ability to treat functions as values. This means that you can pass functions as arguments to other functions, return functions from other functions, and assign functions to variables.
