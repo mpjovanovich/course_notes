@@ -4,7 +4,18 @@ title: Home
 course: SDEV264
 ---
 
+- [Announcements](#announcements)
+- [Module 01](#module-01)
+  - [Day 1](#day-1)
+  - [Day 2](#day-2)
+
 # Announcements
+
+<figure>
+    <span>
+        <img src="https://randymorgan.files.wordpress.com/2012/11/get_smart_shoe_phone.jpg" style="">
+    </span>
+</figure>
 
 ...
 
