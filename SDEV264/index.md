@@ -45,7 +45,7 @@ More on TypeScript:
 
 - Getting the type of a variable
 - String interpolation / template literals
-- [JSON](../SDEV255/JSON.html?course=SDEV264)
+- [JSON](../SDEV255/json.html?course=SDEV264)
 - Arrow functions
 - First class functions
 
