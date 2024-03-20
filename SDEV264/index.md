@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Home
-course: SDEV265
+course: SDEV264
 ---
 
 # Announcements
@@ -18,7 +18,7 @@ HTML - element hierarchies
 
 CSS - selectors, properties, values
 
-[JavaScript Intro](../SDEV255/javascript_intro.md)
+[JavaScript Intro](../SDEV255/javascript_intro.html?course=SDEV264)
 
 [Typescript Intro](typescript_intro.md)
 
@@ -30,11 +30,13 @@ Intro Lab
 
 Review: How to write simple TS for a static HTML page.
 
-JS objects, methods, and properties
+More on TypeScript:
 
-JS Events
-
-JS arrow functions
+- Getting the type of a variable
+- String interpolation / template literals
+- [JSON](../SDEV255/JSON.html?course=SDEV264)
+- Arrow functions
+- First class functions
 
 Review: [Using Git and GitHub](../common/git.html?course=SDEV264)
 
