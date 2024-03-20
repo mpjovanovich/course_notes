@@ -39,16 +39,17 @@ Intro Lab
 
 ## Day 2
 
-Review: How to write simple TS for a static HTML page.
+Review: Day 1
 
 More on TypeScript:
 
 - Getting the type of a variable
 - String interpolation / template literals
-- [JSON](../SDEV255/json.html?course=SDEV264)
-- Arrow functions
-- First class functions
 
-Review: [Using Git and GitHub](../common/git.html?course=SDEV264)
+[JSON](../SDEV255/json.html?course=SDEV264)
+
+[Arrow Functions](arrow_functions.md)
+
+[First Class Functions](first_class_functions.md)
 
 Lab
