@@ -103,13 +103,21 @@ print(f"The value of x is {x:,.2f}")
 
 ### Width and Padding
 
-| Format Specifier | Description    |
-| ---------------- | -------------- |
-| `:n`             | Use `n` spaces |
-| `:0n`            | Use `n` zeros  |
-| `:<n`            | Left align     |
-| `:>n`            | Right align    |
-| `:^n`            | Center align   |
+Below are some examples of width and padding format specifiers.
+
+- Any character may be used when padding a string.
+- The padding character is placed after the colon `:`
+- If no padding character is specified, spaces are used.
+
+| Format Specifier | Description              |
+| ---------------- | ------------------------ |
+| `:n`             | Use `n` spaces           |
+| `:0n`            | Use `n` zeros            |
+| `:<n`            | Left align               |
+| `:>n`            | Right align              |
+| `:^n`            | Center align             |
+| `:0<n`           | Left align, pad with `0` |
+| `:x<n`           | Left align, pad with `x` |
 
 **Pad a Number With Zeroes**
 
