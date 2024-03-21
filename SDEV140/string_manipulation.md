@@ -137,7 +137,7 @@ person2 = "Jen"
 age2 = 22
 
 person3 = "Carlos"
-age2 = 19
+age3 = 19
 
 # Center align both title columns
 print(f"{'Name':^10} {'Age':^3}")
@@ -148,4 +148,5 @@ print(f"{'':_^10} {'':_^3}")
 # Right align both columns
 print(f"{person1:>10} {age1:>3}")
 print(f"{person2:>10} {age2:>3}")
+print(f"{person3:>10} {age3:>3}")
 ```
