@@ -185,6 +185,10 @@ Performance Review and Career Development
 
 - [Software Testing Review](software_testing_review.md)
 
+Intro to Assignments:
+
+- Iteration 1 Release
+
 <!--
 
 ## Day 10
