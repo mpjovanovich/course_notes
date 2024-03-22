@@ -173,7 +173,17 @@ Performance Review and Career Development
 
 ## Day 9
 
-- [Software Testing](software_testing.md)
+- [Software Testing Overview](software_testing_overview.md)
+
+- [Types of Bugs](types_of_bugs.md)
+
+- [Development Testing](development_testing.md)
+
+- [Release Testing](release_testing.md)
+
+- [User Testing](user_testing.md)
+
+- [Software Testing Review](software_testing_review.md)
 
 <!--
 TODO:

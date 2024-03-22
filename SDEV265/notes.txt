@@ -8,7 +8,6 @@ Images
 https://imgs.xkcd.com/comics/theft_quadrants_2x.png
 https://imgs.xkcd.com/comics/migrating_geese_2x.png
 https://imgs.xkcd.com/comics/things_you_learn_2x.png
-https://imgs.xkcd.com/comics/focus_knob_2x.png
 
 Assignments
 _______________________________________________________
