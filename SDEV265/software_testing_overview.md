@@ -43,6 +43,8 @@ Validation and defect testing can both be applied to the stages of software test
 
 Possible TODOs:
 
+regression testing
+
 how to test the "one test per requirement" rule with case studies
 
 compile time vs runtime vs logic errors

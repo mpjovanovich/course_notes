@@ -11,6 +11,9 @@ course: SDEV265
   - [Choosing Test Cases](#choosing-test-cases)
     - [Partition Testing](#partition-testing)
     - [Path Testing](#path-testing)
+    - [Interface Errors](#interface-errors)
+    - [Timing Errors](#timing-errors)
+  - [You Can't Catch Em All](#you-cant-catch-em-all)
 
 # Development Testing
 
@@ -72,8 +75,6 @@ Sometimes hard to simulate a real test case:
 
 **Edge cases:** Test cases that are at the limits of what the software can handle.
 
-Cases should be evaluated for cost vs. benefit.
-
 ### Partition Testing
 
 **Partitions:** groups of inputs that should behave the same way.
@@ -99,6 +100,63 @@ Edge cases are often at the boundaries of partitions.
 - All logical branches are tested; all conditional statements.
 - May be impossible to test every path.
 - Devs can help identify partitions b/c they know the code.
+
+### Interface Errors
+
+An **interface** is a boundary between two components.
+
+Changes in one interface can cause failures in upstream or downstream components.
+
+Possible interface errors:
+
+- Function calls
+  - Wrong number of arguments
+  - Wrong data types used
+  - Wrong position of arguments
+  - Null or empty arguments not handled
+- Web service calls (JSON, XML, etc.)
+  - Bad format
+  - Missing data
+- Database calls (SQL, NoSQL, etc.)
+  - Missing column or extra column
+  - Wrong data type
+
+Devs could make incorrect assumptions about:
+
+- Return values
+- Error handling
+  - e.g. return magic value (-1, empty string, null) or throw an exception?
+
+### Timing Errors
+
+Often manifest as intermittent failures that cannot be reproduced by devs.
+
+Can occur in parallel processing, distributed systems, etc.
+
+Can be caused by:
+
+- Component communication
+  - Network latency
+  - Timeouts
+- Resource deadlocks
+  - Database queries trying to update the same table
+  - Processes trying to write to same file
+  - Processes trying to check out memory
+
+Can try to:
+
+- Add logging messages
+- Use profilers
+- Stress test; try to overload the system
+
+## You Can't Catch Em All
+
+"I swear it worked when I tested it!"
+
+- **Emergent properties:** Properties that arise from the interaction of components.
+- Impossible to test every possible combination of inputs.
+- Often can't test at scale.
+- Cost vs benefit: some tests are not worth the resources.
 
 <!-- TODO: Case Study: demo on how we might test / try to break some piece of code. What tests might we run? Make students brainstorm and write out ideas. -->
 
