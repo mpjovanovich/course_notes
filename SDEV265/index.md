@@ -189,6 +189,8 @@ Intro to Assignments:
 
 - Iteration 1 Release
 
+<!-- Ref: https://github.com/mpjovanovich/euchre -->
+
 <!--
 
 ## Day 10

@@ -14,7 +14,7 @@ For this assignment you must have a working version of your software that meets 
 
 - Create a .gitattributes file in the root of your repository. We will use this to exclude files from our deployment package
   - Ignore all files that are not necessary for the project to run - e.g. any documentation files that we’ve created through the course, or any intermediate compilation or configuration files in your repository.
-  - Use the export-ignore attribute to exclude files from the deployment package.
+  - Use the export-ignore attribute to exclude these files from the deployment package.
 - Create a new release in your repository
   - Create a tag for v1.0.0
   - Set the title to v1.0.0
