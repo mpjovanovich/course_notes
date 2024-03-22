@@ -4,11 +4,11 @@ title: Iteration 1 Release
 course: SDEV265
 ---
 
-### Assignment Description
+## Assignment Description
 
 For this assignment you must have a working version of your software that meets your requirements for iteration 1. You will also post release notes to your organization's website.
 
-#### Deployment
+### Deployment
 
 **Create a GitHub Release Package**
 
@@ -31,7 +31,7 @@ _Reference:_
 
 [Managing releases in a repository](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
 
-#### Release Notes
+### Release Notes
 
 Create release notes for your initial release. The goal of initial release notes is to intoduce the product, highlight notable features, and build anticipation for future development. It is mostly a marketing document, so it should be written in a way that is accessible to a non-technical audience.
 
@@ -48,3 +48,7 @@ Some things to consider including:
 - Way to provide feedback for enhancement requests or bug reports (e.g. support email, issue tracker, etc). This can be faked for this assignment.
 
 Post the release notes to your organization's website as a web page or linked PDF.
+
+## Deliverable
+
+Link to your organization's website in IvyLearn.

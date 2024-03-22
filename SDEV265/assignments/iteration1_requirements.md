@@ -4,7 +4,7 @@ title: Iteration 1 Requirements Documentation
 course: SDEV265
 ---
 
-### Assignment Description
+## Assignment Description
 
 There are many effective ways to organize and track requirements. In this assignment we will use the _GitHub Project_ software tool to create a product backlog and a sprint backlog. This will allow us to track manage requirements and track the progress of our project in a way that is consistent with Agile development practices.
 
@@ -20,9 +20,9 @@ You may view the following link to see an example:
 
 - [Ivy Demo Project](https://github.com/users/mpjovanovich/projects/2)
 
-### Instructions
+## Instructions
 
-#### A. Create GitHub Project
+### A. Create GitHub Project
 
 1. From your product repository, navigate to the projects tab and create a GitHub project.
    1. Title your project appropriately.
@@ -33,7 +33,7 @@ _Reference:_
 
 - [Adding your project to a repository](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/adding-your-project-to-a-repository)
 
-#### B. Configure Home Tab
+### B. Configure Home Tab
 
 1. Rename the starting tab on the table to "Home"
 1. Create a new label for "user story". You will have to do this from your repository page, not the project board.
@@ -53,7 +53,7 @@ _Reference:_
 
 - [Managing labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
 
-#### C. Add User Stories
+### C. Add User Stories
 
 1. Create at least five issues for your user stories. These will form our initial product backlog.
    1. Type # in a new row and select your repository prior to creating the issue. This links the issue to your repository.
@@ -72,7 +72,7 @@ _Reference:_
 
 - Textbook: figures 4.10, 4.13
 
-#### D. Create Sprint Tab
+### D. Create Sprint Tab
 
 1. Create a new view for your project (a new tab from under the project top level page).
 1. Title the view “Sprint [current date]”, subbing in the current date.
@@ -84,6 +84,6 @@ _Reference:_
    1. Done
 1. Place some of your user stories in the "Backlog" column, and somne in the "In Development" column.
 
-### Deliverable
+## Deliverable
 
 N/A. Your instructor should be a collaborator on your GitHub organization and will be able to view your project board.
