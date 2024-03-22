@@ -8,9 +8,10 @@ course: SDEV265
   - [Unit Testing](#unit-testing)
     - [Parts of a Unit Test](#parts-of-a-unit-test)
     - [Configuring Initial State](#configuring-initial-state)
-  - [Choosing Test Cases](#choosing-test-cases)
+    - [Choosing Test Cases](#choosing-test-cases)
     - [Partition Testing](#partition-testing)
     - [Path Testing](#path-testing)
+  - [Component Testing](#component-testing)
     - [Interface Errors](#interface-errors)
     - [Timing Errors](#timing-errors)
   - [You Can't Catch Em All](#you-cant-catch-em-all)
@@ -69,7 +70,7 @@ Sometimes hard to simulate a real test case:
 - Simulate responses from external components
 - etc.
 
-## Choosing Test Cases
+### Choosing Test Cases
 
 **Normal path:** Test cases that should work.
 
@@ -100,6 +101,10 @@ Edge cases are often at the boundaries of partitions.
 - All logical branches are tested; all conditional statements.
 - May be impossible to test every path.
 - Devs can help identify partitions b/c they know the code.
+
+## Component Testing
+
+Focuses on how a component interacts with other components in the system.
 
 ### Interface Errors
 
