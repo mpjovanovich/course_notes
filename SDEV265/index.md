@@ -175,8 +175,6 @@ Performance Review and Career Development
 
 - [Software Testing Overview](software_testing_overview.md)
 
-<!-- - [Types of Bugs](types_of_bugs.md) -->
-
 - [Development Testing](development_testing.md)
 
 - [Release Testing](release_testing.md)
@@ -195,11 +193,25 @@ Intro to Assignments:
 
 ## Day 10
 
-Types of bugs?
+Types of bugs
 
 Reliability?
 
-UML?
+Intro to Assignments:
+
+- Testing and Break Fix Assignment
+
+    Navigate to https://github.com/ivy-tech-mjovanovich/265-code-test-sandbox/tree/main
+
+    Open a CodeSpace so that you can run the python file. Consider in what ways this program might fail or be used incorrectly. Can you find a way to break the program?
+
+    Break into small groups and come up with five test cases that might be run on the `program_to_test.py` file.
+
+    - Include at least one test for normal path.
+    - Include at least one test an error condition.
+    - Include at least one edge case.
+
+- Professional Development Webinar
 
 -->
 

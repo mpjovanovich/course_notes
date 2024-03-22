@@ -163,6 +163,14 @@ Can try to:
 - Often can't test at scale.
 - Cost vs benefit: some tests are not worth the resources.
 
-<!-- TODO: Case Study: demo on how we might test / try to break some piece of code. What tests might we run? Make students brainstorm and write out ideas. -->
+<!-- <p class="demo">Discussion:</p>
 
-<!-- TODO: Example Unit Test -->
+Navigate to https://github.com/ivy-tech-mjovanovich/265-code-test-sandbox/tree/main
+
+Open a CodeSpace so that you can run the python file. Consider in what ways this program might fail or be used incorrectly. Can you find a way to break the program?
+
+Break into small groups and come up with five test cases that might be run on the `program_to_test.py` file.
+
+- Include at least one test for normal path.
+- Include at least one test an error condition.
+- Include at least one edge case. -->
