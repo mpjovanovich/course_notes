@@ -28,6 +28,7 @@ https://azure.microsoft.com/en-us/resources/events
   - [Day 8](#day-8)
 - [M04: Software Testing; Reliability](#m04-software-testing-reliability)
   - [Day 9](#day-9)
+  - [Day 10](#day-10)
 
 > SOFTWARE ENGINEERING CODE OF ETHICS AND PROFESSIONAL PRACTICE (SHORT VERSION)
 >
@@ -184,6 +185,10 @@ Performance Review and Career Development
 - [User Testing](user_testing.md)
 
 - [Software Testing Review](software_testing_review.md)
+
+## Day 10
+
+Reliability
 
 <!--
 TODO:

@@ -8,6 +8,7 @@ course: SDEV265
   - [Requirements Based Testing](#requirements-based-testing)
   - [Scenario Testing](#scenario-testing)
   - [Performance Testing](#performance-testing)
+  - [Regression Testing](#regression-testing)
 
 # Release Testing
 
@@ -55,3 +56,10 @@ E.g.:
 - Abnormal data sizes; huge file comes in to process
 
 \*May require dev team to assist with simulating abnormal conditions.
+
+## Regression Testing
+
+- After fixes, code refactoring, introducing new software components or hardware, etc.
+- Re-run related tests to make sure nothing else was broken.
+- May be done by test team or dev team.
+- May be done during development or release testing.
