@@ -165,6 +165,4 @@ Can try to:
 
 <!-- TODO: Case Study: demo on how we might test / try to break some piece of code. What tests might we run? Make students brainstorm and write out ideas. -->
 
-<!-- TODO: Difficult to trace errors - parallel processing, distributed systems, etc. -->
-
 <!-- TODO: Example Unit Test -->
