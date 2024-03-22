@@ -25,8 +25,9 @@ https://azure.microsoft.com/en-us/resources/events
 - [M03: Requirements Engineering; Agile Development](#m03-requirements-engineering-agile-development)
   - [Day 6](#day-6)
   - [Day 7](#day-7)
-- [M04: Software Testing; Reliability](#m04-software-testing-reliability)
   - [Day 8](#day-8)
+- [M04: Software Testing; Reliability](#m04-software-testing-reliability)
+  - [Day 9](#day-9)
 
 > SOFTWARE ENGINEERING CODE OF ETHICS AND PROFESSIONAL PRACTICE (SHORT VERSION)
 >
@@ -164,13 +165,15 @@ Intro to Assignments:
 
 - Midterm Career Development and Review
 
-# M04: Software Testing; Reliability
-
-- [Software Testing](software_testing.md)
-
 ## Day 8
 
 Performance Review and Career Development
+
+# M04: Software Testing; Reliability
+
+## Day 9
+
+- [Software Testing](software_testing.md)
 
 <!--
 TODO:

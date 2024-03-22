@@ -1,4 +1,5 @@
  
+
 Figures and slides from text are available via publisher website.
 
 Images
@@ -9,10 +10,11 @@ https://imgs.xkcd.com/comics/migrating_geese_2x.png
 https://imgs.xkcd.com/comics/things_you_learn_2x.png
 https://imgs.xkcd.com/comics/focus_knob_2x.png
 
- Discussion topics
- _______________________________________________________
+Assignments
+_______________________________________________________
 
-Communication: SBAR compose example email
+Communication: SBAR - fix a bug and compose example email with bug report? Probably not a good way to do this.
+
 Prof Dev: summarize a seminar
     - 1 page
     - 1 paragraph
