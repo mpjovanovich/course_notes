@@ -13,12 +13,6 @@ Excercise: complete the following diagram.
 <details>
     <summary>Solution</summary>
     <div>
-        <img src="images/types_of_testing_exercise_solution.png" style="width: 100%;" />
+        <img src="images/types_of_testing_exercise-solution.svg" style="width: 100%;" />
     </div>
 </details>
-<!-- 
-<figure>
-    <span>
-        <img src="images/types_of_testing_exercise-Solution.drawio.svg" style="width: 100%;">
-    </span>
-</figure> -->
