@@ -1,3 +1,24 @@
-<!-- TODO: include solution as image? would have to hide to do exercise. -->
+---
+layout: base
+title: Software Testing Review
+course: SDEV265
+---
+
+# Software Testing - Review
+
+Excercise: complete the following diagram.
 
 [Types of Testing Review](https://github.com/mpjovanovich/ivy_tech/blob/main/SDEV265_System_Software_Analysis_Project/types_of_testing_exercise.drawio)
+
+<details>
+    <summary>Solution</summary>
+    <div>
+        <img src="images/types_of_testing_exercise_solution.png" style="width: 100%;" />
+    </div>
+</details>
+<!-- 
+<figure>
+    <span>
+        <img src="images/types_of_testing_exercise-Solution.drawio.svg" style="width: 100%;">
+    </span>
+</figure> -->
