@@ -17,7 +17,7 @@ For this assignment you must have a working version of your software that meets 
   - Use the export-ignore attribute to exclude files from the deployment package.
 - Create a new release in your repository
   - Create a tag for v1.0.0
-  - Set the title to match the sprint title for your current project iteration within your GitHub Project (e.g. "Sprint 20240124").
+  - Set the title to v1.0.0
 
 **Take the Product Live**
 
