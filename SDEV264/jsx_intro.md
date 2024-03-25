@@ -34,7 +34,7 @@ These pieces are translated into native components for each platform.
 
 <figure>
     <span>
-        <img src="https://reactnative.dev/docs/assets/diagram_ios-android-views.svg" style="width: 100%;">
+        <img src="images/diagram_ios-android-views.svg" style="width: 100%;">
     </span>
 </figure>
 
