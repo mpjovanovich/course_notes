@@ -5,9 +5,12 @@ course: SDEV264
 ---
 
 - [Announcements](#announcements)
-- [Module 01](#module-01)
-  - [Day 1](#day-1)
-  - [Day 2](#day-2)
+- [Schedule](#schedule)
+  - [Module 01: HTML, CSS, and TypeScript](#module-01-html-css-and-typescript)
+    - [Day 1](#day-1)
+    - [Day 2](#day-2)
+  - [Module 02: Creating an Application in React Native](#module-02-creating-an-application-in-react-native)
+    - [Day 3](#day-3)
 
 # Announcements
 
@@ -19,9 +22,11 @@ course: SDEV264
 
 ...
 
-# Module 01
+# Schedule
 
-## Day 1
+## Module 01: HTML, CSS, and TypeScript
+
+### Day 1
 
 Syllabus
 
@@ -37,7 +42,7 @@ CSS - selectors, properties, values
 
 Intro Lab
 
-## Day 2
+### Day 2
 
 Review: Day 1
 
@@ -53,3 +58,15 @@ More on TypeScript:
 [First Class Functions](first_class_functions.md)
 
 Lab
+
+## Module 02: Creating an Application in React Native
+
+### Day 3
+
+[React Native Orientation](react_native_orientation.md)
+
+[Node.js Technologies](nodejs.md)
+
+[React Native Application Structure](react_native_application_structure.md)
+
+[Intro to JSX](jsx_intro.md)
