@@ -11,6 +11,8 @@ course: SDEV264
     - [Day 2](#day-2)
   - [Module 02: Creating an Application in React Native](#module-02-creating-an-application-in-react-native)
     - [Day 3](#day-3)
+  - [Module 03: Creating an Application in React Native](#module-03-creating-an-application-in-react-native)
+    - [Day 3: Component Based Layouts](#day-3-component-based-layouts)
 
 # Announcements
 
@@ -70,3 +72,48 @@ Lab
 [React Native Application Structure](react_native_application_structure.md)
 
 [Intro to JSX](jsx_intro.md)
+
+## Module 03: Creating an Application in React Native
+
+### Day 3: Component Based Layouts
+
+[Basic Styling](basic_styling.md)
+
+<!-- Documentation on valid attributes example: -->
+
+<!-- https://reactnative.dev/docs/statusbar#backgroundcolor-android -->
+
+[Intro to Core Components](core_components.md)
+
+<!--
+    - View = div
+    - Text = p / span
+    - Image
+    - Button
+    - TextInput (it won't work for now, but we can add one for looks)
+    - StatusBar
+    - StyleSheet
+        - Styles do not cascade
+
+    Later...
+
+    - Pressable
+    - ScrollView
+    - FlatList (intro "lazy loading")
+
+    Nesting Components
+
+    - e.g. - View inside of view
+    - Which components can have text, which are pure containers
+
+The Box Model
+
+    - Strip notes from SDEV 153?
+
+Flexbox
+
+    - flexbox is the CONTAINER
+    - the things in it are FLEX ITEMS
+    - main axis vs cross axis
+    - relative widths (flex: 1, e.g. take up 1/4 of screen)...
+-->
